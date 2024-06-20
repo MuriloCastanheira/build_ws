@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/CMakeFiles/spdlog-1.5.0"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/CMakeFiles/spdlog-1.5.0.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/CMakeFiles/spdlog-1.5.0-complete.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-install.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-mkdir.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-download.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-update.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-patch.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-configure.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog-1.5.0"
+		],
+		"name" : "spdlog-1.5.0"
+	}
+}

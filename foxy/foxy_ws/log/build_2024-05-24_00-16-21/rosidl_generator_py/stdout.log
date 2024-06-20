@@ -1,0 +1,213 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_cmake_pytest: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake_pytest/cmake)
+-- Found rmw: 1.0.4 (/workspace/foxy_ws/install/share/rmw/cmake)
+-- Found rosidl_cmake: 1.3.1 (/workspace/foxy_ws/install/share/rosidl_cmake/cmake)
+-- Found rosidl_adapter: 1.3.1 (/workspace/foxy_ws/install/share/rosidl_adapter/cmake)
+-- Found ament_lint_auto: 0.9.8 (/workspace/foxy_ws/install/share/ament_lint_auto/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /workspace/foxy_ws/install/include  
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found PythonInterp: /usr/bin/python3 (found version "3.10.14") 
+-- Found ament_cmake_ros: 0.9.2 (/workspace/foxy_ws/install/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3.5") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.14", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/foxy_ws/build/rosidl_generator_py
+[  1%] Generating C code for ROS interfaces
+Scanning dependencies of target rosidl_generator_py_custom__cpp
+[  2%] Generating C++ code for ROS interfaces
+[  2%] Built target rosidl_generator_py_custom__cpp
+[  3%] Generating C++ type support for eProsima Fast-RTPS
+Scanning dependencies of target rosidl_generator_py_custom__rosidl_generator_c
+[  7%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/constants__functions.c.o
+[  7%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/empty__functions.c.o
+[  7%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/defaults__functions.c.o
+[  7%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/basic_types__functions.c.o
+[  9%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/builtin_type_sequences_idl__functions.c.o
+[  9%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/bounded_sequences__functions.c.o
+[ 10%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/arrays__functions.c.o
+[ 12%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/multi_nested__functions.c.o
+[ 12%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/nested__functions.c.o
+[ 13%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/strings__functions.c.o
+[ 14%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/unbounded_sequences__functions.c.o
+[ 15%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/string_arrays__functions.c.o
+[ 16%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_py/msg/detail/w_strings__functions.c.o
+[ 17%] Linking C shared library librosidl_generator_py_custom__rosidl_generator_c.so
+[ 17%] Built target rosidl_generator_py_custom__rosidl_generator_c
+[ 18%] Generating C introspection for ROS interfaces
+[ 19%] Generating C type support dispatch for ROS interfaces
+Scanning dependencies of target rosidl_generator_py_custom__rosidl_typesupport_c
+[ 21%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/bounded_sequences__type_support.cpp.o
+[ 21%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/arrays__type_support.cpp.o
+[ 22%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/builtin_type_sequences_idl__type_support.cpp.o
+[ 23%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/constants__type_support.cpp.o
+[ 24%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/defaults__type_support.cpp.o
+[ 25%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/empty__type_support.cpp.o
+[ 26%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/basic_types__type_support.cpp.o
+[ 27%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/nested__type_support.cpp.o
+[ 29%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/multi_nested__type_support.cpp.o
+[ 29%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/unbounded_sequences__type_support.cpp.o
+[ 30%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/w_strings__type_support.cpp.o
+[ 31%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/strings__type_support.cpp.o
+[ 32%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_py/msg/string_arrays__type_support.cpp.o
+[ 34%] Linking CXX shared library librosidl_generator_py_custom__rosidl_typesupport_c.so
+[ 34%] Built target rosidl_generator_py_custom__rosidl_typesupport_c
+Scanning dependencies of target rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp
+[ 39%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/arrays__type_support.cpp.o
+[ 39%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/constants__type_support.cpp.o
+[ 39%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/basic_types__type_support.cpp.o
+[ 39%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/bounded_sequences__type_support.cpp.o
+[ 39%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/builtin_type_sequences_idl__type_support.cpp.o
+[ 40%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/defaults__type_support.cpp.o
+[ 41%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/empty__type_support.cpp.o
+[ 42%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/nested__type_support.cpp.o
+[ 43%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/strings__type_support.cpp.o
+[ 44%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/multi_nested__type_support.cpp.o
+[ 45%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/unbounded_sequences__type_support.cpp.o
+[ 46%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/w_strings__type_support.cpp.o
+[ 47%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_py/msg/detail/dds_fastrtps/string_arrays__type_support.cpp.o
+Scanning dependencies of target rosidl_generator_py_custom__rosidl_typesupport_introspection_c
+[ 48%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/builtin_type_sequences_idl__type_support.c.o
+[ 49%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/arrays__type_support.c.o
+[ 50%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/bounded_sequences__type_support.c.o
+[ 51%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/basic_types__type_support.c.o
+[ 52%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/constants__type_support.c.o
+[ 53%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/defaults__type_support.c.o
+[ 54%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/empty__type_support.c.o
+[ 55%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/nested__type_support.c.o
+[ 56%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/multi_nested__type_support.c.o
+[ 57%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/strings__type_support.c.o
+[ 58%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/unbounded_sequences__type_support.c.o
+[ 59%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/w_strings__type_support.c.o
+[ 60%] Building C object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_py/msg/detail/string_arrays__type_support.c.o
+[ 61%] Linking C shared library librosidl_generator_py_custom__rosidl_typesupport_introspection_c.so
+[ 61%] Built target rosidl_generator_py_custom__rosidl_typesupport_introspection_c
+[ 62%] Linking CXX shared library librosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp.so
+[ 62%] Built target rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp
+[ 63%] Generating C type support for eProsima Fast-RTPS
+Scanning dependencies of target rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c
+[ 65%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/builtin_type_sequences_idl__type_support_c.cpp.o
+[ 65%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/bounded_sequences__type_support_c.cpp.o
+[ 68%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/basic_types__type_support_c.cpp.o
+[ 68%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/constants__type_support_c.cpp.o
+[ 69%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/defaults__type_support_c.cpp.o
+[ 70%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/arrays__type_support_c.cpp.o
+[ 71%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/multi_nested__type_support_c.cpp.o
+[ 72%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/empty__type_support_c.cpp.o
+[ 73%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/nested__type_support_c.cpp.o
+[ 74%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/unbounded_sequences__type_support_c.cpp.o
+[ 75%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/strings__type_support_c.cpp.o
+[ 76%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/w_strings__type_support_c.cpp.o
+[ 77%] Building CXX object CMakeFiles/rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_py/msg/detail/string_arrays__type_support_c.cpp.o
+[ 78%] Linking CXX shared library librosidl_generator_py_custom__rosidl_typesupport_fastrtps_c.so
+[ 78%] Built target rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c
+Scanning dependencies of target rosidl_generator_py_custom
+[ 78%] Built target rosidl_generator_py_custom
+Scanning dependencies of target rosidl_generator_py_custom__py
+[ 79%] Generating Python code for ROS interfaces
+[ 79%] Built target rosidl_generator_py_custom__py
+Scanning dependencies of target rosidl_generator_py_custom__python
+[ 82%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_basic_types_s.c.o
+[ 82%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_empty_s.c.o
+[ 84%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_arrays_s.c.o
+[ 84%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_builtin_type_sequences_idl_s.c.o
+[ 84%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_constants_s.c.o
+[ 85%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_nested_s.c.o
+[ 87%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_defaults_s.c.o
+[ 87%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_multi_nested_s.c.o
+[ 89%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_unbounded_sequences_s.c.o
+[ 89%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_strings_s.c.o
+[ 90%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_bounded_sequences_s.c.o
+[ 91%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_w_strings_s.c.o
+[ 92%] Building C object CMakeFiles/rosidl_generator_py_custom__python.dir/rosidl_generator_py/rosidl_generator_py/msg/_string_arrays_s.c.o
+[ 93%] Linking C shared library rosidl_generator_py/rosidl_generator_py/librosidl_generator_py_custom__python.so
+[ 93%] Built target rosidl_generator_py_custom__python
+Scanning dependencies of target rosidl_generator_py__rosidl_typesupport_c__pyext
+Scanning dependencies of target rosidl_generator_py__rosidl_typesupport_introspection_c__pyext
+Scanning dependencies of target rosidl_generator_py__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Building C object CMakeFiles/rosidl_generator_py__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosidl_generator_py/_rosidl_generator_py_s.ep.rosidl_typesupport_c.c.o
+[ 95%] Building C object CMakeFiles/rosidl_generator_py__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosidl_generator_py/_rosidl_generator_py_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 96%] Building C object CMakeFiles/rosidl_generator_py__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosidl_generator_py/_rosidl_generator_py_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 98%] Linking C shared library rosidl_generator_py/rosidl_generator_py/rosidl_generator_py_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[ 98%] Linking C shared library rosidl_generator_py/rosidl_generator_py/rosidl_generator_py_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[100%] Linking CXX shared library rosidl_generator_py/rosidl_generator_py/rosidl_generator_py_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[100%] Built target rosidl_generator_py__rosidl_typesupport_introspection_c__pyext
+[100%] Built target rosidl_generator_py__rosidl_typesupport_c__pyext
+[100%] Built target rosidl_generator_py__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/rosidl_generator_packages/rosidl_generator_py
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/environment/pythonpath.sh
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/environment/pythonpath.dsv
+-- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py
+-- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py/import_type_support_impl.py
+-- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py/generate_py_impl.py
+-- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py/__init__.py
+Listing '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py'...
+Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py/__init__.py'...
+Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py/generate_py_impl.py'...
+Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py/import_type_support_impl.py'...
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_py
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_py
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/environment/ament_prefix_path.sh
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/environment/ament_prefix_path.dsv
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/environment/path.sh
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/environment/path.dsv
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/local_setup.bash
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/local_setup.sh
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/local_setup.zsh
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/local_setup.dsv
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/package.dsv
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/rosidl_generator_py
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/rosidl_generator_py_get_typesupports.cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/register_py.cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/rosidl_generator_py-extras.cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/rosidl_cmake-extras.cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/rosidl_generator_pyConfig.cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/rosidl_generator_pyConfig-version.cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/package.xml
+-- Installing: /workspace/foxy_ws/install/lib/rosidl_generator_py/rosidl_generator_py
+-- Up-to-date: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/custom_command.cmake
+-- Up-to-date: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/register_py.cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake
+-- Up-to-date: /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/rosidl_generator_py_get_typesupports.cmake
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_msg_support.c.em
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_idl_support.c.em
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_idl.py.em
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_action.py.em
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_srv.py.em
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_msg.py.em
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
+-- Installing: /workspace/foxy_ws/install/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em

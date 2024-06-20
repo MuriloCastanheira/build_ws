@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from icrane_msgs/msg/Modeling.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module icrane_msgs {
+  module msg {
+    struct Modeling {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "--- current position")
+      double alpha;
+
+      double beta;
+
+      double x;
+
+      double y;
+
+      double z;
+
+      @verbatim (language="comment", text=
+        "--- predict position")
+      sequence<double> predict_alpha;
+
+      sequence<double> predict_beta;
+
+      sequence<double> predict_x;
+
+      sequence<double> predict_y;
+
+      sequence<double> predict_z;
+    };
+  };
+};

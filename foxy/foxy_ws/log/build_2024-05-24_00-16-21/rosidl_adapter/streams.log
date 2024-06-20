@@ -1,0 +1,75 @@
+[0.061s] Invoking command in '/workspace/foxy_ws/build/rosidl_adapter': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/rosidl/rosidl_adapter -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[0.080s] -- Found ament_cmake: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake/cmake)
+[0.104s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+[0.104s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.355s] <string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[0.358s] <string>:1: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+[0.377s] -- Found ament_lint_auto: 0.9.8 (/workspace/foxy_ws/install/share/ament_lint_auto/cmake)
+[0.574s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.591s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.594s] -- Added test 'lint_cmake' to check CMake code style
+[0.596s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.608s] -- Added test 'xmllint' to check XML markup files
+[1.773s] -- Configuring done
+[1.778s] -- Generating done
+[1.778s] -- Build files have been written to: /workspace/foxy_ws/build/rosidl_adapter
+[1.781s] Invoked command in '/workspace/foxy_ws/build/rosidl_adapter' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/rosidl/rosidl_adapter -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[1.781s] Invoking command in '/workspace/foxy_ws/build/rosidl_adapter': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/rosidl_adapter -- -j12 -l12
+[1.842s] Invoked command in '/workspace/foxy_ws/build/rosidl_adapter' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/rosidl_adapter -- -j12 -l12
+[1.873s] Invoking command in '/workspace/foxy_ws/build/rosidl_adapter': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/rosidl_adapter
+[1.891s] -- Install configuration: ""
+[1.891s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/environment/pythonpath.sh
+[1.892s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/environment/pythonpath.dsv
+[1.892s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter
+[1.892s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/main.py
+[1.892s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/msg
+[1.892s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/msg/__init__.py
+[1.892s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/action
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/action/__init__.py
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/parser.py
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/cli.py
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/srv
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/srv/__init__.py
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/resource
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/resource/msg.idl.em
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/resource/__init__.py
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/resource/srv.idl.em
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/resource/struct.idl.em
+[1.893s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/resource/action.idl.em
+[1.894s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/__init__.py
+[1.894s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/__main__.py
+[1.928s] Listing '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter'...
+[1.928s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/__init__.py'...
+[1.928s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/__main__.py'...
+[1.928s] Listing '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/action'...
+[1.928s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/action/__init__.py'...
+[1.929s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/cli.py'...
+[1.929s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/main.py'...
+[1.929s] Listing '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/msg'...
+[1.929s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/msg/__init__.py'...
+[1.929s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/parser.py'...
+[1.929s] Listing '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/resource'...
+[1.929s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/resource/__init__.py'...
+[1.929s] Listing '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/srv'...
+[1.929s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_adapter/srv/__init__.py'...
+[1.934s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_adapter
+[1.934s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_adapter
+[1.934s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/environment/ament_prefix_path.sh
+[1.935s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/environment/ament_prefix_path.dsv
+[1.935s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/environment/path.sh
+[1.935s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/environment/path.dsv
+[1.935s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/local_setup.bash
+[1.935s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/local_setup.sh
+[1.935s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/local_setup.zsh
+[1.936s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/local_setup.dsv
+[1.936s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/package.dsv
+[1.936s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/rosidl_adapter
+[1.936s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/cmake/rosidl_adapter-extras.cmake
+[1.936s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/cmake/rosidl_adapterConfig.cmake
+[1.937s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/cmake/rosidl_adapterConfig-version.cmake
+[1.937s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/package.xml
+[1.937s] -- Up-to-date: /workspace/foxy_ws/install/share/rosidl_adapter/cmake
+[1.937s] -- Installing: /workspace/foxy_ws/install/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake
+[1.939s] -- Installing: /workspace/foxy_ws/install/lib/rosidl_adapter/msg2idl.py
+[1.939s] -- Installing: /workspace/foxy_ws/install/lib/rosidl_adapter/srv2idl.py
+[1.941s] Invoked command in '/workspace/foxy_ws/build/rosidl_adapter' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/rosidl_adapter

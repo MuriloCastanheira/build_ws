@@ -1,0 +1,1004 @@
+[0.096s] Invoking command in '/workspace/foxy_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/common_interfaces/geometry_msgs -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[0.141s] -- The C compiler identification is GNU 9.4.0
+[0.191s] -- The CXX compiler identification is GNU 9.4.0
+[0.196s] -- Check for working C compiler: /usr/bin/cc
+[0.255s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.256s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.329s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.399s] -- Detecting CXX compiler ABI info
+[0.479s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake/cmake)
+[0.505s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+[0.505s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.680s] -- Found rosidl_default_generators: 1.0.1 (/workspace/foxy_ws/install/share/rosidl_default_generators/cmake)
+[0.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.685s] -- Found rosidl_adapter: 1.3.1 (/workspace/foxy_ws/install/share/rosidl_adapter/cmake)
+[0.705s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.716s] -- Found FastRTPS: /workspace/foxy_ws/install/include  
+[0.763s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.784s] -- Found std_msgs: 2.0.5 (/workspace/foxy_ws/install/share/std_msgs/cmake)
+[0.830s] -- Found PythonInterp: /usr/bin/python3 (found version "3.10.14") 
+[1.100s] -- Found ament_cmake_cppcheck: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_cppcheck/cmake)
+[1.102s] -- Found ament_cmake_cpplint: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_cpplint/cmake)
+[1.103s] -- Found ament_cmake_uncrustify: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_uncrustify/cmake)
+[1.104s] -- Found ament_cmake_ros: 0.9.2 (/workspace/foxy_ws/install/share/ament_cmake_ros/cmake)
+[1.225s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.313s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3.5") 
+[1.314s] -- Found python_cmake_module: 0.8.1 (/workspace/foxy_ws/install/share/python_cmake_module/cmake)
+[1.335s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.14", minimum required is "3.5") 
+[1.335s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.335s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.335s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.350s] -- Found PythonExtra: .so  
+[1.399s] <string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[1.401s] <string>:1: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+[1.563s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[1.579s] -- Found ament_cmake_flake8: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_flake8/cmake)
+[1.580s] -- Found ament_cmake_pep257: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_pep257/cmake)
+[1.597s] -- Configuring done
+[1.742s] -- Generating done
+[1.746s] -- Build files have been written to: /workspace/foxy_ws/build/geometry_msgs
+[1.760s] Invoked command in '/workspace/foxy_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/common_interfaces/geometry_msgs -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[1.762s] Invoking command in '/workspace/foxy_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/geometry_msgs -- -j12 -l12
+[1.829s] Scanning dependencies of target geometry_msgs__cpp
+[1.829s] [  0%] Generating C code for ROS interfaces
+[1.842s] [  0%] Generating C++ code for ROS interfaces
+[4.796s] [  0%] Built target geometry_msgs__cpp
+[4.824s] [  1%] Generating C++ type support dispatch for ROS interfaces
+[4.824s] [  2%] Generating C++ type support for eProsima Fast-RTPS
+[5.178s] Scanning dependencies of target geometry_msgs__rosidl_generator_c
+[5.190s] [  2%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_stamped__functions.c.o
+[5.192s] [  3%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel__functions.c.o
+[5.193s] [  4%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_with_covariance__functions.c.o
+[5.201s] [  4%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point_stamped__functions.c.o
+[5.251s] [  5%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point32__functions.c.o
+[5.252s] [  5%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/polygon__functions.c.o
+[5.263s] [  6%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/polygon_stamped__functions.c.o
+[5.265s] [  6%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose__functions.c.o
+[5.308s] [  7%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point__functions.c.o
+[5.309s] [  7%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose2_d__functions.c.o
+[5.320s] [  7%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_stamped__functions.c.o
+[5.325s] [  8%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_with_covariance__functions.c.o
+[5.366s] [  8%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.c.o
+[5.366s] [  9%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/quaternion__functions.c.o
+[5.378s] [  9%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/transform__functions.c.o
+[5.378s] [  9%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/quaternion_stamped__functions.c.o
+[5.418s] [ 10%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/transform_stamped__functions.c.o
+[5.425s] [ 10%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist__functions.c.o
+[5.475s] [ 10%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.c.o
+[5.481s] [ 11%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/vector3__functions.c.o
+[5.534s] [ 11%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/vector3_stamped__functions.c.o
+[5.546s] [ 11%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/wrench__functions.c.o
+[5.599s] [ 12%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/wrench_stamped__functions.c.o
+[5.606s] [ 13%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_with_covariance__functions.c.o
+[5.654s] [ 13%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_array__functions.c.o
+[5.654s] [ 13%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_stamped__functions.c.o
+[5.696s] [ 14%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/inertia_stamped__functions.c.o
+[5.749s] [ 14%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/inertia__functions.c.o
+[5.810s] [ 14%] Building C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.c.o
+[5.868s] [ 14%] Linking C shared library libgeometry_msgs__rosidl_generator_c.so
+[5.920s] [ 14%] Built target geometry_msgs__rosidl_generator_c
+[5.935s] [ 15%] Generating C++ introspection for ROS interfaces
+[6.523s] Scanning dependencies of target geometry_msgs__rosidl_typesupport_cpp
+[6.540s] [ 15%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel__type_support.cpp.o
+[6.540s] [ 15%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_stamped__type_support.cpp.o
+[6.550s] [ 16%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o
+[6.868s] [ 17%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point32__type_support.cpp.o
+[6.871s] [ 17%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point_stamped__type_support.cpp.o
+[6.873s] [ 17%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon__type_support.cpp.o
+[7.150s] [ 18%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon_stamped__type_support.cpp.o
+[7.198s] [ 18%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose__type_support.cpp.o
+[7.209s] [ 19%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose2_d__type_support.cpp.o
+[7.211s] [ 19%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point__type_support.cpp.o
+[7.516s] [ 19%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_array__type_support.cpp.o
+[7.554s] [ 19%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia_stamped__type_support.cpp.o
+[7.619s] [ 20%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o
+[7.865s] Scanning dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_cpp
+[7.883s] [ 20%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel__type_support.cpp.o
+[7.915s] [ 21%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_stamped__type_support.cpp.o
+[7.915s] [ 21%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion__type_support.cpp.o
+[7.925s] [ 21%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o
+[7.927s] [ 22%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_with_covariance__type_support.cpp.o
+[7.962s] [ 22%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_stamped__type_support.cpp.o
+[8.197s] [ 23%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia__type_support.cpp.o
+[8.211s] [ 23%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o
+[8.266s] Scanning dependencies of target geometry_msgs__rosidl_typesupport_introspection_cpp
+[8.267s] [ 23%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o
+[8.284s] [ 23%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform__type_support.cpp.o
+[8.287s] [ 23%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel__type_support.cpp.o
+[8.309s] [ 24%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform_stamped__type_support.cpp.o
+[8.391s] [ 24%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_with_covariance_stamped__type_support.cpp.o
+[8.393s] [ 25%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_stamped__type_support.cpp.o
+[8.402s] [ 26%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/inertia__type_support.cpp.o
+[8.475s] [ 26%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/inertia_stamped__type_support.cpp.o
+[8.594s] [ 26%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist__type_support.cpp.o
+[8.637s] [ 27%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_stamped__type_support.cpp.o
+[8.649s] [ 27%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o
+[8.677s] [ 27%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o
+[8.690s] [ 28%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_with_covariance__type_support.cpp.o
+[8.690s] [ 28%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3__type_support.cpp.o
+[8.942s] [ 28%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3_stamped__type_support.cpp.o
+[8.949s] [ 29%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point_stamped__type_support.cpp.o
+[8.949s] [ 29%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point32__type_support.cpp.o
+[8.955s] [ 29%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o
+[9.048s] [ 30%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/polygon__type_support.cpp.o
+[9.056s] [ 31%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench__type_support.cpp.o
+[9.057s] [ 31%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench_stamped__type_support.cpp.o
+[9.065s] [ 31%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.cpp.o
+[9.089s] [ 32%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/inertia__type_support.cpp.o
+[9.287s] [ 32%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/inertia_stamped__type_support.cpp.o
+[9.421s] [ 32%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point__type_support.cpp.o
+[9.422s] [ 32%] Linking CXX shared library libgeometry_msgs__rosidl_typesupport_cpp.so
+[9.424s] [ 32%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o
+[9.457s] [ 33%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point32__type_support.cpp.o
+[9.460s] [ 33%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/polygon_stamped__type_support.cpp.o
+[9.469s] [ 34%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o
+[9.487s] [ 34%] Built target geometry_msgs__rosidl_typesupport_cpp
+[9.503s] [ 36%] Generating C introspection for ROS interfaces
+[9.503s] [ 36%] Generating C type support dispatch for ROS interfaces
+[9.509s] [ 36%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_array__type_support.cpp.o
+[9.671s] [ 37%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/polygon__type_support.cpp.o
+[9.682s] [ 38%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o
+[9.791s] [ 38%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/polygon_stamped__type_support.cpp.o
+[9.799s] [ 38%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point_stamped__type_support.cpp.o
+[9.972s] [ 38%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_with_covariance_stamped__type_support.cpp.o
+[10.068s] [ 39%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/quaternion__type_support.cpp.o
+[10.078s] [ 39%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_with_covariance__type_support.cpp.o
+[10.170s] [ 40%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose2_d__type_support.cpp.o
+[10.180s] [ 40%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose__type_support.cpp.o
+[10.198s] [ 40%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_array__type_support.cpp.o
+[10.207s] [ 40%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/transform__type_support.cpp.o
+[10.250s] [ 41%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_stamped__type_support.cpp.o
+[10.269s] [ 41%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/quaternion_stamped__type_support.cpp.o
+[10.294s] [ 42%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/transform_stamped__type_support.cpp.o
+[10.555s] [ 42%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist__type_support.cpp.o
+[10.590s] [ 42%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_with_covariance__type_support.cpp.o
+[10.605s] [ 43%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_stamped__type_support.cpp.o
+[10.662s] [ 43%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.cpp.o
+[10.673s] [ 43%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/quaternion_stamped__type_support.cpp.o
+[10.681s] [ 44%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/quaternion__type_support.cpp.o
+[10.806s] [ 44%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_with_covariance__type_support.cpp.o
+[10.822s] [ 44%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_with_covariance_stamped__type_support.cpp.o
+[11.009s] [ 45%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/vector3__type_support.cpp.o
+[11.026s] [ 46%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/transform__type_support.cpp.o
+[11.038s] [ 46%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/vector3_stamped__type_support.cpp.o
+[11.179s] [ 46%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/transform_stamped__type_support.cpp.o
+[11.228s] [ 46%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist__type_support.cpp.o
+[11.237s] [ 47%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/wrench__type_support.cpp.o
+[11.245s] [ 48%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_stamped__type_support.cpp.o
+[11.383s] [ 48%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/wrench_stamped__type_support.cpp.o
+[11.479s] [ 48%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_with_covariance__type_support.cpp.o
+[11.563s] [ 49%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.cpp.o
+[11.581s] [ 49%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/vector3__type_support.cpp.o
+[11.624s] [ 50%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/wrench__type_support.cpp.o
+[11.784s] [ 50%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/vector3_stamped__type_support.cpp.o
+[11.804s] Scanning dependencies of target geometry_msgs__rosidl_typesupport_c
+[11.823s] [ 50%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel__type_support.cpp.o
+[11.835s] [ 51%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_stamped__type_support.cpp.o
+[11.835s] [ 51%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o
+[11.875s] [ 51%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o
+[11.879s] [ 51%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/wrench_stamped__type_support.cpp.o
+[11.879s] [ 52%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia__type_support.cpp.o
+[11.879s] [ 52%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point__type_support.cpp.o
+[11.913s] [ 53%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point_stamped__type_support.cpp.o
+[11.913s] [ 53%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point32__type_support.cpp.o
+[11.923s] [ 54%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon__type_support.cpp.o
+[11.957s] [ 54%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose__type_support.cpp.o
+[11.962s] [ 54%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_array__type_support.cpp.o
+[11.964s] [ 55%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose2_d__type_support.cpp.o
+[11.985s] [ 55%] Linking CXX shared library libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.992s] [ 56%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o
+[11.997s] [ 57%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion__type_support.cpp.o
+[11.998s] [ 57%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o
+[12.024s] [ 57%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform__type_support.cpp.o
+[12.034s] [ 58%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform_stamped__type_support.cpp.o
+[12.040s] [ 58%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o
+[12.055s] [ 59%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_stamped__type_support.cpp.o
+[12.074s] [ 59%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o
+[12.074s] [ 59%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o
+[12.091s] [ 59%] Built target geometry_msgs__rosidl_typesupport_fastrtps_cpp
+[12.091s] [ 60%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3__type_support.cpp.o
+[12.107s] [ 62%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3_stamped__type_support.cpp.o
+[12.107s] [ 62%] Generating C type support for eProsima Fast-RTPS
+[12.107s] [ 62%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench__type_support.cpp.o
+[12.124s] [ 62%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench_stamped__type_support.cpp.o
+[12.134s] [ 62%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist__type_support.cpp.o
+[12.139s] [ 62%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_stamped__type_support.cpp.o
+[12.150s] [ 62%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon_stamped__type_support.cpp.o
+[12.162s] [ 62%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia_stamped__type_support.cpp.o
+[12.191s] [ 62%] Linking CXX shared library libgeometry_msgs__rosidl_typesupport_c.so
+[12.230s] [ 63%] Linking CXX shared library libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+[12.259s] [ 63%] Built target geometry_msgs__rosidl_typesupport_c
+[12.311s] [ 63%] Built target geometry_msgs__rosidl_typesupport_introspection_cpp
+[12.343s] Scanning dependencies of target geometry_msgs__rosidl_typesupport_introspection_c
+[12.356s] [ 64%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel__type_support.c.o
+[12.356s] [ 64%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_stamped__type_support.c.o
+[12.356s] [ 64%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_with_covariance__type_support.c.o
+[12.382s] [ 64%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/polygon_stamped__type_support.c.o
+[12.382s] [ 65%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose__type_support.c.o
+[12.384s] [ 65%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose2_d__type_support.c.o
+[12.408s] [ 66%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_array__type_support.c.o
+[12.409s] [ 66%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/polygon__type_support.c.o
+[12.409s] [ 67%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_stamped__type_support.c.o
+[12.435s] [ 68%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/quaternion_stamped__type_support.c.o
+[12.435s] [ 68%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/quaternion__type_support.c.o
+[12.435s] [ 68%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c.o
+[12.462s] [ 69%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/transform_stamped__type_support.c.o
+[12.462s] [ 69%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_with_covariance__type_support.c.o
+[12.463s] [ 69%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/transform__type_support.c.o
+[12.487s] [ 71%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist__type_support.c.o
+[12.488s] [ 71%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_stamped__type_support.c.o
+[12.488s] [ 71%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c.o
+[12.513s] [ 71%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/vector3__type_support.c.o
+[12.513s] [ 71%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/vector3_stamped__type_support.c.o
+[12.513s] [ 72%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/wrench__type_support.c.o
+[12.537s] [ 72%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/wrench_stamped__type_support.c.o
+[12.537s] [ 72%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_with_covariance__type_support.c.o
+[12.539s] [ 72%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point_stamped__type_support.c.o
+[12.563s] [ 73%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point32__type_support.c.o
+[12.563s] [ 73%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point__type_support.c.o
+[12.565s] [ 73%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/inertia_stamped__type_support.c.o
+[12.589s] [ 74%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c.o
+[12.589s] [ 74%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/inertia__type_support.c.o
+[12.617s] [ 75%] Linking C shared library libgeometry_msgs__rosidl_typesupport_introspection_c.so
+[12.649s] [ 75%] Built target geometry_msgs__rosidl_typesupport_introspection_c
+[13.982s] Scanning dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_c
+[13.998s] [ 75%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel__type_support_c.cpp.o
+[13.998s] [ 75%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_stamped__type_support_c.cpp.o
+[13.998s] [ 76%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_with_covariance__type_support_c.cpp.o
+[14.274s] [ 76%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose__type_support_c.cpp.o
+[14.274s] [ 76%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/polygon_stamped__type_support_c.cpp.o
+[14.383s] [ 76%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_array__type_support_c.cpp.o
+[14.383s] [ 77%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose2_d__type_support_c.cpp.o
+[14.638s] [ 78%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_stamped__type_support_c.cpp.o
+[14.641s] [ 78%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_with_covariance__type_support_c.cpp.o
+[14.698s] [ 78%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support_c.cpp.o
+[14.797s] [ 79%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/quaternion__type_support_c.cpp.o
+[14.922s] [ 79%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/quaternion_stamped__type_support_c.cpp.o
+[15.053s] [ 80%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/transform__type_support_c.cpp.o
+[15.096s] [ 80%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/transform_stamped__type_support_c.cpp.o
+[15.182s] [ 80%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist__type_support_c.cpp.o
+[15.282s] [ 82%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/polygon__type_support_c.cpp.o
+[15.282s] [ 82%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_stamped__type_support_c.cpp.o
+[15.460s] [ 82%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_with_covariance__type_support_c.cpp.o
+[15.460s] [ 83%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support_c.cpp.o
+[15.600s] [ 83%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/vector3__type_support_c.cpp.o
+[15.602s] [ 83%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/vector3_stamped__type_support_c.cpp.o
+[15.690s] [ 84%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/wrench__type_support_c.cpp.o
+[15.787s] [ 84%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/wrench_stamped__type_support_c.cpp.o
+[15.861s] [ 84%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point_stamped__type_support_c.cpp.o
+[15.883s] [ 85%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point32__type_support_c.cpp.o
+[15.971s] [ 85%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point__type_support_c.cpp.o
+[15.975s] [ 85%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/inertia_stamped__type_support_c.cpp.o
+[16.154s] [ 86%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/inertia__type_support_c.cpp.o
+[16.164s] [ 86%] Building CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support_c.cpp.o
+[16.562s] [ 86%] Linking CXX shared library libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+[16.632s] [ 86%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c
+[16.639s] Scanning dependencies of target geometry_msgs
+[16.647s] [ 86%] Built target geometry_msgs
+[16.656s] Scanning dependencies of target geometry_msgs__py
+[16.664s] [ 86%] Generating Python code for ROS interfaces
+[20.342s] [ 86%] Built target geometry_msgs__py
+[20.397s] Scanning dependencies of target geometry_msgs__python
+[20.414s] [ 86%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_accel_stamped_s.c.o
+[20.415s] [ 86%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_accel_with_covariance_s.c.o
+[20.415s] [ 87%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_inertia_stamped_s.c.o
+[20.415s] [ 88%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_accel_s.c.o
+[20.415s] [ 89%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_accel_with_covariance_stamped_s.c.o
+[20.416s] [ 89%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_inertia_s.c.o
+[20.498s] [ 89%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_s.c.o
+[20.525s] [ 89%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose2_d_s.c.o
+[20.525s] [ 89%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_stamped_s.c.o
+[20.525s] [ 90%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_polygon_stamped_s.c.o
+[20.525s] [ 91%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_with_covariance_s.c.o
+[20.533s] [ 91%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_with_covariance_stamped_s.c.o
+[20.597s] [ 91%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_quaternion_s.c.o
+[20.597s] [ 92%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_quaternion_stamped_s.c.o
+[20.617s] [ 92%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_transform_s.c.o
+[20.618s] [ 93%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_transform_stamped_s.c.o
+[20.622s] [ 93%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_twist_s.c.o
+[20.640s] [ 93%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_twist_stamped_s.c.o
+[20.697s] [ 93%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_twist_with_covariance_stamped_s.c.o
+[20.697s] [ 94%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_twist_with_covariance_s.c.o
+[20.698s] [ 94%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_vector3_s.c.o
+[20.706s] [ 95%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_vector3_stamped_s.c.o
+[20.724s] [ 95%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_wrench_s.c.o
+[20.739s] [ 96%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_wrench_stamped_s.c.o
+[20.780s] [ 97%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_array_s.c.o
+[20.800s] [ 97%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_polygon_s.c.o
+[20.801s] [ 98%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_point_stamped_s.c.o
+[20.806s] [ 98%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_point32_s.c.o
+[20.808s] [ 98%] Building C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_point_s.c.o
+[20.912s] [ 98%] Linking C shared library rosidl_generator_py/geometry_msgs/libgeometry_msgs__python.so
+[20.953s] [ 98%] Built target geometry_msgs__python
+[20.969s] Scanning dependencies of target geometry_msgs__rosidl_typesupport_introspection_c__pyext
+[20.970s] Scanning dependencies of target geometry_msgs__rosidl_typesupport_c__pyext
+[20.971s] Scanning dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[20.980s] [ 99%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_c.c.o
+[20.980s] [ 99%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[20.981s] [100%] Building C object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[21.109s] [100%] Linking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[21.109s] [100%] Linking CXX shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[21.109s] [100%] Linking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[21.140s] [100%] Built target geometry_msgs__rosidl_typesupport_introspection_c__pyext
+[21.142s] [100%] Built target geometry_msgs__rosidl_typesupport_c__pyext
+[21.159s] [100%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[21.168s] Invoked command in '/workspace/foxy_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/geometry_msgs -- -j12 -l12
+[21.394s] Invoking command in '/workspace/foxy_ws/build/geometry_msgs': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/geometry_msgs
+[21.401s] -- Install configuration: ""
+[21.401s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/rosidl_interfaces/geometry_msgs
+[21.401s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/twist_stamped.h
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose_array.h
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/vector3_stamped.h
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/transform_stamped.h
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/accel_stamped.h
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose2_d.h
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/quaternion.h
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/twist_with_covariance.h
+[21.402s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/wrench.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/accel_with_covariance.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose_stamped.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/polygon.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/point_stamped.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose_with_covariance.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/quaternion_stamped.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/inertia.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/accel.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose_with_covariance_stamped.h
+[21.403s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/twist_with_covariance_stamped.h
+[21.404s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/vector3.h
+[21.404s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/inertia_stamped.h
+[21.404s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/wrench_stamped.h
+[21.404s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/point32.h
+[21.404s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/point.h
+[21.404s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+[21.404s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/polygon_stamped.h
+[21.404s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/transform.h
+[21.404s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/twist.h
+[21.405s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail
+[21.405s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__functions.h
+[21.405s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.h
+[21.405s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__struct.h
+[21.405s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__type_support.h
+[21.405s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__type_support.h
+[21.405s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__struct.h
+[21.405s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__functions.c
+[21.405s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__functions.c
+[21.406s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__type_support.h
+[21.406s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.c
+[21.406s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__functions.h
+[21.406s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__type_support.h
+[21.406s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__struct.h
+[21.406s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__struct.h
+[21.406s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__functions.c
+[21.406s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__functions.h
+[21.407s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__struct.h
+[21.407s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__functions.c
+[21.407s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.h
+[21.407s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__functions.h
+[21.407s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__functions.c
+[21.407s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__functions.c
+[21.407s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__functions.h
+[21.408s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.c
+[21.408s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__type_support.h
+[21.408s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.h
+[21.408s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.h
+[21.408s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__functions.h
+[21.408s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__functions.c
+[21.408s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__functions.h
+[21.408s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__functions.c
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__struct.h
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__functions.c
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__type_support.h
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__functions.h
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__type_support.h
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__struct.h
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__functions.h
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__functions.c
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__functions.h
+[21.409s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__functions.h
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__functions.c
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__struct.h
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.c
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__functions.c
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__type_support.h
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__struct.h
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.h
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__functions.c
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__type_support.h
+[21.410s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__type_support.h
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__struct.h
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__functions.h
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.h
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__functions.c
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__functions.c
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__type_support.h
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__functions.h
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__functions.h
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__type_support.h
+[21.411s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__type_support.h
+[21.412s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__struct.h
+[21.412s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__struct.h
+[21.412s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__functions.h
+[21.412s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__struct.h
+[21.412s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__functions.c
+[21.412s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__functions.c
+[21.412s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__functions.c
+[21.412s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.h
+[21.413s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__type_support.h
+[21.413s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__type_support.h
+[21.413s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__type_support.h
+[21.413s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__functions.h
+[21.413s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__functions.h
+[21.413s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__struct.h
+[21.413s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__functions.h
+[21.413s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__functions.c
+[21.414s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__functions.c
+[21.414s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__functions.h
+[21.414s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__struct.h
+[21.414s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__struct.h
+[21.414s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__struct.h
+[21.414s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__functions.c
+[21.414s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__struct.h
+[21.414s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__functions.h
+[21.414s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__struct.h
+[21.415s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__functions.c
+[21.415s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__type_support.h
+[21.415s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__functions.h
+[21.415s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.h
+[21.415s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__type_support.h
+[21.415s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__functions.c
+[21.415s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__struct.h
+[21.415s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__struct.h
+[21.415s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__struct.h
+[21.416s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__type_support.h
+[21.416s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__type_support.h
+[21.416s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__functions.c
+[21.416s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__functions.h
+[21.416s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__type_support.h
+[21.416s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__struct.h
+[21.416s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__type_support.h
+[21.416s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__functions.h
+[21.416s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__type_support.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__struct.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__type_support.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__type_support.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__type_support.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__functions.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__functions.c
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__struct.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__functions.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__struct.h
+[21.417s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__functions.h
+[21.418s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__functions.c
+[21.418s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose.h
+[21.418s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/accel_with_covariance_stamped.h
+[21.418s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/environment/library_path.sh
+[21.418s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/environment/library_path.dsv
+[21.418s] -- Installing: /workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_generator_c.so
+[21.418s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_generator_c.so" to ""
+[21.419s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs
+[21.419s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg
+[21.419s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[21.419s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail
+[21.419s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_c.h
+[21.419s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_c.h
+[21.419s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_c.h
+[21.419s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_c.h
+[21.420s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_c.h
+[21.420s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_c.h
+[21.420s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[21.420s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_c.h
+[21.420s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_c.h
+[21.420s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[21.420s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_c.h
+[21.420s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_c.h
+[21.420s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_c.h
+[21.421s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_c.h
+[21.422s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[21.422s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_c.h
+[21.422s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_c.h
+[21.422s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_c.h
+[21.422s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h
+[21.422s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[21.422s] -- Installing: /workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+[21.422s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[21.422s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs
+[21.423s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg
+[21.423s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[21.423s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail
+[21.423s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_cpp.hpp
+[21.423s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[21.423s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.423s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_cpp.hpp
+[21.423s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[21.424s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.424s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.424s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_cpp.hpp
+[21.424s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[21.424s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[21.424s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[21.424s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.424s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.424s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/dds_fastrtps
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_cpp.hpp
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_cpp.hpp
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_cpp.hpp
+[21.425s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.426s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.426s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.426s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[21.426s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.426s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp
+[21.426s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[21.426s] -- Installing: /workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+[21.426s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[21.426s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs
+[21.426s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.427s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_c.h
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__type_support.c
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_c.h
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_c.h
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__type_support.c
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_c.h
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__type_support.c
+[21.427s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_c.h
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_c.h
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__type_support.c
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__type_support.c
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__type_support.c
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__type_support.c
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__type_support.c
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_c.h
+[21.428s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_c.h
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__type_support.c
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__type_support.c
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__type_support.c
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__type_support.c
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__type_support.c
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_c.h
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_c.h
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__type_support.c
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__type_support.c
+[21.429s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__type_support.c
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_c.h
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__type_support.c
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__type_support.c
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_c.h
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_c.h
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_c.h
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__type_support.c
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__type_support.c
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__type_support.c
+[21.430s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__type_support.c
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_c.h
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_c.h
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__type_support.c
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_c.h
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__type_support.c
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__type_support.c
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_c.h
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__type_support.c
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_c.h
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_c.h
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c
+[21.431s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_c.h
+[21.432s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_c.h
+[21.432s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_c.h
+[21.432s] -- Installing: /workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+[21.432s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so" to ""
+[21.432s] -- Installing: /workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_c.so
+[21.432s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_c.so" to ""
+[21.432s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs
+[21.432s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg
+[21.432s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/quaternion.hpp
+[21.432s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/quaternion_stamped.hpp
+[21.432s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/accel_with_covariance.hpp
+[21.433s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[21.433s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/transform_stamped.hpp
+[21.433s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/accel.hpp
+[21.433s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/vector3_stamped.hpp
+[21.433s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/accel_stamped.hpp
+[21.433s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/inertia.hpp
+[21.433s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose_array.hpp
+[21.433s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/point.hpp
+[21.433s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/polygon.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/point_stamped.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/point32.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/vector3.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/twist.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/twist_with_covariance_stamped.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/wrench.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/accel_with_covariance_stamped.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose2_d.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose_with_covariance_stamped.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/polygon_stamped.hpp
+[21.434s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/inertia_stamped.hpp
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose_with_covariance.hpp
+[21.435s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__builder.hpp
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__traits.hpp
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__builder.hpp
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__traits.hpp
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__type_support.hpp
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__type_support.hpp
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__type_support.hpp
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__struct.hpp
+[21.435s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__type_support.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__builder.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__traits.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__traits.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__builder.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__struct.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__traits.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__type_support.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__type_support.hpp
+[21.436s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__traits.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__struct.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__struct.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__struct.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__builder.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__type_support.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__struct.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__builder.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp
+[21.437s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__builder.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__builder.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__struct.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__traits.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__traits.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__type_support.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__struct.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__builder.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__type_support.hpp
+[21.438s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__type_support.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__traits.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__traits.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__traits.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__builder.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__traits.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__type_support.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__builder.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__traits.hpp
+[21.439s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.hpp
+[21.440s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp
+[21.440s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__traits.hpp
+[21.440s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__struct.hpp
+[21.440s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__struct.hpp
+[21.440s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__traits.hpp
+[21.440s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp
+[21.440s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp
+[21.440s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp
+[21.440s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__struct.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__traits.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__traits.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__traits.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__type_support.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__builder.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__builder.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__struct.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__struct.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__struct.hpp
+[21.441s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__builder.hpp
+[21.442s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__traits.hpp
+[21.442s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__type_support.hpp
+[21.442s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__builder.hpp
+[21.442s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__struct.hpp
+[21.442s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__traits.hpp
+[21.442s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__struct.hpp
+[21.442s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__type_support.hpp
+[21.442s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__type_support.hpp
+[21.443s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__traits.hpp
+[21.443s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__traits.hpp
+[21.443s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp
+[21.443s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__builder.hpp
+[21.443s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__builder.hpp
+[21.443s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__type_support.hpp
+[21.443s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__builder.hpp
+[21.443s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__struct.hpp
+[21.443s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp
+[21.444s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__builder.hpp
+[21.444s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__type_support.hpp
+[21.444s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__type_support.hpp
+[21.444s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp
+[21.444s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__builder.hpp
+[21.444s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__traits.hpp
+[21.445s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__traits.hpp
+[21.445s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__builder.hpp
+[21.445s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__traits.hpp
+[21.445s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__type_support.hpp
+[21.445s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__struct.hpp
+[21.445s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__builder.hpp
+[21.445s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp
+[21.445s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp
+[21.445s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__type_support.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__type_support.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__type_support.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__builder.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__struct.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__builder.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__builder.hpp
+[21.446s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__builder.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__struct.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__type_support.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__type_support.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__struct.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/twist_stamped.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/pose_stamped.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/wrench_stamped.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/twist_with_covariance.hpp
+[21.447s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/transform.hpp
+[21.448s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs
+[21.448s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg
+[21.448s] -- Up-to-date: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail
+[21.448s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[21.448s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose__type_support.cpp
+[21.448s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.448s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__type_support.cpp
+[21.448s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__type_support.cpp
+[21.448s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench_stamped__type_support.cpp
+[21.448s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__type_support.cpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.cpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__type_support.cpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__type_support.cpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__type_support.cpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__type_support.cpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_cpp.hpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__type_support.cpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__type_support.cpp
+[21.449s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__type_support.cpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__type_support.cpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_cpp.hpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_cpp.hpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_cpp.hpp
+[21.450s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_cpp.hpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.cpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/wrench__type_support.cpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__type_support.cpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/polygon_stamped__type_support.cpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_stamped__type_support.cpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__type_support.cpp
+[21.451s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__type_support.cpp
+[21.452s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.452s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.452s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist_with_covariance__type_support.cpp
+[21.452s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_cpp.hpp
+[21.452s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_cpp.hpp
+[21.452s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.452s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_cpp.hpp
+[21.452s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[21.453s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia_stamped__type_support.cpp
+[21.453s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_cpp.hpp
+[21.453s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp
+[21.453s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.cpp
+[21.453s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[21.453s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/vector3_stamped__type_support.cpp
+[21.453s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point_stamped__type_support.cpp
+[21.453s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/quaternion__type_support.cpp
+[21.453s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[21.454s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/inertia__type_support.cpp
+[21.454s] -- Installing: /workspace/foxy_ws/install/include/geometry_msgs/msg/detail/point__type_support.cpp
+[21.454s] -- Installing: /workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+[21.454s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[21.454s] -- Installing: /workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+[21.455s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libgeometry_msgs__rosidl_typesupport_cpp.so" to ""
+[21.455s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/environment/pythonpath.sh
+[21.455s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/environment/pythonpath.dsv
+[21.455s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/__init__.py
+[21.480s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/__init__.py'...
+[21.484s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg
+[21.484s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_accel_with_covariance.py
+[21.484s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_point32_s.c
+[21.484s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_quaternion_s.c
+[21.484s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_point_stamped_s.c
+[21.484s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_twist_s.c
+[21.484s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_accel.py
+[21.484s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_vector3.py
+[21.484s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose_with_covariance_stamped_s.c
+[21.485s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_quaternion_stamped_s.c
+[21.485s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_point.py
+[21.485s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_twist_with_covariance_s.c
+[21.485s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_twist_stamped.py
+[21.485s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_transform_stamped.py
+[21.485s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose_with_covariance.py
+[21.485s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_accel_s.c
+[21.485s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose_array.py
+[21.486s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_point_s.c
+[21.486s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_wrench_stamped_s.c
+[21.486s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose.py
+[21.486s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_vector3_s.c
+[21.486s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_polygon_stamped.py
+[21.486s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_inertia.py
+[21.486s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_accel_stamped.py
+[21.486s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_accel_with_covariance_s.c
+[21.487s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_twist_with_covariance_stamped.py
+[21.487s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_quaternion_stamped.py
+[21.487s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_point_stamped.py
+[21.487s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_twist.py
+[21.487s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose_with_covariance_s.c
+[21.487s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_wrench_s.c
+[21.487s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_transform_stamped_s.c
+[21.487s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose_stamped.py
+[21.487s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_twist_with_covariance.py
+[21.488s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_inertia_s.c
+[21.488s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_vector3_stamped_s.c
+[21.488s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_wrench_stamped.py
+[21.488s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_twist_stamped_s.c
+[21.488s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose_with_covariance_stamped.py
+[21.489s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose2_d.py
+[21.489s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_accel_with_covariance_stamped_s.c
+[21.489s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_twist_with_covariance_stamped_s.c
+[21.489s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_accel_stamped_s.c
+[21.489s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose_s.c
+[21.489s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_vector3_stamped.py
+[21.489s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_inertia_stamped.py
+[21.489s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_polygon.py
+[21.490s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/__init__.py
+[21.490s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_polygon_stamped_s.c
+[21.490s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_wrench.py
+[21.490s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose2_d_s.c
+[21.490s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_accel_with_covariance_stamped.py
+[21.490s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose_array_s.c
+[21.490s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_point32.py
+[21.490s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_transform_s.c
+[21.490s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_inertia_stamped_s.c
+[21.491s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_polygon_s.c
+[21.491s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_pose_stamped_s.c
+[21.491s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_quaternion.py
+[21.491s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/msg/_transform.py
+[21.491s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[21.492s] -- Set runtime path of "/workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[21.492s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[21.493s] -- Set runtime path of "/workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[21.493s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[21.493s] -- Set runtime path of "/workspace/foxy_ws/install/lib/python3.10/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[21.494s] -- Installing: /workspace/foxy_ws/install/lib/libgeometry_msgs__python.so
+[21.494s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libgeometry_msgs__python.so" to ""
+[21.494s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Accel.idl
+[21.494s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/AccelStamped.idl
+[21.494s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/AccelWithCovariance.idl
+[21.494s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+[21.494s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Inertia.idl
+[21.495s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/InertiaStamped.idl
+[21.495s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Point.idl
+[21.495s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Point32.idl
+[21.495s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PointStamped.idl
+[21.495s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Polygon.idl
+[21.495s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PolygonStamped.idl
+[21.495s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Pose.idl
+[21.496s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Pose2D.idl
+[21.496s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PoseArray.idl
+[21.496s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PoseStamped.idl
+[21.496s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PoseWithCovariance.idl
+[21.496s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+[21.496s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Quaternion.idl
+[21.496s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/QuaternionStamped.idl
+[21.496s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Transform.idl
+[21.497s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/TransformStamped.idl
+[21.497s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Twist.idl
+[21.497s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/TwistStamped.idl
+[21.497s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/TwistWithCovariance.idl
+[21.497s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+[21.497s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Vector3.idl
+[21.497s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Vector3Stamped.idl
+[21.498s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Wrench.idl
+[21.498s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/WrenchStamped.idl
+[21.498s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Accel.msg
+[21.498s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/AccelStamped.msg
+[21.498s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/AccelWithCovariance.msg
+[21.498s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/AccelWithCovarianceStamped.msg
+[21.498s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Inertia.msg
+[21.499s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/InertiaStamped.msg
+[21.499s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Point.msg
+[21.499s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Point32.msg
+[21.499s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PointStamped.msg
+[21.500s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Polygon.msg
+[21.500s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PolygonStamped.msg
+[21.500s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Pose.msg
+[21.500s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Pose2D.msg
+[21.500s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PoseArray.msg
+[21.501s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PoseStamped.msg
+[21.501s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PoseWithCovariance.msg
+[21.501s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+[21.501s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Quaternion.msg
+[21.502s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/QuaternionStamped.msg
+[21.502s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Transform.msg
+[21.502s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/TransformStamped.msg
+[21.502s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Twist.msg
+[21.502s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/TwistStamped.msg
+[21.502s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/TwistWithCovariance.msg
+[21.502s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/TwistWithCovarianceStamped.msg
+[21.503s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Vector3.msg
+[21.503s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Vector3Stamped.msg
+[21.503s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/Wrench.msg
+[21.503s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/msg/WrenchStamped.msg
+[21.503s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/geometry_msgs
+[21.503s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/geometry_msgs
+[21.503s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/environment/ament_prefix_path.sh
+[21.504s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/environment/ament_prefix_path.dsv
+[21.504s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/environment/path.sh
+[21.504s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/environment/path.dsv
+[21.504s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/local_setup.bash
+[21.504s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/local_setup.sh
+[21.504s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/local_setup.zsh
+[21.504s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/local_setup.dsv
+[21.505s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/package.dsv
+[21.505s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/geometry_msgs
+[21.505s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_generator_cExport.cmake
+[21.505s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_generator_cExport-noconfig.cmake
+[21.505s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport.cmake
+[21.505s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[21.506s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport.cmake
+[21.506s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[21.506s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_generator_cppExport.cmake
+[21.506s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[21.506s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[21.506s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport.cmake
+[21.507s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[21.507s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/rosidl_cmake-extras.cmake
+[21.507s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.507s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[21.507s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[21.507s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.507s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.508s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.508s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgsConfig.cmake
+[21.508s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake
+[21.508s] -- Installing: /workspace/foxy_ws/install/share/geometry_msgs/package.xml
+[21.510s] Invoked command in '/workspace/foxy_ws/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/geometry_msgs

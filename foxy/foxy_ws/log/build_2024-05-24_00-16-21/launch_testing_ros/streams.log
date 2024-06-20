@@ -1,0 +1,61 @@
+[0.650s] Invoking command in '/workspace/foxy_ws/src/launch_ros/launch_testing_ros': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/launch_testing_ros/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_testing_ros build --build-base /workspace/foxy_ws/build/launch_testing_ros/build install --record /workspace/foxy_ws/build/launch_testing_ros/install.log --install-scripts $base/lib/launch_testing_ros --single-version-externally-managed install_data
+[0.785s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.785s]   warnings.warn(
+[0.809s] running egg_info
+[0.810s] creating ../../../build/launch_testing_ros/launch_testing_ros.egg-info
+[0.810s] writing ../../../build/launch_testing_ros/launch_testing_ros.egg-info/PKG-INFO
+[0.810s] writing dependency_links to ../../../build/launch_testing_ros/launch_testing_ros.egg-info/dependency_links.txt
+[0.810s] writing entry points to ../../../build/launch_testing_ros/launch_testing_ros.egg-info/entry_points.txt
+[0.810s] writing requirements to ../../../build/launch_testing_ros/launch_testing_ros.egg-info/requires.txt
+[0.810s] writing top-level names to ../../../build/launch_testing_ros/launch_testing_ros.egg-info/top_level.txt
+[0.810s] writing manifest file '../../../build/launch_testing_ros/launch_testing_ros.egg-info/SOURCES.txt'
+[0.812s] reading manifest file '../../../build/launch_testing_ros/launch_testing_ros.egg-info/SOURCES.txt'
+[0.812s] writing manifest file '../../../build/launch_testing_ros/launch_testing_ros.egg-info/SOURCES.txt'
+[0.812s] running build
+[0.812s] running build_py
+[0.813s] creating /workspace/foxy_ws/build/launch_testing_ros/build
+[0.813s] creating /workspace/foxy_ws/build/launch_testing_ros/build/lib
+[0.813s] creating /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.813s] copying launch_testing_ros/message_pump.py -> /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.815s] copying launch_testing_ros/data_republisher.py -> /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.815s] copying launch_testing_ros/__init__.py -> /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.815s] copying launch_testing_ros/test_runner.py -> /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.816s] creating /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest
+[0.816s] copying launch_testing_ros/pytest/hooks.py -> /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest
+[0.816s] copying launch_testing_ros/pytest/__init__.py -> /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest
+[0.816s] creating /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools
+[0.816s] copying launch_testing_ros/tools/output.py -> /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools
+[0.816s] copying launch_testing_ros/tools/__init__.py -> /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools
+[0.817s] running install
+[0.817s] running install_lib
+[0.818s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros
+[0.818s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/pytest
+[0.818s] copying /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest/hooks.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/pytest
+[0.818s] copying /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/pytest
+[0.818s] copying /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/message_pump.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros
+[0.818s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/tools
+[0.818s] copying /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools/output.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/tools
+[0.818s] copying /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/tools
+[0.818s] copying /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/data_republisher.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros
+[0.819s] copying /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros
+[0.819s] copying /workspace/foxy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/test_runner.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros
+[0.819s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/pytest/hooks.py to hooks.cpython-310.pyc
+[0.819s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/pytest/__init__.py to __init__.cpython-310.pyc
+[0.819s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/message_pump.py to message_pump.cpython-310.pyc
+[0.820s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/tools/output.py to output.cpython-310.pyc
+[0.820s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/tools/__init__.py to __init__.cpython-310.pyc
+[0.820s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/data_republisher.py to data_republisher.cpython-310.pyc
+[0.821s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/__init__.py to __init__.cpython-310.pyc
+[0.821s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros/test_runner.py to test_runner.cpython-310.pyc
+[0.821s] running install_data
+[0.821s] copying resource/launch_testing_ros -> /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+[0.821s] copying package.xml -> /workspace/foxy_ws/install/share/launch_testing_ros
+[0.821s] creating /workspace/foxy_ws/install/share/launch_testing_ros/examples
+[0.821s] copying test/examples/talker_listener_launch_test.py -> /workspace/foxy_ws/install/share/launch_testing_ros/examples
+[0.822s] copying test/examples/talker.py -> /workspace/foxy_ws/install/share/launch_testing_ros/examples
+[0.822s] copying test/examples/listener.py -> /workspace/foxy_ws/install/share/launch_testing_ros/examples
+[0.822s] running install_egg_info
+[0.823s] Copying ../../../build/launch_testing_ros/launch_testing_ros.egg-info to /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_testing_ros-0.11.7-py3.10.egg-info
+[0.824s] running install_scripts
+[0.840s] writing list of installed files to '/workspace/foxy_ws/build/launch_testing_ros/install.log'
+[0.858s] Invoked command in '/workspace/foxy_ws/src/launch_ros/launch_testing_ros' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/launch_testing_ros/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_testing_ros build --build-base /workspace/foxy_ws/build/launch_testing_ros/build install --record /workspace/foxy_ws/build/launch_testing_ros/install.log --install-scripts $base/lib/launch_testing_ros --single-version-externally-managed install_data

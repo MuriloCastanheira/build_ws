@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-complete.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-prefix/src/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-stamp/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-install.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-prefix/src/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-stamp/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-mkdir.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-prefix/src/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-stamp/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-download.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-prefix/src/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-stamp/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-update.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-prefix/src/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-stamp/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-patch.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-prefix/src/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-stamp/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-configure.rule"
+		},
+		{
+			"file" : "/workspace/foxy_ws/build/mimick_vendor/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-prefix/src/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-stamp/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039"
+		],
+		"name" : "mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039"
+	}
+}

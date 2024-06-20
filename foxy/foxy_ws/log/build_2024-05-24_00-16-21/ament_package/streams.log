@@ -1,0 +1,101 @@
+[1.200s] Invoking command in '/workspace/foxy_ws/src/ament_package': PYTHONPATH=/workspace/foxy_ws/build/ament_package/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /workspace/foxy_ws/build/ament_package/build install --record /workspace/foxy_ws/build/ament_package/install.log --single-version-externally-managed install_data
+[1.390s] running egg_info
+[1.391s] creating ../../build/ament_package/ament_package.egg-info
+[1.391s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[1.391s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[1.391s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[1.391s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.395s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.396s] adding license file 'LICENSE'
+[1.396s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.397s] running build
+[1.397s] running build_py
+[1.397s] creating /workspace/foxy_ws/build/ament_package/build
+[1.397s] creating /workspace/foxy_ws/build/ament_package/build/lib
+[1.398s] creating /workspace/foxy_ws/build/ament_package/build/lib/ament_package
+[1.398s] copying ament_package/templates.py -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package
+[1.398s] copying ament_package/__init__.py -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package
+[1.399s] creating /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template
+[1.399s] creating /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.399s] copying ament_package/template/environment_hook/path.bat -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.400s] copying ament_package/template/environment_hook/library_path.sh -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.400s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.401s] copying ament_package/template/environment_hook/path.sh -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.401s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.401s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.402s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.402s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.402s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.403s] creating /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.403s] copying ament_package/template/isolated_prefix_level/local_setup.bash -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.403s] copying ament_package/template/isolated_prefix_level/local_setup.bat.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.403s] copying ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.403s] copying ament_package/template/isolated_prefix_level/local_setup.sh.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.403s] copying ament_package/template/isolated_prefix_level/local_setup.zsh -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.403s] creating /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.403s] copying ament_package/template/package_level/local_setup.bat.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.403s] copying ament_package/template/package_level/local_setup.bash.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.404s] copying ament_package/template/package_level/local_setup.zsh.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.404s] copying ament_package/template/package_level/local_setup.sh.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.404s] creating /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.404s] copying ament_package/template/prefix_level/setup.sh.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.404s] copying ament_package/template/prefix_level/local_setup.bash -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.404s] copying ament_package/template/prefix_level/setup.bat.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.404s] copying ament_package/template/prefix_level/_local_setup_util.py -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.404s] copying ament_package/template/prefix_level/local_setup.bat.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.405s] copying ament_package/template/prefix_level/setup.zsh -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.405s] copying ament_package/template/prefix_level/setup.bash -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.405s] copying ament_package/template/prefix_level/local_setup.sh.in -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.405s] copying ament_package/template/prefix_level/local_setup.zsh -> /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.405s] running install
+[1.405s] running install_lib
+[1.412s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/templates.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package
+[1.412s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template
+[1.412s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bash -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bat.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.sh.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.zsh -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.412s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.412s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.412s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.413s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.413s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.413s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.413s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.413s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.413s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.414s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.414s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.414s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.414s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.414s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.414s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.414s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.414s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.414s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.415s] copying /workspace/foxy_ws/build/ament_package/build/lib/ament_package/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package
+[1.415s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/templates.py to templates.cpython-310.pyc
+[1.415s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level/_order_isolated_packages.py to _order_isolated_packages.cpython-310.pyc
+[1.416s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-310.pyc
+[1.417s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package/__init__.py to __init__.cpython-310.pyc
+[1.417s] running install_data
+[1.417s] copying package.xml -> /workspace/foxy_ws/install/share/ament_package
+[1.417s] creating /workspace/foxy_ws/install/share/ament_index
+[1.417s] creating /workspace/foxy_ws/install/share/ament_index/resource_index
+[1.417s] creating /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+[1.417s] copying resource/ament_package -> /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+[1.417s] running install_egg_info
+[1.419s] Copying ../../build/ament_package/ament_package.egg-info to /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_package-0.9.5-py3.10.egg-info
+[1.419s] running install_scripts
+[1.438s] writing list of installed files to '/workspace/foxy_ws/build/ament_package/install.log'
+[1.499s] Invoked command in '/workspace/foxy_ws/src/ament_package' returned '0': PYTHONPATH=/workspace/foxy_ws/build/ament_package/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /workspace/foxy_ws/build/ament_package/build install --record /workspace/foxy_ws/build/ament_package/install.log --single-version-externally-managed install_data

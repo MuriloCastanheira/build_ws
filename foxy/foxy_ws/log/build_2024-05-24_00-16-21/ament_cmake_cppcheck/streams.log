@@ -1,0 +1,35 @@
+[0.812s] Invoking command in '/workspace/foxy_ws/build/ament_cmake_cppcheck': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/ament_lint/ament_cmake_cppcheck -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[0.858s] -- Found ament_cmake_core: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake_core/cmake)
+[0.890s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+[0.890s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.089s] -- Found ament_cmake_test: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake_test/cmake)
+[1.180s] -- Found ament_cmake_copyright: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_copyright/cmake)
+[1.182s] -- Found ament_cmake_lint_cmake: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_lint_cmake/cmake)
+[1.187s] -- Configuring done
+[1.189s] -- Generating done
+[1.189s] -- Build files have been written to: /workspace/foxy_ws/build/ament_cmake_cppcheck
+[1.189s] Invoked command in '/workspace/foxy_ws/build/ament_cmake_cppcheck' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/ament_lint/ament_cmake_cppcheck -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[1.190s] Invoking command in '/workspace/foxy_ws/build/ament_cmake_cppcheck': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/ament_cmake_cppcheck -- -j12 -l12
+[1.225s] Invoked command in '/workspace/foxy_ws/build/ament_cmake_cppcheck' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/ament_cmake_cppcheck -- -j12 -l12
+[1.254s] Invoking command in '/workspace/foxy_ws/build/ament_cmake_cppcheck': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/ament_cmake_cppcheck
+[1.263s] -- Install configuration: ""
+[1.263s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_cppcheck
+[1.264s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_cppcheck
+[1.264s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/environment/ament_prefix_path.sh
+[1.264s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/environment/ament_prefix_path.dsv
+[1.264s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/environment/path.sh
+[1.265s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/environment/path.dsv
+[1.265s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/local_setup.bash
+[1.266s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/local_setup.sh
+[1.266s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/local_setup.zsh
+[1.266s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/local_setup.dsv
+[1.266s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/package.dsv
+[1.267s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/ament_cmake_cppcheck
+[1.267s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck-extras.cmake
+[1.267s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheckConfig.cmake
+[1.267s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheckConfig-version.cmake
+[1.267s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/package.xml
+[1.267s] -- Up-to-date: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/cmake
+[1.269s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/cmake/ament_cppcheck.cmake
+[1.269s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake
+[1.283s] Invoked command in '/workspace/foxy_ws/build/ament_cmake_cppcheck' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/ament_cmake_cppcheck

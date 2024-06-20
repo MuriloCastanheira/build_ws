@@ -1,0 +1,10 @@
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/install/strip.dir
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/install.dir
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/list_install_components.dir
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/rebuild_cache.dir
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/edit_cache.dir
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/test.dir
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/install/local.dir
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/mimick-f171450b5ebaa3d2538c762a059dfc6ab7a01039.dir
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/mimick_vendor_uninstall.dir
+/workspace/foxy_ws/build/mimick_vendor/CMakeFiles/uninstall.dir

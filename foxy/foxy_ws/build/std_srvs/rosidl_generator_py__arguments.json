@@ -1,0 +1,28 @@
+{
+  "package_name": "std_srvs",
+  "output_dir": "/workspace/foxy_ws/build/std_srvs/rosidl_generator_py/std_srvs",
+  "template_dir": "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Empty.idl",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/SetBool.idl",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Trigger.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py/__init__.py",
+    "/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/Empty.idl",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/SetBool.idl",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/Trigger.idl"
+  ]
+}

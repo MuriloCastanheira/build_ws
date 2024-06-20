@@ -1,0 +1,137 @@
+[0.694s] Invoking command in '/workspace/foxy_ws/src/launch_ros/launch_ros': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/launch_ros/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_ros build --build-base /workspace/foxy_ws/build/launch_ros/build install --record /workspace/foxy_ws/build/launch_ros/install.log --single-version-externally-managed install_data
+[0.870s] running egg_info
+[0.870s] creating ../../../build/launch_ros/launch_ros.egg-info
+[0.870s] writing ../../../build/launch_ros/launch_ros.egg-info/PKG-INFO
+[0.870s] writing dependency_links to ../../../build/launch_ros/launch_ros.egg-info/dependency_links.txt
+[0.870s] writing entry points to ../../../build/launch_ros/launch_ros.egg-info/entry_points.txt
+[0.870s] writing requirements to ../../../build/launch_ros/launch_ros.egg-info/requires.txt
+[0.870s] writing top-level names to ../../../build/launch_ros/launch_ros.egg-info/top_level.txt
+[0.870s] writing manifest file '../../../build/launch_ros/launch_ros.egg-info/SOURCES.txt'
+[0.872s] reading manifest file '../../../build/launch_ros/launch_ros.egg-info/SOURCES.txt'
+[0.873s] writing manifest file '../../../build/launch_ros/launch_ros.egg-info/SOURCES.txt'
+[0.873s] running build
+[0.873s] running build_py
+[0.873s] creating /workspace/foxy_ws/build/launch_ros/build
+[0.873s] creating /workspace/foxy_ws/build/launch_ros/build/lib
+[0.873s] creating /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros
+[0.873s] copying launch_ros/parameters_type.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros
+[0.876s] copying launch_ros/remap_rule_type.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros
+[0.876s] copying launch_ros/ros_adapters.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros
+[0.876s] copying launch_ros/__init__.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros
+[0.876s] copying launch_ros/parameter_descriptions.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros
+[0.877s] creating /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.877s] copying launch_ros/utilities/normalize_remap_rule.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.877s] copying launch_ros/utilities/normalize_parameters.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.877s] copying launch_ros/utilities/to_parameters_list.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.877s] copying launch_ros/utilities/namespace_utils.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.878s] copying launch_ros/utilities/__init__.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.878s] copying launch_ros/utilities/track_node_names.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.878s] copying launch_ros/utilities/evaluate_parameters.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.878s] creating /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/event_handlers
+[0.878s] copying launch_ros/event_handlers/on_state_transition.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/event_handlers
+[0.878s] copying launch_ros/event_handlers/__init__.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/event_handlers
+[0.879s] creating /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.879s] copying launch_ros/actions/lifecycle_node.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.879s] copying launch_ros/actions/push_ros_namespace.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.879s] copying launch_ros/actions/composable_node_container.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.879s] copying launch_ros/actions/set_parameter.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.880s] copying launch_ros/actions/__init__.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.880s] copying launch_ros/actions/set_remap.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.880s] copying launch_ros/actions/node.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.880s] copying launch_ros/actions/load_composable_nodes.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.881s] creating /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[0.881s] copying launch_ros/descriptions/composable_node.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[0.881s] copying launch_ros/descriptions/__init__.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[0.881s] creating /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events
+[0.881s] copying launch_ros/events/__init__.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events
+[0.881s] creating /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[0.881s] copying launch_ros/substitutions/__init__.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[0.881s] copying launch_ros/substitutions/executable_in_package.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[0.882s] copying launch_ros/substitutions/find_package.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[0.882s] creating /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.882s] copying launch_ros/events/lifecycle/state_transition.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.882s] copying launch_ros/events/lifecycle/change_state.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.882s] copying launch_ros/events/lifecycle/__init__.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.882s] copying launch_ros/events/lifecycle/lifecycle_node_matchers.py -> /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.883s] running install
+[0.883s] running install_lib
+[0.884s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros
+[0.884s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/parameters_type.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros
+[0.884s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/remap_rule_type.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros
+[0.884s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities
+[0.884s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities/normalize_remap_rule.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities
+[0.884s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities/normalize_parameters.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities
+[0.885s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities/to_parameters_list.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities
+[0.885s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities/namespace_utils.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities
+[0.885s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities
+[0.885s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities/track_node_names.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities
+[0.885s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/utilities/evaluate_parameters.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities
+[0.885s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/event_handlers
+[0.886s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/event_handlers/on_state_transition.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/event_handlers
+[0.886s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/event_handlers/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/event_handlers
+[0.886s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/ros_adapters.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros
+[0.886s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions
+[0.886s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions/lifecycle_node.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions
+[0.886s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions/push_ros_namespace.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions
+[0.887s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions/composable_node_container.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions
+[0.887s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions/set_parameter.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions
+[0.887s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions
+[0.887s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions/set_remap.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions
+[0.887s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions/node.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions
+[0.888s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/actions/load_composable_nodes.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions
+[0.888s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros
+[0.888s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/descriptions
+[0.888s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/descriptions/composable_node.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/descriptions
+[0.888s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/descriptions/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/descriptions
+[0.888s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/parameter_descriptions.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros
+[0.888s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events
+[0.888s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events
+[0.889s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/lifecycle
+[0.889s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/state_transition.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/lifecycle
+[0.889s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/change_state.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/lifecycle
+[0.889s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/lifecycle
+[0.889s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/lifecycle_node_matchers.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/lifecycle
+[0.889s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/substitutions
+[0.889s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/substitutions/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/substitutions
+[0.889s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/substitutions/executable_in_package.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/substitutions
+[0.890s] copying /workspace/foxy_ws/build/launch_ros/build/lib/launch_ros/substitutions/find_package.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/substitutions
+[0.890s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/parameters_type.py to parameters_type.cpython-310.pyc
+[0.890s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/remap_rule_type.py to remap_rule_type.cpython-310.pyc
+[0.890s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities/normalize_remap_rule.py to normalize_remap_rule.cpython-310.pyc
+[0.890s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities/normalize_parameters.py to normalize_parameters.cpython-310.pyc
+[0.891s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities/to_parameters_list.py to to_parameters_list.cpython-310.pyc
+[0.891s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities/namespace_utils.py to namespace_utils.cpython-310.pyc
+[0.891s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities/__init__.py to __init__.cpython-310.pyc
+[0.892s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities/track_node_names.py to track_node_names.cpython-310.pyc
+[0.892s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/utilities/evaluate_parameters.py to evaluate_parameters.cpython-310.pyc
+[0.893s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/event_handlers/on_state_transition.py to on_state_transition.cpython-310.pyc
+[0.893s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/event_handlers/__init__.py to __init__.cpython-310.pyc
+[0.893s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/ros_adapters.py to ros_adapters.cpython-310.pyc
+[0.894s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions/lifecycle_node.py to lifecycle_node.cpython-310.pyc
+[0.895s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions/push_ros_namespace.py to push_ros_namespace.cpython-310.pyc
+[0.895s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions/composable_node_container.py to composable_node_container.cpython-310.pyc
+[0.895s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions/set_parameter.py to set_parameter.cpython-310.pyc
+[0.896s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions/__init__.py to __init__.cpython-310.pyc
+[0.896s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions/set_remap.py to set_remap.cpython-310.pyc
+[0.896s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions/node.py to node.cpython-310.pyc
+[0.898s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/actions/load_composable_nodes.py to load_composable_nodes.cpython-310.pyc
+[0.899s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/__init__.py to __init__.cpython-310.pyc
+[0.899s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/descriptions/composable_node.py to composable_node.cpython-310.pyc
+[0.900s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/descriptions/__init__.py to __init__.cpython-310.pyc
+[0.900s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/parameter_descriptions.py to parameter_descriptions.cpython-310.pyc
+[0.901s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/__init__.py to __init__.cpython-310.pyc
+[0.901s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/lifecycle/state_transition.py to state_transition.cpython-310.pyc
+[0.901s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/lifecycle/change_state.py to change_state.cpython-310.pyc
+[0.902s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/lifecycle/__init__.py to __init__.cpython-310.pyc
+[0.902s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/events/lifecycle/lifecycle_node_matchers.py to lifecycle_node_matchers.cpython-310.pyc
+[0.902s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/substitutions/__init__.py to __init__.cpython-310.pyc
+[0.902s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/substitutions/executable_in_package.py to executable_in_package.cpython-310.pyc
+[0.902s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros/substitutions/find_package.py to find_package.cpython-310.pyc
+[0.903s] running install_data
+[0.903s] copying package.xml -> /workspace/foxy_ws/install/share/launch_ros
+[0.903s] copying resource/launch_ros -> /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+[0.903s] running install_egg_info
+[0.904s] Copying ../../../build/launch_ros/launch_ros.egg-info to /workspace/foxy_ws/install/lib/python3.10/site-packages/launch_ros-0.11.7-py3.10.egg-info
+[0.905s] running install_scripts
+[0.921s] writing list of installed files to '/workspace/foxy_ws/build/launch_ros/install.log'
+[0.938s] Invoked command in '/workspace/foxy_ws/src/launch_ros/launch_ros' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/launch_ros/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_ros build --build-base /workspace/foxy_ws/build/launch_ros/build install --record /workspace/foxy_ws/build/launch_ros/install.log --single-version-externally-managed install_data

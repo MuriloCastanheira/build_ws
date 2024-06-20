@@ -1,0 +1,38 @@
+-- Found ament_cmake_core: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/foxy_ws/build/test_interface_files
+-- Install configuration: ""
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/Arrays.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/BasicTypes.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/BoundedSequences.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/Constants.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/Defaults.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/Empty.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/MultiNested.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/Nested.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/Strings.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/UnboundedSequences.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/msg/WStrings.msg
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/srv/Arrays.srv
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/srv/BasicTypes.srv
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/srv/Empty.srv
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/action/Fibonacci.action
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/test_interface_files
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/test_interface_files
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/environment/ament_prefix_path.sh
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/environment/ament_prefix_path.dsv
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/environment/path.sh
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/environment/path.dsv
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/local_setup.bash
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/local_setup.sh
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/local_setup.zsh
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/local_setup.dsv
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/package.dsv
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/test_interface_files
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/cmake/test_interface_files-extras.cmake
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/cmake/test_interface_filesConfig.cmake
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/cmake/test_interface_filesConfig-version.cmake
+-- Installing: /workspace/foxy_ws/install/share/test_interface_files/package.xml

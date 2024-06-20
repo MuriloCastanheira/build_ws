@@ -1,0 +1,44 @@
+[4.118s] Invoking command in '/workspace/foxy_ws/src/rosidl_runtime_py': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/rosidl_runtime_py/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rosidl_runtime_py build --build-base /workspace/foxy_ws/build/rosidl_runtime_py/build install --record /workspace/foxy_ws/build/rosidl_runtime_py/install.log --single-version-externally-managed install_data
+[4.493s] running egg_info
+[4.494s] creating ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info
+[4.494s] writing ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/PKG-INFO
+[4.495s] writing dependency_links to ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/dependency_links.txt
+[4.496s] writing top-level names to ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/top_level.txt
+[4.496s] writing manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[4.499s] reading manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[4.500s] adding license file 'LICENSE'
+[4.501s] writing manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[4.501s] running build
+[4.501s] running build_py
+[4.502s] creating /workspace/foxy_ws/build/rosidl_runtime_py/build
+[4.502s] creating /workspace/foxy_ws/build/rosidl_runtime_py/build/lib
+[4.502s] creating /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[4.503s] copying rosidl_runtime_py/convert.py -> /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[4.505s] copying rosidl_runtime_py/set_message.py -> /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[4.506s] copying rosidl_runtime_py/import_message.py -> /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[4.509s] copying rosidl_runtime_py/get_interfaces.py -> /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[4.510s] copying rosidl_runtime_py/__init__.py -> /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[4.515s] copying rosidl_runtime_py/utilities.py -> /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[4.519s] running install
+[4.519s] running install_lib
+[4.521s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py
+[4.521s] copying /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/convert.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py
+[4.521s] copying /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/set_message.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py
+[4.522s] copying /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/import_message.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py
+[4.522s] copying /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/get_interfaces.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py
+[4.523s] copying /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py
+[4.526s] copying /workspace/foxy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/utilities.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py
+[4.527s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py/convert.py to convert.cpython-310.pyc
+[4.529s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py/set_message.py to set_message.cpython-310.pyc
+[4.535s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py/import_message.py to import_message.cpython-310.pyc
+[4.536s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py/get_interfaces.py to get_interfaces.cpython-310.pyc
+[4.537s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py/__init__.py to __init__.cpython-310.pyc
+[4.541s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py/utilities.py to utilities.cpython-310.pyc
+[4.542s] running install_data
+[4.542s] copying package.xml -> /workspace/foxy_ws/install/share/rosidl_runtime_py
+[4.543s] copying resource/rosidl_runtime_py -> /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+[4.543s] running install_egg_info
+[4.547s] Copying ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info to /workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_runtime_py-0.9.1-py3.10.egg-info
+[4.549s] running install_scripts
+[4.598s] writing list of installed files to '/workspace/foxy_ws/build/rosidl_runtime_py/install.log'
+[4.642s] Invoked command in '/workspace/foxy_ws/src/rosidl_runtime_py' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/rosidl_runtime_py/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rosidl_runtime_py build --build-base /workspace/foxy_ws/build/rosidl_runtime_py/build install --record /workspace/foxy_ws/build/rosidl_runtime_py/install.log --single-version-externally-managed install_data

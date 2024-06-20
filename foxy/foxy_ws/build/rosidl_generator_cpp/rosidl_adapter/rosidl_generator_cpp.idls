@@ -1,0 +1,14 @@
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/Arrays.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/BasicTypes.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/BoundedSequences.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/Constants.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/Defaults.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/Empty.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/MultiNested.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/Nested.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/Strings.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/UnboundedSequences.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:msg/WStrings.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:srv/Arrays.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:srv/BasicTypes.idl
+/workspace/foxy_ws/build/rosidl_generator_cpp/rosidl_adapter/rosidl_generator_cpp:srv/Empty.idl

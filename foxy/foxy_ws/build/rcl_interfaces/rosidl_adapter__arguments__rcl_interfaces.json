@@ -1,0 +1,22 @@
+{
+  "package_name": "rcl_interfaces",
+  "non_idl_tuples": [
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/FloatingPointRange.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/IntegerRange.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/ListParametersResult.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/Log.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterDescriptor.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterEventDescriptors.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterEvent.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/Parameter.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterType.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterValue.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:msg/SetParametersResult.msg",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:srv/DescribeParameters.srv",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:srv/GetParameters.srv",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:srv/GetParameterTypes.srv",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:srv/ListParameters.srv",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:srv/SetParametersAtomically.srv",
+    "/workspace/foxy_ws/src/rcl_interfaces/rcl_interfaces:srv/SetParameters.srv"
+  ]
+}

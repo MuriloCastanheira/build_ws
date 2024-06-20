@@ -1,0 +1,93 @@
+[1.689s] Invoking command in '/workspace/foxy_ws/src/ament_lint/ament_copyright': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/build/ament_copyright/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /workspace/foxy_ws/build/ament_copyright/build install --record /workspace/foxy_ws/build/ament_copyright/install.log --single-version-externally-managed install_data
+[2.083s] running egg_info
+[2.084s] creating ../../../build/ament_copyright/ament_copyright.egg-info
+[2.084s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[2.084s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[2.085s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[2.085s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[2.085s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[2.085s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.085s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.086s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.086s] running build
+[2.086s] running build_py
+[2.086s] creating /workspace/foxy_ws/build/ament_copyright/build
+[2.087s] creating /workspace/foxy_ws/build/ament_copyright/build/lib
+[2.087s] creating /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright
+[2.087s] copying ament_copyright/main.py -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright
+[2.087s] copying ament_copyright/licenses.py -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright
+[2.087s] copying ament_copyright/pytest_marker.py -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright
+[2.088s] copying ament_copyright/crawler.py -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright
+[2.088s] copying ament_copyright/copyright_names.py -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright
+[2.088s] copying ament_copyright/parser.py -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright
+[2.088s] copying ament_copyright/__init__.py -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright
+[2.088s] creating /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.088s] copying ament_copyright/template/lgplv3_header.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.089s] copying ament_copyright/template/gplv3_license.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.089s] copying ament_copyright/template/apache2_contributing.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.089s] copying ament_copyright/template/bsd_3clause_contributing.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.089s] copying ament_copyright/template/mit_contributing.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.090s] copying ament_copyright/template/boost1_license.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.090s] copying ament_copyright/template/boost1_header.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.090s] copying ament_copyright/template/bsd2_license.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.090s] copying ament_copyright/template/lgplv3_contributing.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.090s] copying ament_copyright/template/lgplv3_license.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.090s] copying ament_copyright/template/boost1_contributing.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.091s] copying ament_copyright/template/gplv3_header.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.091s] copying ament_copyright/template/bsd_3clause_header.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.091s] copying ament_copyright/template/apache2_header.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.091s] copying ament_copyright/template/bsd2_header.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.091s] copying ament_copyright/template/mit_license.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.091s] copying ament_copyright/template/mit_header.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.091s] copying ament_copyright/template/apache2_license.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.092s] copying ament_copyright/template/gplv3_contributing.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.092s] copying ament_copyright/template/bsd_3clause_license.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.093s] copying ament_copyright/template/bsd2_contributing.txt -> /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template
+[2.093s] running install
+[2.094s] running install_lib
+[2.095s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright
+[2.096s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/main.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright
+[2.096s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/licenses.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright
+[2.097s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/pytest_marker.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright
+[2.097s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/crawler.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright
+[2.098s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/copyright_names.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright
+[2.098s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/parser.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright
+[2.099s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.100s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_header.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.100s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_license.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.100s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_contributing.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.100s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_contributing.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.100s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_contributing.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.101s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_license.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.101s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_header.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.101s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_license.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.101s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_contributing.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.101s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_license.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.101s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_contributing.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.101s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_header.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_header.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_header.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_license.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_license.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_contributing.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_license.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_contributing.txt -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/template
+[2.102s] copying /workspace/foxy_ws/build/ament_copyright/build/lib/ament_copyright/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright
+[2.102s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/main.py to main.cpython-310.pyc
+[2.115s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/licenses.py to licenses.cpython-310.pyc
+[2.116s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/pytest_marker.py to pytest_marker.cpython-310.pyc
+[2.116s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/crawler.py to crawler.cpython-310.pyc
+[2.116s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/copyright_names.py to copyright_names.cpython-310.pyc
+[2.116s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/parser.py to parser.cpython-310.pyc
+[2.116s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright/__init__.py to __init__.cpython-310.pyc
+[2.116s] running install_data
+[2.117s] copying package.xml -> /workspace/foxy_ws/install/share/ament_copyright
+[2.117s] copying resource/ament_copyright -> /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+[2.117s] running install_egg_info
+[2.117s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /workspace/foxy_ws/install/lib/python3.10/site-packages/ament_copyright-0.9.8-py3.10.egg-info
+[2.118s] running install_scripts
+[2.134s] Installing ament_copyright script to /workspace/foxy_ws/install/bin
+[2.134s] writing list of installed files to '/workspace/foxy_ws/build/ament_copyright/install.log'
+[2.179s] Invoked command in '/workspace/foxy_ws/src/ament_lint/ament_copyright' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/build/ament_copyright/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /workspace/foxy_ws/build/ament_copyright/build install --record /workspace/foxy_ws/build/ament_copyright/install.log --single-version-externally-managed install_data

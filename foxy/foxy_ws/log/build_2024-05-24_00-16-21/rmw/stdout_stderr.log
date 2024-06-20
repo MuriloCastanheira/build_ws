@@ -1,0 +1,203 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/workspace/foxy_ws/install/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rcutils: 1.1.5 (/workspace/foxy_ws/install/share/rcutils/cmake)
+-- Found rosidl_runtime_c: 1.3.1 (/workspace/foxy_ws/install/share/rosidl_runtime_c/cmake)
+-- Found ament_lint_auto: 0.9.8 (/workspace/foxy_ws/install/share/ament_lint_auto/cmake)
+-- Found gmock sources under '/workspace/foxy_ws/install/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/workspace/foxy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/foxy_ws/build/rmw
+Scanning dependencies of target rmw
+[  1%] Building C object CMakeFiles/rmw.dir/src/allocators.c.o
+[  3%] Building C object CMakeFiles/rmw.dir/src/security_options.c.o
+[  5%] Building C object CMakeFiles/rmw.dir/src/subscription_options.c.o
+[  6%] Building C object CMakeFiles/rmw.dir/src/topic_endpoint_info_array.c.o
+[  8%] Building C object CMakeFiles/rmw.dir/src/topic_endpoint_info.c.o
+[ 10%] Building C object CMakeFiles/rmw.dir/src/types.c.o
+[ 11%] Building C object CMakeFiles/rmw.dir/src/validate_full_topic_name.c.o
+[ 13%] Building C object CMakeFiles/rmw.dir/src/validate_namespace.c.o
+[ 15%] Building C object CMakeFiles/rmw.dir/src/validate_node_name.c.o
+[ 16%] Building C object CMakeFiles/rmw.dir/src/sanity_checks.c.o
+[ 18%] Building C object CMakeFiles/rmw.dir/src/publisher_options.c.o
+[ 20%] Building C object CMakeFiles/rmw.dir/src/names_and_types.c.o
+[ 22%] Building C object CMakeFiles/rmw.dir/src/message_sequence.c.o
+[ 23%] Building C object CMakeFiles/rmw.dir/src/init_options.c.o
+[ 25%] Building C object CMakeFiles/rmw.dir/src/init.c.o
+[ 27%] Building C object CMakeFiles/rmw.dir/src/event.c.o
+[ 28%] Building C object CMakeFiles/rmw.dir/src/convert_rcutils_ret_to_rmw_ret.c.o
+[ 30%] Linking C shared library librmw.so
+[ 30%] Built target rmw
+Scanning dependencies of target gmock_main
+[ 32%] Building CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[ 33%] Linking CXX static library libgmock_main.a
+[ 33%] Built target gmock_main
+Scanning dependencies of target gmock
+[ 35%] Building CXX object gmock/CMakeFiles/gmock.dir/workspace/foxy_ws/install/src/gtest_vendor/src/gtest-all.cc.o
+[ 37%] Building CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 38%] Linking CXX static library libgmock.a
+[ 38%] Built target gmock
+Scanning dependencies of target test_topic_endpoint_info
+[ 40%] Building CXX object test/CMakeFiles/test_topic_endpoint_info.dir/test_topic_endpoint_info.cpp.o
+[ 42%] Linking CXX executable test_topic_endpoint_info
+[ 42%] Built target test_topic_endpoint_info
+Scanning dependencies of target test_subscription_options
+[ 44%] Building CXX object test/CMakeFiles/test_subscription_options.dir/test_subscription_options.cpp.o
+[ 45%] Linking CXX executable test_subscription_options
+[ 45%] Built target test_subscription_options
+Scanning dependencies of target test_publisher_options
+[ 47%] Building CXX object test/CMakeFiles/test_publisher_options.dir/test_publisher_options.cpp.o
+[ 49%] Linking CXX executable test_publisher_options
+[ 49%] Built target test_publisher_options
+Scanning dependencies of target test_sanity_checks
+[ 50%] Building CXX object test/CMakeFiles/test_sanity_checks.dir/test_sanity_checks.cpp.o
+[ 52%] Linking CXX executable test_sanity_checks
+[ 52%] Built target test_sanity_checks
+Scanning dependencies of target test_validate_namespace
+[ 54%] Building CXX object test/CMakeFiles/test_validate_namespace.dir/test_validate_namespace.cpp.o
+[ 55%] Linking CXX executable test_validate_namespace
+[ 55%] Built target test_validate_namespace
+Scanning dependencies of target test_event
+[ 57%] Building CXX object test/CMakeFiles/test_event.dir/test_event.cpp.o
+[ 59%] Linking CXX executable test_event
+[ 59%] Built target test_event
+Scanning dependencies of target test_serialized_message
+Scanning dependencies of target test_security_options
+[ 62%] Building CXX object test/CMakeFiles/test_serialized_message.dir/test_serialized_message.cpp.o
+[ 62%] Building CXX object test/CMakeFiles/test_security_options.dir/test_security_options.cpp.o
+Scanning dependencies of target test_message_sequence
+[ 64%] Building CXX object test/CMakeFiles/test_message_sequence.dir/test_message_sequence.cpp.o
+[ 66%] Linking CXX executable test_security_options
+[ 67%] Linking CXX executable test_message_sequence
+[ 67%] Built target test_security_options
+Scanning dependencies of target test_types
+Scanning dependencies of target test_init_options
+[ 69%] Building CXX object test/CMakeFiles/test_types.dir/test_types.cpp.o
+[ 71%] Building CXX object test/CMakeFiles/test_init_options.dir/test_init_options.cpp.o
+[ 72%] Linking CXX executable test_serialized_message
+[ 72%] Built target test_message_sequence
+Scanning dependencies of target test_names_and_types
+[ 74%] Building CXX object test/CMakeFiles/test_names_and_types.dir/test_names_and_types.cpp.o
+[ 74%] Built target test_serialized_message
+Scanning dependencies of target test_convert_rcutils_ret_to_rmw_ret
+Scanning dependencies of target test_topic_endpoint_info_array
+[ 76%] Building CXX object test/CMakeFiles/test_topic_endpoint_info_array.dir/test_topic_endpoint_info_array.cpp.o
+[ 77%] Building CXX object test/CMakeFiles/test_convert_rcutils_ret_to_rmw_ret.dir/test_convert_rcutils_ret_to_rmw_ret.cpp.o
+[ 79%] Linking CXX executable test_names_and_types
+[ 81%] Linking CXX executable test_init_options
+[ 83%] Linking CXX executable test_types
+[ 84%] Linking CXX executable test_convert_rcutils_ret_to_rmw_ret
+[ 84%] Built target test_names_and_types
+Scanning dependencies of target test_init
+Scanning dependencies of target test_validate_full_topic_name
+[ 88%] Building CXX object test/CMakeFiles/test_init.dir/test_init.cpp.o
+[ 88%] Building CXX object test/CMakeFiles/test_validate_full_topic_name.dir/test_validate_full_topic_name.cpp.o
+[ 88%] Built target test_types
+Scanning dependencies of target test_allocators
+[ 88%] Built target test_convert_rcutils_ret_to_rmw_ret
+[ 89%] Building CXX object test/CMakeFiles/test_allocators.dir/test_allocators.cpp.o
+Scanning dependencies of target test_validate_node_name
+[ 91%] Building CXX object test/CMakeFiles/test_validate_node_name.dir/test_validate_node_name.cpp.o
+[ 91%] Built target test_init_options
+[ 93%] Linking CXX executable test_topic_endpoint_info_array
+[ 93%] Built target test_topic_endpoint_info_array
+[ 94%] Linking CXX executable test_init
+[ 96%] Linking CXX executable test_validate_node_name
+[ 96%] Built target test_init
+[ 98%] Linking CXX executable test_allocators
+[ 98%] Built target test_validate_node_name
+[100%] Linking CXX executable test_validate_full_topic_name
+[100%] Built target test_allocators
+[100%] Built target test_validate_full_topic_name
+-- Install configuration: ""
+-- Installing: /workspace/foxy_ws/install/share/rmw/environment/library_path.sh
+-- Installing: /workspace/foxy_ws/install/share/rmw/environment/library_path.dsv
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/rmw
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/rmw
+-- Installing: /workspace/foxy_ws/install/share/rmw/environment/ament_prefix_path.sh
+-- Installing: /workspace/foxy_ws/install/share/rmw/environment/ament_prefix_path.dsv
+-- Installing: /workspace/foxy_ws/install/share/rmw/environment/path.sh
+-- Installing: /workspace/foxy_ws/install/share/rmw/environment/path.dsv
+-- Installing: /workspace/foxy_ws/install/share/rmw/local_setup.bash
+-- Installing: /workspace/foxy_ws/install/share/rmw/local_setup.sh
+-- Installing: /workspace/foxy_ws/install/share/rmw/local_setup.zsh
+-- Installing: /workspace/foxy_ws/install/share/rmw/local_setup.dsv
+-- Installing: /workspace/foxy_ws/install/share/rmw/package.dsv
+-- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/rmw
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/rmwExport.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/rmwExport-noconfig.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/rmw-extras.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/rmwConfig.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/rmwConfig-version.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/package.xml
+-- Up-to-date: /workspace/foxy_ws/install/share/rmw/cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/configure_rmw_library.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/get_rmw_typesupport.cmake
+-- Installing: /workspace/foxy_ws/install/share/rmw/cmake/register_rmw_implementation.cmake
+-- Up-to-date: /workspace/foxy_ws/install/include
+-- Installing: /workspace/foxy_ws/install/include/rmw
+-- Installing: /workspace/foxy_ws/install/include/rmw/serialized_message.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/sanity_checks.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/get_service_names_and_types.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/init.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/event.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/rmw.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/error_handling.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/validate_node_name.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/qos_profiles.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/validate_full_topic_name.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/allocators.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/localhost.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/domain_id.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/publisher_options.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/topic_endpoint_info.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/get_topic_endpoint_info.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/names_and_types.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/init_options.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/visibility_control.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/topic_endpoint_info_array.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/validate_namespace.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/message_sequence.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/impl
+-- Installing: /workspace/foxy_ws/install/include/rmw/impl/cpp
+-- Installing: /workspace/foxy_ws/install/include/rmw/impl/cpp/demangle.hpp
+-- Installing: /workspace/foxy_ws/install/include/rmw/impl/cpp/key_value.hpp
+-- Installing: /workspace/foxy_ws/install/include/rmw/impl/cpp/macros.hpp
+-- Installing: /workspace/foxy_ws/install/include/rmw/impl/config.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/get_topic_names_and_types.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/types.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/subscription_options.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/get_node_info_and_types.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/ret_types.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/macros.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/security_options.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/convert_rcutils_ret_to_rmw_ret.h
+-- Installing: /workspace/foxy_ws/install/include/rmw/incompatible_qos_events_statuses.h
+-- Installing: /workspace/foxy_ws/install/lib/librmw.so
+-- Set runtime path of "/workspace/foxy_ws/install/lib/librmw.so" to ""

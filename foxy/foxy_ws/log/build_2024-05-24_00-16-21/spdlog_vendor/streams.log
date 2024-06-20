@@ -1,0 +1,294 @@
+[0.098s] Invoking command in '/workspace/foxy_ws/build/spdlog_vendor': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/spdlog_vendor -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[0.188s] -- The C compiler identification is GNU 9.4.0
+[0.287s] -- The CXX compiler identification is GNU 9.4.0
+[0.287s] -- Check for working C compiler: /usr/bin/cc
+[0.543s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.544s] -- Detecting C compiler ABI info
+[0.879s] -- Detecting C compiler ABI info - done
+[0.906s] -- Detecting C compile features
+[0.906s] -- Detecting C compile features - done
+[0.906s] -- Check for working CXX compiler: /usr/bin/c++
+[1.147s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.167s] -- Detecting CXX compiler ABI info
+[1.287s] -- Detecting CXX compiler ABI info - done
+[1.301s] -- Detecting CXX compile features
+[1.302s] -- Detecting CXX compile features - done
+[1.304s] -- Found ament_cmake: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake/cmake)
+[1.323s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+[1.323s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.532s] -- Found Patch: /usr/bin/patch  
+[1.549s] -- Found ament_lint_auto: 0.9.8 (/workspace/foxy_ws/install/share/ament_lint_auto/cmake)
+[1.641s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.649s] -- Added test 'lint_cmake' to check CMake code style
+[1.654s] -- Added test 'xmllint' to check XML markup files
+[1.659s] -- Configuring done
+[1.664s] -- Generating done
+[1.665s] -- Build files have been written to: /workspace/foxy_ws/build/spdlog_vendor
+[1.675s] Invoked command in '/workspace/foxy_ws/build/spdlog_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/spdlog_vendor -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[1.675s] Invoking command in '/workspace/foxy_ws/build/spdlog_vendor': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/spdlog_vendor -- -j12 -l12
+[1.738s] Scanning dependencies of target spdlog-1.5.0
+[1.738s] [ 12%] Creating directories for 'spdlog-1.5.0'
+[1.816s] [ 25%] Performing download step (download, verify and extract) for 'spdlog-1.5.0'
+[1.816s] -- Downloading...
+[1.817s]    dst='/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/v1.5.0.tar.gz'
+[1.817s]    timeout='600 seconds'
+[1.817s] -- Using src='https://github.com/gabime/spdlog/archive/v1.5.0.tar.gz'
+[3.149s] -- verifying file...
+[3.149s]        file='/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/v1.5.0.tar.gz'
+[3.149s] -- Downloading... done
+[3.173s] -- extracting...
+[3.173s]      src='/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/v1.5.0.tar.gz'
+[3.173s]      dst='/workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/spdlog-1.5.0'
+[3.173s] -- extracting... [tar xfz]
+[3.195s] -- extracting... [analysis]
+[3.195s] -- extracting... [rename]
+[3.195s] -- extracting... [clean up]
+[3.195s] -- extracting... done
+[3.214s] [ 37%] No update step for 'spdlog-1.5.0'
+[3.214s] [ 50%] Performing patch step for 'spdlog-1.5.0'
+[3.219s] patching file CMakeLists.txt
+[3.239s] [ 62%] Performing configure step for 'spdlog-1.5.0'
+[3.313s] -- The CXX compiler identification is GNU 9.4.0
+[3.318s] -- Check for working CXX compiler: /usr/bin/c++
+[3.415s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.416s] -- Detecting CXX compiler ABI info
+[3.496s] -- Detecting CXX compiler ABI info - done
+[3.496s] -- Detecting CXX compile features
+[3.496s] -- Detecting CXX compile features - done
+[3.497s] -- Build spdlog: 1.5.0
+[3.497s] -- Looking for C++ include pthread.h
+[3.571s] -- Looking for C++ include pthread.h - found
+[3.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.655s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.655s] -- Looking for pthread_create in pthreads
+[3.712s] -- Looking for pthread_create in pthreads - not found
+[3.712s] -- Looking for pthread_create in pthread
+[3.786s] -- Looking for pthread_create in pthread - found
+[3.787s] -- Found Threads: TRUE  
+[3.787s] -- Build type: Release
+[3.788s] -- Generating install
+[3.799s] -- Configuring done
+[3.804s] -- Generating done
+[3.805s] -- Build files have been written to: /workspace/foxy_ws/build/spdlog_vendor/spdlog-1.5.0-prefix/src/spdlog-1.5.0-build
+[3.822s] [ 75%] Performing build step for 'spdlog-1.5.0'
+[3.851s] Scanning dependencies of target spdlog
+[3.862s] [ 28%] Building CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[3.862s] [ 28%] Building CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[3.863s] [ 42%] Building CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o
+[3.863s] [ 57%] Building CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[3.863s] [ 71%] Building CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[3.872s] [ 85%] Building CXX object CMakeFiles/spdlog.dir/src/async.cpp.o
+[24.693s] [100%] Linking CXX shared library libspdlog.so
+[25.259s] [100%] Built target spdlog
+[25.423s] [ 87%] Performing install step for 'spdlog-1.5.0'
+[25.678s] [100%] Built target spdlog
+[25.831s] Install the project...
+[25.849s] -- Install configuration: "Release"
+[25.868s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include
+[25.868s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog
+[25.869s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/async_logger.h
+[25.869s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details
+[25.869s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/pattern_formatter-inl.h
+[25.870s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/thread_pool.h
+[25.870s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/os-inl.h
+[25.875s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/pattern_formatter.h
+[25.875s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/synchronous_factory.h
+[25.876s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/console_globals.h
+[25.876s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/periodic_worker-inl.h
+[25.876s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/file_helper-inl.h
+[25.877s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/backtracer.h
+[25.877s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/mpmc_blocking_q.h
+[25.877s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/file_helper.h
+[25.878s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/thread_pool-inl.h
+[25.878s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/backtracer-inl.h
+[25.879s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/fmt_helper.h
+[25.879s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/circular_q.h
+[25.879s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/log_msg_buffer.h
+[25.880s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/os.h
+[25.880s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/null_mutex.h
+[25.881s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/periodic_worker.h
+[25.881s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/registry.h
+[25.881s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/registry-inl.h
+[25.882s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/log_msg.h
+[25.887s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/log_msg_buffer-inl.h
+[25.891s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/details/log_msg-inl.h
+[25.891s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/formatter.h
+[25.892s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks
+[25.892s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/ostream_sink.h
+[25.893s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/wincolor_sink-inl.h
+[25.893s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/systemd_sink.h
+[25.893s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/basic_file_sink-inl.h
+[25.894s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/syslog_sink.h
+[25.894s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/ringbuffer_sink.h
+[25.895s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/ansicolor_sink.h
+[25.895s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/stdout_sinks-inl.h
+[25.895s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/ansicolor_sink-inl.h
+[25.896s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/sink-inl.h
+[25.896s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/base_sink-inl.h
+[25.896s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/sink.h
+[25.897s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/rotating_file_sink-inl.h
+[25.897s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/null_sink.h
+[25.902s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/base_sink.h
+[25.903s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/android_sink.h
+[25.903s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/basic_file_sink.h
+[25.903s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/dist_sink.h
+[25.904s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/dup_filter_sink.h
+[25.904s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/rotating_file_sink.h
+[25.918s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/stdout_color_sinks-inl.h
+[25.918s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/stdout_color_sinks.h
+[25.919s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/daily_file_sink.h
+[25.919s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/wincolor_sink.h
+[25.919s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/msvc_sink.h
+[25.920s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/sinks/stdout_sinks.h
+[25.920s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/common.h
+[25.920s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/logger-inl.h
+[25.920s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/spdlog-inl.h
+[25.921s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt
+[25.921s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/ostr.h
+[25.921s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bin_to_hex.h
+[25.921s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/fmt.h
+[25.922s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/version.h
+[25.922s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/logger.h
+[25.922s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/tweakme.h
+[25.923s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/spdlog.h
+[25.927s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/common-inl.h
+[25.927s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/async.h
+[25.927s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/async_logger-inl.h
+[25.928s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/lib/libspdlog.so.1.5.0
+[25.930s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/lib/libspdlog.so.1
+[25.930s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/lib/libspdlog.so
+[25.930s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled/
+[25.930s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//chrono.h
+[25.931s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//color.h
+[25.931s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//LICENSE.rst
+[25.931s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//ranges.h
+[25.932s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//format-inl.h
+[25.935s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//locale.h
+[25.935s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//posix.h
+[25.936s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//printf.h
+[25.936s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//core.h
+[25.936s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//format.h
+[25.937s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//compile.h
+[25.937s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/include/spdlog/fmt/bundled//ostream.h
+[25.938s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/lib/pkgconfig/spdlog.pc
+[25.938s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[25.938s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[25.939s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/lib/cmake/spdlog/spdlogConfig.cmake
+[25.946s] -- Installing: /workspace/foxy_ws/build/spdlog_vendor/spdlog_vendor_install/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[26.040s] [100%] Completed 'spdlog-1.5.0'
+[26.259s] [100%] Built target spdlog-1.5.0
+[26.323s] Invoked command in '/workspace/foxy_ws/build/spdlog_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/spdlog_vendor -- -j12 -l12
+[26.491s] Invoking command in '/workspace/foxy_ws/build/spdlog_vendor': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/spdlog_vendor
+[26.528s] -- Install configuration: ""
+[26.528s] -- Up-to-date: /workspace/foxy_ws/install
+[26.528s] -- Up-to-date: /workspace/foxy_ws/install/include
+[26.528s] -- Installing: /workspace/foxy_ws/install/include/spdlog
+[26.528s] -- Installing: /workspace/foxy_ws/install/include/spdlog/async_logger.h
+[26.528s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details
+[26.529s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/pattern_formatter-inl.h
+[26.529s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/thread_pool.h
+[26.529s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/os-inl.h
+[26.529s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/pattern_formatter.h
+[26.529s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/synchronous_factory.h
+[26.529s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/console_globals.h
+[26.529s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/periodic_worker-inl.h
+[26.529s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/file_helper-inl.h
+[26.529s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/backtracer.h
+[26.530s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/mpmc_blocking_q.h
+[26.530s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/file_helper.h
+[26.530s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/thread_pool-inl.h
+[26.530s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/backtracer-inl.h
+[26.530s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/fmt_helper.h
+[26.531s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/circular_q.h
+[26.531s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/log_msg_buffer.h
+[26.531s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/os.h
+[26.531s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/null_mutex.h
+[26.531s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/periodic_worker.h
+[26.531s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/registry.h
+[26.531s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/registry-inl.h
+[26.532s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/log_msg.h
+[26.532s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/log_msg_buffer-inl.h
+[26.532s] -- Installing: /workspace/foxy_ws/install/include/spdlog/details/log_msg-inl.h
+[26.532s] -- Installing: /workspace/foxy_ws/install/include/spdlog/formatter.h
+[26.532s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks
+[26.532s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/ostream_sink.h
+[26.533s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/wincolor_sink-inl.h
+[26.533s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/systemd_sink.h
+[26.533s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/basic_file_sink-inl.h
+[26.533s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/syslog_sink.h
+[26.533s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/ringbuffer_sink.h
+[26.533s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/ansicolor_sink.h
+[26.534s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/stdout_sinks-inl.h
+[26.534s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/ansicolor_sink-inl.h
+[26.559s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/sink-inl.h
+[26.559s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/base_sink-inl.h
+[26.560s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/sink.h
+[26.560s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/rotating_file_sink-inl.h
+[26.560s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/null_sink.h
+[26.560s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/base_sink.h
+[26.560s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/android_sink.h
+[26.560s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/basic_file_sink.h
+[26.560s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/dist_sink.h
+[26.561s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/dup_filter_sink.h
+[26.561s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/rotating_file_sink.h
+[26.561s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/stdout_color_sinks-inl.h
+[26.561s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/stdout_color_sinks.h
+[26.561s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/daily_file_sink.h
+[26.561s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/wincolor_sink.h
+[26.561s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/msvc_sink.h
+[26.562s] -- Installing: /workspace/foxy_ws/install/include/spdlog/sinks/stdout_sinks.h
+[26.562s] -- Installing: /workspace/foxy_ws/install/include/spdlog/common.h
+[26.562s] -- Installing: /workspace/foxy_ws/install/include/spdlog/logger-inl.h
+[26.562s] -- Installing: /workspace/foxy_ws/install/include/spdlog/spdlog-inl.h
+[26.562s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt
+[26.562s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/ostr.h
+[26.563s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled
+[26.583s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/chrono.h
+[26.584s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/color.h
+[26.585s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/LICENSE.rst
+[26.585s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/ranges.h
+[26.586s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/format-inl.h
+[26.586s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/locale.h
+[26.586s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/posix.h
+[26.587s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/printf.h
+[26.587s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/core.h
+[26.588s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/format.h
+[26.588s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/compile.h
+[26.595s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bundled/ostream.h
+[26.596s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/bin_to_hex.h
+[26.596s] -- Installing: /workspace/foxy_ws/install/include/spdlog/fmt/fmt.h
+[26.597s] -- Installing: /workspace/foxy_ws/install/include/spdlog/version.h
+[26.597s] -- Installing: /workspace/foxy_ws/install/include/spdlog/logger.h
+[26.598s] -- Installing: /workspace/foxy_ws/install/include/spdlog/tweakme.h
+[26.603s] -- Installing: /workspace/foxy_ws/install/include/spdlog/spdlog.h
+[26.603s] -- Installing: /workspace/foxy_ws/install/include/spdlog/common-inl.h
+[26.604s] -- Installing: /workspace/foxy_ws/install/include/spdlog/async.h
+[26.604s] -- Installing: /workspace/foxy_ws/install/include/spdlog/async_logger-inl.h
+[26.605s] -- Up-to-date: /workspace/foxy_ws/install/lib
+[26.605s] -- Installing: /workspace/foxy_ws/install/lib/libspdlog.so.1
+[26.605s] -- Up-to-date: /workspace/foxy_ws/install/lib/pkgconfig
+[26.605s] -- Installing: /workspace/foxy_ws/install/lib/pkgconfig/spdlog.pc
+[26.606s] -- Installing: /workspace/foxy_ws/install/lib/libspdlog.so
+[26.606s] -- Installing: /workspace/foxy_ws/install/lib/libspdlog.so.1.5.0
+[26.608s] -- Up-to-date: /workspace/foxy_ws/install/lib/cmake
+[26.615s] -- Installing: /workspace/foxy_ws/install/lib/cmake/spdlog
+[26.616s] -- Installing: /workspace/foxy_ws/install/lib/cmake/spdlog/spdlogConfig.cmake
+[26.616s] -- Installing: /workspace/foxy_ws/install/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[26.617s] -- Installing: /workspace/foxy_ws/install/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[26.617s] -- Installing: /workspace/foxy_ws/install/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[26.617s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/spdlog_vendor
+[26.623s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/spdlog_vendor
+[26.624s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/environment/ament_prefix_path.sh
+[26.631s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/environment/ament_prefix_path.dsv
+[26.635s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/environment/path.sh
+[26.636s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/environment/path.dsv
+[26.636s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/local_setup.bash
+[26.636s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/local_setup.sh
+[26.637s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/local_setup.zsh
+[26.637s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/local_setup.dsv
+[26.638s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/package.dsv
+[26.638s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/spdlog_vendor
+[26.638s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/cmake/spdlog_vendorConfig.cmake
+[26.639s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/cmake/spdlog_vendorConfig-version.cmake
+[26.639s] -- Installing: /workspace/foxy_ws/install/share/spdlog_vendor/package.xml
+[26.655s] Invoked command in '/workspace/foxy_ws/build/spdlog_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/spdlog_vendor

@@ -1,0 +1,332 @@
+[
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_add.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_add.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_add.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_assign.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_assign.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_assign.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_asm_colon.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_asm_colon.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_asm_colon.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_func_params.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_func_params.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_func_params.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_func_proto.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_func_proto.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_func_proto.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_init_brace.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_init_brace.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_init_brace.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_left_shift.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_left_shift.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_left_shift.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_log_al.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_log_al.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_log_al.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_nl_cont.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_nl_cont.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_nl_cont.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_oc_decl_colon.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_oc_decl_colon.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_oc_decl_colon.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_oc_msg_spec.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_oc_msg_spec.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_oc_msg_spec.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_oc_msg_colons.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_oc_msg_colons.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_oc_msg_colons.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_preprocessor.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_preprocessor.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_preprocessor.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_same_func_call_params.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_same_func_call_params.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_same_func_call_params.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_stack.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_stack.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_stack.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_struct_initializers.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_struct_initializers.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_struct_initializers.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_tab_column.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_tab_column.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_tab_column.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_tools.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_tools.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_tools.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_trailing_comments.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_trailing_comments.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_trailing_comments.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_typedefs.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_typedefs.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_typedefs.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/align_var_def_brace.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_var_def_brace.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/align_var_def_brace.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/args.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/args.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/args.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/backup.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/backup.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/backup.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/braces.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/braces.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/braces.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/brace_cleanup.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/brace_cleanup.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/brace_cleanup.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/ChunkStack.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/ChunkStack.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/ChunkStack.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/chunk_list.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/chunk_list.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/chunk_list.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/combine.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/combine.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/combine.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/combine_labels.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/combine_labels.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/combine_labels.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/compat_posix.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/compat_posix.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/compat_posix.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/compat_win32.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/compat_win32.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/compat_win32.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/cs_top_is_question.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/cs_top_is_question.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/cs_top_is_question.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/detect.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/detect.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/detect.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/enum_cleanup.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/enum_cleanup.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/enum_cleanup.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/flag_parens.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/flag_parens.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/flag_parens.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/indent.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/indent.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/indent.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/keywords.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/keywords.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/keywords.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/lang_pawn.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/lang_pawn.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/lang_pawn.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/language_tools.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/language_tools.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/language_tools.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/logger.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/logger.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/logger.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/logmask.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/logmask.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/logmask.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/md5.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/md5.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/md5.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/newlines.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/newlines.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/newlines.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/option.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/option.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/option.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/options_for_QT.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/options_for_QT.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/options_for_QT.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/output.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/output.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/output.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/parens.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/parens.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/parens.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/quick_align_again.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/quick_align_again.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/quick_align_again.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/frame_list.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/frame_list.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/frame_list.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/ParseFrame.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/ParseFrame.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/ParseFrame.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/punctuators.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/punctuators.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/punctuators.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/semicolons.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/semicolons.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/semicolons.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/sorting.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/sorting.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/sorting.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/space.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/space.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/space.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/tokenize.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/tokenize.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/tokenize.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/tokenize_cleanup.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/tokenize_cleanup.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/tokenize_cleanup.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/uncrustify.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/uncrustify.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/uncrustify.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/uncrustify_types.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/uncrustify_types.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/uncrustify_types.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/unc_text.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unc_text.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unc_text.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/unc_tools.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unc_tools.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unc_tools.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/unicode.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unicode.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/unicode.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/universalindentgui.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/universalindentgui.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/universalindentgui.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/width.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/width.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src/width.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/options.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src/options.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src/options.cpp"
+},
+{
+  "directory": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build",
+  "command": "/usr/bin/c++  -DDEBUG -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1/src -I/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align   -std=gnu++0x -o CMakeFiles/uncrustify.dir/src/option_enum.cpp.o -c /workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src/option_enum.cpp",
+  "file": "/workspace/foxy_ws/build/uncrustify_vendor/uncrustify-0.68.1-prefix/src/uncrustify-0.68.1-build/src/option_enum.cpp"
+}
+]

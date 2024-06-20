@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from icrane_msgs/msg/DetectionSeg2D.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module icrane_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " PolygonSegmentation.msg")
+    struct DetectionSeg2D {
+      @verbatim (language="comment", text=
+        " yolov8 detection" "\n"
+        " class probability")
+      int32 class_id;
+
+      string label;
+
+      double score;
+
+      @verbatim (language="comment", text=
+        " ID for tracking")
+      string id;
+
+      @verbatim (language="comment", text=
+        " Polygon for segmentation")
+      sensor_msgs::msg::Image mask;
+    };
+  };
+};

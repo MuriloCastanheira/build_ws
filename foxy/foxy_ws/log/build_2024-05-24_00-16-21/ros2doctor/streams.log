@@ -1,0 +1,69 @@
+[1.098s] Invoking command in '/workspace/foxy_ws/src/ros2cli/ros2doctor': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/ros2doctor/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2doctor build --build-base /workspace/foxy_ws/build/ros2doctor/build install --record /workspace/foxy_ws/build/ros2doctor/install.log --single-version-externally-managed install_data
+[1.255s] running egg_info
+[1.256s] creating ../../../build/ros2doctor/ros2doctor.egg-info
+[1.256s] writing ../../../build/ros2doctor/ros2doctor.egg-info/PKG-INFO
+[1.256s] writing dependency_links to ../../../build/ros2doctor/ros2doctor.egg-info/dependency_links.txt
+[1.256s] writing entry points to ../../../build/ros2doctor/ros2doctor.egg-info/entry_points.txt
+[1.256s] writing requirements to ../../../build/ros2doctor/ros2doctor.egg-info/requires.txt
+[1.256s] writing top-level names to ../../../build/ros2doctor/ros2doctor.egg-info/top_level.txt
+[1.256s] writing manifest file '../../../build/ros2doctor/ros2doctor.egg-info/SOURCES.txt'
+[1.257s] reading manifest file '../../../build/ros2doctor/ros2doctor.egg-info/SOURCES.txt'
+[1.258s] writing manifest file '../../../build/ros2doctor/ros2doctor.egg-info/SOURCES.txt'
+[1.259s] running build
+[1.259s] running build_py
+[1.259s] creating /workspace/foxy_ws/build/ros2doctor/build
+[1.259s] creating /workspace/foxy_ws/build/ros2doctor/build/lib
+[1.259s] creating /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor
+[1.259s] copying ros2doctor/__init__.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor
+[1.259s] creating /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api
+[1.259s] copying ros2doctor/api/topic.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api
+[1.259s] copying ros2doctor/api/rmw.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api
+[1.259s] copying ros2doctor/api/package.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api
+[1.260s] copying ros2doctor/api/format.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api
+[1.260s] copying ros2doctor/api/platform.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api
+[1.260s] copying ros2doctor/api/__init__.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api
+[1.260s] copying ros2doctor/api/network.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api
+[1.260s] creating /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/verb
+[1.260s] copying ros2doctor/verb/__init__.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/verb
+[1.260s] copying ros2doctor/verb/hello.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/verb
+[1.261s] creating /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/command
+[1.261s] copying ros2doctor/command/doctor.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/command
+[1.261s] copying ros2doctor/command/__init__.py -> /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/command
+[1.262s] running install
+[1.262s] running install_lib
+[1.262s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor
+[1.262s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api
+[1.263s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api/topic.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api
+[1.263s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api/rmw.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api
+[1.263s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api/package.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api
+[1.263s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api/format.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api
+[1.264s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api/platform.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api
+[1.264s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api
+[1.264s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/api/network.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api
+[1.264s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/verb
+[1.264s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/verb/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/verb
+[1.264s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/verb/hello.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/verb
+[1.264s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/command
+[1.265s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/command/doctor.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/command
+[1.265s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/command/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/command
+[1.265s] copying /workspace/foxy_ws/build/ros2doctor/build/lib/ros2doctor/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor
+[1.265s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api/topic.py to topic.cpython-310.pyc
+[1.266s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api/rmw.py to rmw.cpython-310.pyc
+[1.266s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api/package.py to package.cpython-310.pyc
+[1.267s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api/format.py to format.cpython-310.pyc
+[1.268s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api/platform.py to platform.cpython-310.pyc
+[1.270s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api/__init__.py to __init__.cpython-310.pyc
+[1.271s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/api/network.py to network.cpython-310.pyc
+[1.271s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/verb/__init__.py to __init__.cpython-310.pyc
+[1.272s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/verb/hello.py to hello.cpython-310.pyc
+[1.273s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/command/doctor.py to doctor.cpython-310.pyc
+[1.274s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/command/__init__.py to __init__.cpython-310.pyc
+[1.274s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor/__init__.py to __init__.cpython-310.pyc
+[1.274s] running install_data
+[1.274s] copying package.xml -> /workspace/foxy_ws/install/share/ros2doctor
+[1.274s] copying resource/ros2doctor -> /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+[1.274s] running install_egg_info
+[1.275s] Copying ../../../build/ros2doctor/ros2doctor.egg-info to /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2doctor-0.9.13-py3.10.egg-info
+[1.276s] running install_scripts
+[1.296s] writing list of installed files to '/workspace/foxy_ws/build/ros2doctor/install.log'
+[1.323s] Invoked command in '/workspace/foxy_ws/src/ros2cli/ros2doctor' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/ros2doctor/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2doctor build --build-base /workspace/foxy_ws/build/ros2doctor/build install --record /workspace/foxy_ws/build/ros2doctor/install.log --single-version-externally-managed install_data

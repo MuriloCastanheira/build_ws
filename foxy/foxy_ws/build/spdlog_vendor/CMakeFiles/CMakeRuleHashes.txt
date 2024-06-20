@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+ff492c300c867309443983c2fe423ea5 CMakeFiles/spdlog-1.5.0
+455b23cb3e3241502a662a639590ab81 CMakeFiles/spdlog-1.5.0-complete
+0147667a79494341e47a2d98d832b521 CMakeFiles/spdlog_vendor_uninstall
+1bb7008abbfc296e55cb854a6b015168 spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-build
+74d7d3697f697036dc93d40b021daddf spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-configure
+e713ce29185d4ee36123dba0985c4709 spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-download
+6e9c14dc6ca05de582e2794ea0952c07 spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-install
+2fc9a62599298501d3e217ef28d69e53 spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-mkdir
+25367200e3f101fd64531a7e856c43ad spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-patch
+0eec2db80ea6fcb340e1e8123ea59c72 spdlog-1.5.0-prefix/src/spdlog-1.5.0-stamp/spdlog-1.5.0-update

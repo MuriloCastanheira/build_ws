@@ -1,0 +1,28 @@
+{
+  "package_name": "std_srvs",
+  "output_dir": "/workspace/foxy_ws/build/std_srvs/rosidl_generator_c/std_srvs",
+  "template_dir": "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Empty.idl",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/SetBool.idl",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Trigger.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/workspace/foxy_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/Empty.idl",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/SetBool.idl",
+    "/workspace/foxy_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/Trigger.idl"
+  ]
+}

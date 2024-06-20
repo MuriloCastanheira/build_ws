@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/gabime/spdlog/archive/v1.5.0.tar.gz'
+tag='MD5=a966eea01f81551527853d282896cb4d'

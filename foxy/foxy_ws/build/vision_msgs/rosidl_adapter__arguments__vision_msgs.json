@@ -1,0 +1,16 @@
+{
+  "package_name": "vision_msgs",
+  "non_idl_tuples": [
+    "/workspace/foxy_ws/src/vision_msgs:msg/BoundingBox2D.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/BoundingBox3D.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/Classification2D.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/Classification3D.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/Detection2DArray.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/Detection2D.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/Detection3DArray.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/Detection3D.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/ObjectHypothesis.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/ObjectHypothesisWithPose.msg",
+    "/workspace/foxy_ws/src/vision_msgs:msg/VisionInfo.msg"
+  ]
+}

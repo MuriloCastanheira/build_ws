@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspace/foxy_ws/build/google_benchmark_vendor/benchmark-1.5.1-prefix/src/benchmark-1.5.1/include/benchmark/benchmark.h
+stdint.h
+-
+algorithm
+-
+cassert
+-
+cstddef
+-
+iosfwd
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+initializer_list
+-
+type_traits
+-
+utility
+-
+intrin.h
+-
+
+/workspace/foxy_ws/build/google_benchmark_vendor/benchmark-1.5.1-prefix/src/benchmark-1.5.1/src/benchmark_main.cc
+benchmark/benchmark.h
+/workspace/foxy_ws/build/google_benchmark_vendor/benchmark-1.5.1-prefix/src/benchmark-1.5.1/src/benchmark/benchmark.h
+

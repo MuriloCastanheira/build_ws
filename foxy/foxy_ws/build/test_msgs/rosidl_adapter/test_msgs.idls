@@ -1,0 +1,17 @@
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Arrays.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/BasicTypes.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/BoundedSequences.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Constants.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Defaults.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Empty.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/MultiNested.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Nested.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Strings.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/UnboundedSequences.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/WStrings.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:srv/Arrays.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:srv/BasicTypes.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:srv/Empty.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:action/Fibonacci.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:msg/Builtins.idl
+/workspace/foxy_ws/build/test_msgs/rosidl_adapter/test_msgs:action/NestedMessage.idl

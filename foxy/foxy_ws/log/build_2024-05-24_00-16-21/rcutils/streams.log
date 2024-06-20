@@ -1,0 +1,339 @@
+[2.293s] Invoking command in '/workspace/foxy_ws/build/rcutils': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/rcutils -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[2.607s] -- The C compiler identification is GNU 9.4.0
+[2.813s] -- The CXX compiler identification is GNU 9.4.0
+[2.818s] -- Check for working C compiler: /usr/bin/cc
+[3.201s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.208s] -- Detecting C compiler ABI info
+[3.527s] -- Detecting C compiler ABI info - done
+[3.547s] -- Detecting C compile features
+[3.548s] -- Detecting C compile features - done
+[3.551s] -- Check for working CXX compiler: /usr/bin/c++
+[3.893s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.893s] -- Detecting CXX compiler ABI info
+[4.261s] -- Detecting CXX compiler ABI info - done
+[4.276s] -- Detecting CXX compile features
+[4.276s] -- Detecting CXX compile features - done
+[4.278s] -- Found ament_cmake_python: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake_python/cmake)
+[4.279s] -- Found ament_cmake_ros: 0.9.2 (/workspace/foxy_ws/install/share/ament_cmake_ros/cmake)
+[4.363s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+[4.363s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.835s] <string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[4.841s] <string>:1: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+[4.858s] -- Performing Test USES_GLIBC
+[5.199s] -- Performing Test USES_GLIBC - Success
+[5.201s] -- Found ament_lint_auto: 0.9.8 (/workspace/foxy_ws/install/share/ament_lint_auto/cmake)
+[5.361s] -- Found python_cmake_module: 0.8.1 (/workspace/foxy_ws/install/share/python_cmake_module/cmake)
+[5.384s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3.5") 
+[5.387s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.14", minimum required is "3.5") 
+[5.387s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.387s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.387s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.411s] -- Found PythonExtra: .so  
+[5.415s] -- Looking for __atomic_load_8 in atomic
+[5.563s] -- Looking for __atomic_load_8 in atomic - found
+[5.563s] -- Found gtest sources under '/workspace/foxy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.566s] -- Looking for pthread.h
+[5.931s] -- Looking for pthread.h - found
+[5.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.196s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.205s] -- Check if compiler accepts -pthread
+[6.571s] -- Check if compiler accepts -pthread - yes
+[6.571s] -- Found Threads: TRUE  
+[6.575s] -- Found gmock sources under '/workspace/foxy_ws/install/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[6.775s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.789s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.791s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/foxy_ws/src/rcutils/include>;/workspace/foxy_ws/src/rcutils/include
+[6.791s] -- Configured cppcheck exclude dirs and/or files: 
+[6.802s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.802s] -- Configured cpplint exclude dirs and/or files: 
+[6.804s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.807s] -- Added test 'lint_cmake' to check CMake code style
+[6.809s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.838s] -- Added test 'uncrustify' to check C / C++ code style
+[6.839s] -- Configured uncrustify additional arguments: 
+[6.847s] -- Added test 'xmllint' to check XML markup files
+[6.873s] -- Configuring done
+[6.993s] -- Generating done
+[7.000s] -- Build files have been written to: /workspace/foxy_ws/build/rcutils
+[7.027s] Invoked command in '/workspace/foxy_ws/build/rcutils' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/rcutils -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[7.027s] Invoking command in '/workspace/foxy_ws/build/rcutils': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/rcutils -- -j12 -l12
+[7.261s] [  1%] Expanding logging_macros.h.em
+[7.261s] Scanning dependencies of target gtest
+[7.291s] Scanning dependencies of target gtest_main
+[7.307s] Scanning dependencies of target dummy_shared_library
+[7.318s] [  2%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[7.332s] Scanning dependencies of target gmock
+[7.334s] [  3%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[7.347s] Scanning dependencies of target gmock_main
+[7.394s] [  4%] Building CXX object gmock/CMakeFiles/gmock.dir/workspace/foxy_ws/install/src/gtest_vendor/src/gtest-all.cc.o
+[7.405s] [  5%] Building CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[7.409s] [  5%] Building C object CMakeFiles/dummy_shared_library.dir/test/dummy_shared_library/dummy_shared_library.c.o
+[7.412s] [  6%] Building CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[7.639s] [  7%] Linking C shared library libdummy_shared_library.so
+[7.740s] Scanning dependencies of target rcutils
+[7.806s] [  8%] Building C object CMakeFiles/rcutils.dir/src/allocator.c.o
+[7.846s] [  9%] Building C object CMakeFiles/rcutils.dir/src/cmdline_parser.c.o
+[7.851s] [ 10%] Building C object CMakeFiles/rcutils.dir/src/char_array.c.o
+[7.856s] [ 11%] Building C object CMakeFiles/rcutils.dir/src/array_list.c.o
+[7.870s] [ 11%] Built target dummy_shared_library
+[7.925s] [ 12%] Building C object CMakeFiles/rcutils.dir/src/env.c.o
+[7.941s] [ 12%] Building C object CMakeFiles/rcutils.dir/src/error_handling.c.o
+[7.954s] [ 13%] Building C object CMakeFiles/rcutils.dir/src/find.c.o
+[7.957s] [ 14%] Building C object CMakeFiles/rcutils.dir/src/filesystem.c.o
+[8.061s] [ 15%] Building C object CMakeFiles/rcutils.dir/src/format_string.c.o
+[8.098s] [ 16%] Building C object CMakeFiles/rcutils.dir/src/get_env.c.o
+[8.111s] [ 18%] Building C object CMakeFiles/rcutils.dir/src/logging.c.o
+[8.111s] [ 18%] Building C object CMakeFiles/rcutils.dir/src/hash_map.c.o
+[8.204s] [ 19%] Building C object CMakeFiles/rcutils.dir/src/qsort.c.o
+[8.204s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/process.c.o
+[8.240s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/repl_str.c.o
+[8.286s] [ 21%] Building C object CMakeFiles/rcutils.dir/src/shared_library.c.o
+[8.294s] [ 22%] Building C object CMakeFiles/rcutils.dir/src/snprintf.c.o
+[8.391s] [ 23%] Building C object CMakeFiles/rcutils.dir/src/split.c.o
+[8.397s] [ 24%] Building C object CMakeFiles/rcutils.dir/src/strdup.c.o
+[8.413s] [ 25%] Building C object CMakeFiles/rcutils.dir/src/strerror.c.o
+[8.421s] [ 26%] Building C object CMakeFiles/rcutils.dir/src/string_array.c.o
+[8.542s] [ 27%] Building C object CMakeFiles/rcutils.dir/src/string_map.c.o
+[8.557s] [ 27%] Building C object CMakeFiles/rcutils.dir/src/testing/fault_injection.c.o
+[8.581s] [ 28%] Building C object CMakeFiles/rcutils.dir/src/time.c.o
+[8.606s] [ 29%] Building C object CMakeFiles/rcutils.dir/src/time_unix.c.o
+[8.656s] [ 30%] Building C object CMakeFiles/rcutils.dir/src/uint8_array.c.o
+[8.871s] [ 31%] Linking C shared library librcutils.so
+[9.060s] [ 31%] Built target rcutils
+[9.080s] Scanning dependencies of target test_logging_macros_c
+[9.096s] [ 32%] Building C object CMakeFiles/test_logging_macros_c.dir/test/test_logging_macros.c.o
+[9.128s] Scanning dependencies of target test_atomics_executable
+[9.153s] Scanning dependencies of target test_logging_long_messages
+[9.175s] [ 32%] Building C object CMakeFiles/test_atomics_executable.dir/test/test_atomics.c.o
+[9.204s] [ 33%] Building CXX object CMakeFiles/test_logging_long_messages.dir/test/test_logging_long_messages.cpp.o
+[9.226s] [ 34%] Linking C executable test_logging_macros_c
+[9.369s] [ 35%] Linking C executable test_atomics_executable
+[9.424s] [ 35%] Built target test_logging_macros_c
+[9.572s] [ 35%] Built target test_atomics_executable
+[9.698s] [ 36%] Linking CXX static library libgtest_main.a
+[9.950s] [ 36%] Built target gtest_main
+[9.978s] [ 37%] Linking CXX executable test_logging_long_messages
+[10.419s] [ 37%] Built target test_logging_long_messages
+[11.219s] [ 38%] Linking CXX static library libgmock_main.a
+[11.475s] [ 38%] Built target gmock_main
+[13.456s] [ 39%] Linking CXX static library libgmock.a
+[13.555s] [ 39%] Built target gmock
+[13.615s] Scanning dependencies of target test_error_handling
+[13.618s] Scanning dependencies of target test_logging_macros
+[13.620s] Scanning dependencies of target test_error_handling_helpers
+[13.674s] [ 40%] Building CXX object CMakeFiles/test_error_handling.dir/test/test_error_handling.cpp.o
+[13.682s] [ 41%] Building CXX object CMakeFiles/test_error_handling_helpers.dir/test/test_error_handling_helpers.cpp.o
+[13.697s] [ 42%] Building CXX object CMakeFiles/test_logging_macros.dir/test/test_logging_macros.cpp.o
+[14.418s] [ 42%] Linking CXX static library libgtest.a
+[14.683s] [ 42%] Built target gtest
+[14.776s] Scanning dependencies of target test_logging_console_output_handler
+[14.779s] Scanning dependencies of target test_macros
+[14.809s] Scanning dependencies of target test_logging_bad_env3
+[14.810s] Scanning dependencies of target test_logging_enable_for
+[14.815s] Scanning dependencies of target test_logging_bad_env
+[14.822s] Scanning dependencies of target test_cmdline_parser
+[14.845s] Scanning dependencies of target test_hash_map
+[14.866s] [ 43%] Building CXX object CMakeFiles/test_macros.dir/test/test_macros.cpp.o
+[14.868s] [ 44%] Building CXX object CMakeFiles/test_logging_enable_for.dir/test/test_logging_enable_for.cpp.o
+[14.874s] [ 45%] Building CXX object CMakeFiles/test_logging_console_output_handler.dir/test/test_logging_console_output_handler.cpp.o
+[14.882s] Scanning dependencies of target test_logging_custom_env
+[14.899s] [ 45%] Building CXX object CMakeFiles/test_logging_bad_env.dir/test/test_logging_bad_env.cpp.o
+[14.900s] [ 46%] Building CXX object CMakeFiles/test_logging_bad_env3.dir/test/test_logging_bad_env.cpp.o
+[14.917s] Scanning dependencies of target test_process
+[14.937s] [ 47%] Building CXX object CMakeFiles/test_cmdline_parser.dir/test/test_cmdline_parser.cpp.o
+[14.941s] [ 48%] Building CXX object CMakeFiles/test_hash_map.dir/test/test_hash_map.cpp.o
+[14.983s] [ 49%] Building CXX object CMakeFiles/test_logging_custom_env.dir/test/test_logging_custom_env.cpp.o
+[14.992s] [ 50%] Building CXX object CMakeFiles/test_process.dir/test/test_process.cpp.o
+[16.207s] [ 51%] Linking CXX executable test_logging_bad_env3
+[16.821s] [ 51%] Built target test_logging_bad_env3
+[16.874s] [ 51%] Linking CXX executable test_logging_macros
+[16.951s] Scanning dependencies of target test_array_list
+[17.018s] [ 52%] Building CXX object CMakeFiles/test_array_list.dir/test/test_array_list.cpp.o
+[17.185s] [ 52%] Linking CXX executable test_logging_custom_env
+[17.385s] [ 53%] Linking CXX executable test_logging_console_output_handler
+[17.527s] [ 54%] Linking CXX executable test_error_handling_helpers
+[17.644s] [ 55%] Linking CXX executable test_logging_bad_env
+[17.794s] [ 55%] Built target test_logging_console_output_handler
+[17.879s] [ 55%] Built target test_logging_custom_env
+[17.896s] Scanning dependencies of target test_char_array
+[17.940s] [ 56%] Building CXX object CMakeFiles/test_char_array.dir/test/test_char_array.cpp.o
+[17.962s] [ 57%] Linking CXX executable test_cmdline_parser
+[17.984s] [ 57%] Built target test_logging_macros
+[18.006s] Scanning dependencies of target test_allocator
+[18.077s] Scanning dependencies of target test_split
+[18.130s] [ 58%] Building CXX object CMakeFiles/test_allocator.dir/test/test_allocator.cpp.o
+[18.146s] [ 59%] Building CXX object CMakeFiles/test_split.dir/test/test_split.cpp.o
+[18.158s] [ 60%] Linking CXX executable test_macros
+[18.216s] [ 61%] Linking CXX executable test_hash_map
+[18.263s] [ 61%] Built target test_error_handling_helpers
+[18.410s] [ 61%] Built target test_logging_bad_env
+[18.415s] Scanning dependencies of target test_strdup
+[18.491s] [ 61%] Linking CXX executable test_error_handling
+[18.524s] [ 62%] Building CXX object CMakeFiles/test_strdup.dir/test/test_strdup.cpp.o
+[18.569s] Scanning dependencies of target test_format_string
+[18.590s] [ 62%] Built target test_cmdline_parser
+[18.652s] [ 62%] Built target test_hash_map
+[18.667s] Scanning dependencies of target test_logging_custom_env2
+[18.690s] [ 63%] Building CXX object CMakeFiles/test_format_string.dir/test/test_format_string.cpp.o
+[18.732s] Scanning dependencies of target test_time
+[18.756s] [ 64%] Building CXX object CMakeFiles/test_logging_custom_env2.dir/test/test_logging_custom_env.cpp.o
+[18.799s] [ 66%] Linking CXX executable test_process
+[18.799s] [ 66%] Building CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o
+[18.877s] [ 67%] Linking CXX executable test_logging_enable_for
+[18.965s] [ 67%] Built target test_macros
+[19.049s] Scanning dependencies of target test_strerror
+[19.108s] [ 68%] Building CXX object CMakeFiles/test_strerror.dir/test/test_strerror.cpp.o
+[19.274s] [ 68%] Built target test_error_handling
+[19.395s] Scanning dependencies of target test_logging
+[19.465s] [ 69%] Building CXX object CMakeFiles/test_logging.dir/test/test_logging.cpp.o
+[19.708s] [ 69%] Built target test_logging_enable_for
+[19.763s] [ 69%] Built target test_process
+[19.807s] Scanning dependencies of target test_repl_str
+[19.867s] Scanning dependencies of target test_string_array
+[19.951s] [ 70%] Building CXX object CMakeFiles/test_repl_str.dir/test/test_repl_str.cpp.o
+[19.979s] [ 71%] Building CXX object CMakeFiles/test_string_array.dir/test/test_string_array.cpp.o
+[20.417s] [ 71%] Linking CXX executable test_strerror
+[20.452s] [ 71%] Linking CXX executable test_format_string
+[20.674s] [ 72%] Linking CXX executable test_array_list
+[21.040s] [ 72%] Built target test_strerror
+[21.131s] Scanning dependencies of target test_isalnum_no_locale
+[21.151s] [ 73%] Linking CXX executable test_char_array
+[21.158s] [ 74%] Linking CXX executable test_repl_str
+[21.205s] [ 75%] Building CXX object CMakeFiles/test_isalnum_no_locale.dir/test/test_isalnum_no_locale.cpp.o
+[21.215s] [ 75%] Built target test_array_list
+[21.271s] [ 75%] Built target test_format_string
+[21.331s] Scanning dependencies of target test_get_env
+[21.341s] Scanning dependencies of target test_env
+[21.377s] [ 76%] Building CXX object CMakeFiles/test_get_env.dir/test/test_get_env.cpp.o
+[21.401s] [ 77%] Building CXX object CMakeFiles/test_env.dir/test/test_env.cpp.o
+[21.457s] [ 78%] Linking CXX executable test_logging_custom_env2
+[21.578s] [ 79%] Linking CXX executable test_string_array
+[21.603s] [ 80%] Linking CXX executable test_split
+[21.815s] [ 80%] Built target test_repl_str
+[21.818s] [ 81%] Linking CXX executable test_strdup
+[21.897s] [ 81%] Built target test_logging_custom_env2
+[21.905s] Scanning dependencies of target test_filesystem
+[21.953s] [ 81%] Built target test_char_array
+[21.966s] Scanning dependencies of target test_string_map
+[22.009s] [ 82%] Building CXX object CMakeFiles/test_filesystem.dir/test/test_filesystem.cpp.o
+[22.053s] [ 83%] Building CXX object CMakeFiles/test_string_map.dir/test/test_string_map.cpp.o
+[22.095s] Scanning dependencies of target test_shared_library
+[22.184s] [ 83%] Building CXX object CMakeFiles/test_shared_library.dir/test/test_shared_library.cpp.o
+[22.333s] [ 83%] Built target test_strdup
+[22.394s] [ 83%] Built target test_split
+[22.461s] [ 83%] Built target test_string_array
+[22.700s] [ 84%] Linking CXX executable test_allocator
+[22.889s] [ 85%] Linking CXX executable test_logging
+[23.338s] [ 85%] Built target test_allocator
+[23.417s] [ 85%] Built target test_logging
+[23.446s] [ 86%] Linking CXX executable test_isalnum_no_locale
+[23.462s] [ 87%] Linking CXX executable test_time
+[23.678s] [ 88%] Built target test_isalnum_no_locale
+[23.679s] [ 88%] Linking CXX executable test_get_env
+[23.742s] [ 88%] Built target test_time
+[23.916s] [ 89%] Linking CXX executable test_env
+[23.965s] [ 89%] Built target test_get_env
+[24.096s] [ 90%] Linking CXX executable test_shared_library
+[24.176s] [ 90%] Built target test_env
+[24.323s] [ 90%] Built target test_shared_library
+[24.349s] [ 91%] Linking CXX executable test_string_map
+[24.601s] [ 91%] Built target test_string_map
+[25.074s] [ 92%] Linking CXX executable test_filesystem
+[25.182s] [ 92%] Built target test_filesystem
+[25.194s] Scanning dependencies of target test_uint8_array
+[25.203s] [ 93%] Building CXX object CMakeFiles/test_uint8_array.dir/test/test_uint8_array.cpp.o
+[25.817s] [ 94%] Linking CXX executable test_uint8_array
+[25.904s] [ 94%] Built target test_uint8_array
+[25.915s] Scanning dependencies of target test_snprintf
+[25.923s] [ 95%] Building CXX object CMakeFiles/test_snprintf.dir/test/test_snprintf.cpp.o
+[26.472s] [ 96%] Linking CXX executable test_snprintf
+[26.558s] [ 96%] Built target test_snprintf
+[26.570s] Scanning dependencies of target test_logging_bad_env2
+[26.578s] [ 97%] Building CXX object CMakeFiles/test_logging_bad_env2.dir/test/test_logging_bad_env.cpp.o
+[27.114s] [ 98%] Linking CXX executable test_logging_bad_env2
+[27.200s] [ 98%] Built target test_logging_bad_env2
+[27.258s] Scanning dependencies of target test_find
+[27.267s] [ 99%] Building CXX object CMakeFiles/test_find.dir/test/test_find.cpp.o
+[27.857s] [100%] Linking CXX executable test_find
+[27.949s] [100%] Built target test_find
+[28.003s] Invoked command in '/workspace/foxy_ws/build/rcutils' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/rcutils -- -j12 -l12
+[28.079s] Invoking command in '/workspace/foxy_ws/build/rcutils': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/rcutils
+[28.085s] -- Install configuration: ""
+[28.085s] -- Installing: /workspace/foxy_ws/install/share/rcutils/environment/pythonpath.sh
+[28.086s] -- Installing: /workspace/foxy_ws/install/share/rcutils/environment/pythonpath.dsv
+[28.086s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rcutils
+[28.086s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rcutils/logging.py
+[28.086s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/rcutils/__init__.py
+[28.115s] Listing '/workspace/foxy_ws/install/lib/python3.10/site-packages/rcutils'...
+[28.115s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rcutils/__init__.py'...
+[28.115s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/rcutils/logging.py'...
+[28.119s] -- Installing: /workspace/foxy_ws/install/lib/librcutils.so
+[28.119s] -- Installing: /workspace/foxy_ws/install/share/rcutils/environment/library_path.sh
+[28.119s] -- Installing: /workspace/foxy_ws/install/share/rcutils/environment/library_path.dsv
+[28.119s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/rcutils
+[28.120s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/rcutils
+[28.120s] -- Installing: /workspace/foxy_ws/install/share/rcutils/environment/ament_prefix_path.sh
+[28.120s] -- Installing: /workspace/foxy_ws/install/share/rcutils/environment/ament_prefix_path.dsv
+[28.120s] -- Installing: /workspace/foxy_ws/install/share/rcutils/environment/path.sh
+[28.120s] -- Installing: /workspace/foxy_ws/install/share/rcutils/environment/path.dsv
+[28.120s] -- Installing: /workspace/foxy_ws/install/share/rcutils/local_setup.bash
+[28.121s] -- Installing: /workspace/foxy_ws/install/share/rcutils/local_setup.sh
+[28.121s] -- Installing: /workspace/foxy_ws/install/share/rcutils/local_setup.zsh
+[28.121s] -- Installing: /workspace/foxy_ws/install/share/rcutils/local_setup.dsv
+[28.121s] -- Installing: /workspace/foxy_ws/install/share/rcutils/package.dsv
+[28.121s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/rcutils
+[28.121s] -- Installing: /workspace/foxy_ws/install/share/rcutils/cmake/rcutilsExport.cmake
+[28.122s] -- Installing: /workspace/foxy_ws/install/share/rcutils/cmake/rcutilsExport-noconfig.cmake
+[28.122s] -- Installing: /workspace/foxy_ws/install/share/rcutils/cmake/ament_cmake_export_link_flags-extras.cmake
+[28.122s] -- Installing: /workspace/foxy_ws/install/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.122s] -- Installing: /workspace/foxy_ws/install/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.122s] -- Installing: /workspace/foxy_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+[28.122s] -- Installing: /workspace/foxy_ws/install/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+[28.123s] -- Installing: /workspace/foxy_ws/install/share/rcutils/cmake/rcutilsConfig.cmake
+[28.123s] -- Installing: /workspace/foxy_ws/install/share/rcutils/cmake/rcutilsConfig-version.cmake
+[28.123s] -- Installing: /workspace/foxy_ws/install/share/rcutils/package.xml
+[28.123s] -- Up-to-date: /workspace/foxy_ws/install/include
+[28.123s] -- Installing: /workspace/foxy_ws/install/include/rcutils
+[28.123s] -- Installing: /workspace/foxy_ws/install/include/rcutils/split.h
+[28.123s] -- Installing: /workspace/foxy_ws/install/include/rcutils/env.h
+[28.123s] -- Installing: /workspace/foxy_ws/install/include/rcutils/logging.h
+[28.123s] -- Installing: /workspace/foxy_ws/install/include/rcutils/error_handling.h
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/stdatomic_helper
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/stdatomic_helper/win32
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/stdatomic_helper/win32/stdatomic.h
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/stdatomic_helper/gcc
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/stdatomic_helper/gcc/stdatomic.h
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/stdatomic_helper.h
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/types
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/types/char_array.h
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/types/array_list.h
+[28.124s] -- Installing: /workspace/foxy_ws/install/include/rcutils/types/string_array.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/types/rcutils_ret.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/types/string_map.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/types/hash_map.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/types/uint8_array.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/cmdline_parser.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/filesystem.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/format_string.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/visibility_control_macros.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/snprintf.h
+[28.125s] -- Installing: /workspace/foxy_ws/install/include/rcutils/qsort.h
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/get_env.h
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/testing
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/testing/fault_injection.h
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/allocator.h
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/find.h
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/strdup.h
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/visibility_control.h
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/repl_str.h
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/shared_library.h
+[28.126s] -- Installing: /workspace/foxy_ws/install/include/rcutils/strerror.h
+[28.127s] -- Installing: /workspace/foxy_ws/install/include/rcutils/isalnum_no_locale.h
+[28.127s] -- Installing: /workspace/foxy_ws/install/include/rcutils/types.h
+[28.127s] -- Installing: /workspace/foxy_ws/install/include/rcutils/macros.h
+[28.127s] -- Installing: /workspace/foxy_ws/install/include/rcutils/process.h
+[28.127s] -- Installing: /workspace/foxy_ws/install/include/rcutils/time.h
+[28.127s] -- Up-to-date: /workspace/foxy_ws/install/include
+[28.127s] -- Up-to-date: /workspace/foxy_ws/install/include/rcutils
+[28.127s] -- Installing: /workspace/foxy_ws/install/include/rcutils/logging_macros.h
+[28.130s] Invoked command in '/workspace/foxy_ws/build/rcutils' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/rcutils

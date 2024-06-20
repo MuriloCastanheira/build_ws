@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspace/foxy_ws/src/rcpputils/include/rcpputils/visibility_control.hpp
+
+/workspace/foxy_ws/src/rcpputils/test/test_library.cpp
+rcpputils/visibility_control.hpp
+/workspace/foxy_ws/src/rcpputils/test/rcpputils/visibility_control.hpp
+

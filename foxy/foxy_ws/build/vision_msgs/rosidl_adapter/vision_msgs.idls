@@ -1,0 +1,11 @@
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/BoundingBox2D.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/BoundingBox3D.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Classification2D.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Classification3D.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Detection2DArray.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Detection2D.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Detection3DArray.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Detection3D.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/ObjectHypothesis.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/ObjectHypothesisWithPose.idl
+/workspace/foxy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/VisionInfo.idl

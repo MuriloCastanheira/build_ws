@@ -1,0 +1,247 @@
+[0.108s] Invoking command in '/workspace/foxy_ws/build/builtin_interfaces': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[0.165s] -- The C compiler identification is GNU 9.4.0
+[0.213s] -- The CXX compiler identification is GNU 9.4.0
+[0.218s] -- Check for working C compiler: /usr/bin/cc
+[0.281s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.281s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.375s] -- Detecting C compile features
+[0.376s] -- Detecting C compile features - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.475s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.558s] -- Found ament_cmake: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake/cmake)
+[0.573s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+[0.573s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.727s] -- Found rosidl_default_generators: 1.0.1 (/workspace/foxy_ws/install/share/rosidl_default_generators/cmake)
+[0.729s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.733s] -- Found rosidl_adapter: 1.3.1 (/workspace/foxy_ws/install/share/rosidl_adapter/cmake)
+[0.754s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.765s] -- Found FastRTPS: /workspace/foxy_ws/install/include  
+[0.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.844s] -- Found PythonInterp: /usr/bin/python3 (found version "3.10.14") 
+[0.952s] -- Found ament_cmake_cppcheck: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_cppcheck/cmake)
+[0.953s] -- Found ament_cmake_cpplint: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_cpplint/cmake)
+[0.954s] -- Found ament_cmake_uncrustify: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_uncrustify/cmake)
+[0.955s] -- Found ament_cmake_ros: 0.9.2 (/workspace/foxy_ws/install/share/ament_cmake_ros/cmake)
+[1.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.012s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.026s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3.5") 
+[1.027s] -- Found python_cmake_module: 0.8.1 (/workspace/foxy_ws/install/share/python_cmake_module/cmake)
+[1.043s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.14", minimum required is "3.5") 
+[1.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.043s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.043s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.057s] -- Found PythonExtra: .so  
+[1.073s] <string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[1.075s] <string>:1: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+[1.258s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[1.260s] -- Found ament_cmake_flake8: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_flake8/cmake)
+[1.261s] -- Found ament_cmake_pep257: 0.9.8 (/workspace/foxy_ws/install/share/ament_cmake_pep257/cmake)
+[1.275s] -- Configuring done
+[1.319s] -- Generating done
+[1.323s] -- Build files have been written to: /workspace/foxy_ws/build/builtin_interfaces
+[1.332s] Invoked command in '/workspace/foxy_ws/build/builtin_interfaces' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[1.334s] Invoking command in '/workspace/foxy_ws/build/builtin_interfaces': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/builtin_interfaces -- -j12 -l12
+[1.369s] [  2%] Generating C code for ROS interfaces
+[1.369s] Scanning dependencies of target builtin_interfaces__cpp
+[1.376s] [  5%] Generating C++ code for ROS interfaces
+[1.938s] [  5%] Built target builtin_interfaces__cpp
+[1.973s] [  7%] Generating C++ type support for eProsima Fast-RTPS
+[1.978s] [ 10%] Generating C++ introspection for ROS interfaces
+[1.980s] [ 12%] Generating C++ type support dispatch for ROS interfaces
+[2.112s] Scanning dependencies of target builtin_interfaces__rosidl_generator_c
+[2.143s] [ 15%] Building C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__functions.c.o
+[2.168s] [ 17%] Building C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__functions.c.o
+[2.331s] [ 20%] Linking C shared library libbuiltin_interfaces__rosidl_generator_c.so
+[2.410s] [ 20%] Built target builtin_interfaces__rosidl_generator_c
+[2.494s] [ 23%] Generating C introspection for ROS interfaces
+[2.524s] [ 25%] Generating C type support dispatch for ROS interfaces
+[2.660s] Scanning dependencies of target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[2.730s] [ 28%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/duration__type_support.cpp.o
+[2.735s] [ 30%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/time__type_support.cpp.o
+[2.798s] Scanning dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.898s] [ 33%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/time__type_support.cpp.o
+[2.922s] [ 35%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/duration__type_support.cpp.o
+[2.933s] Scanning dependencies of target builtin_interfaces__rosidl_typesupport_cpp
+[3.029s] [ 38%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o
+[3.055s] [ 41%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o
+[3.778s] Scanning dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c
+[3.843s] [ 43%] Building C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/duration__type_support.c.o
+[3.886s] [ 46%] Building C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/time__type_support.c.o
+[3.941s] Scanning dependencies of target builtin_interfaces__rosidl_typesupport_c
+[4.063s] [ 48%] Linking C shared library libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[4.087s] [ 51%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o
+[4.088s] [ 53%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o
+[4.098s] [ 56%] Linking CXX shared library libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.267s] [ 56%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[4.293s] [ 58%] Linking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so
+[4.380s] [ 58%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[4.518s] [ 61%] Linking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[4.577s] [ 61%] Built target builtin_interfaces__rosidl_typesupport_c
+[4.661s] [ 64%] Linking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.699s] [ 64%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[5.426s] [ 64%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.481s] [ 66%] Generating C type support for eProsima Fast-RTPS
+[6.109s] Scanning dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[6.173s] [ 69%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/duration__type_support_c.cpp.o
+[6.191s] [ 71%] Building CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/time__type_support_c.cpp.o
+[6.732s] [ 74%] Linking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.836s] [ 74%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[6.849s] Scanning dependencies of target builtin_interfaces
+[6.862s] [ 74%] Built target builtin_interfaces
+[6.875s] Scanning dependencies of target builtin_interfaces__py
+[6.889s] [ 76%] Generating Python code for ROS interfaces
+[8.256s] [ 76%] Built target builtin_interfaces__py
+[8.339s] Scanning dependencies of target builtin_interfaces__python
+[8.440s] [ 79%] Building C object CMakeFiles/builtin_interfaces__python.dir/rosidl_generator_py/builtin_interfaces/msg/_duration_s.c.o
+[8.464s] [ 82%] Building C object CMakeFiles/builtin_interfaces__python.dir/rosidl_generator_py/builtin_interfaces/msg/_time_s.c.o
+[8.795s] [ 84%] Linking C shared library rosidl_generator_py/builtin_interfaces/libbuiltin_interfaces__python.so
+[8.910s] [ 84%] Built target builtin_interfaces__python
+[8.980s] Scanning dependencies of target builtin_interfaces__rosidl_typesupport_c__pyext
+[8.988s] Scanning dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.018s] [ 87%] Building C object CMakeFiles/builtin_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c.o
+[9.023s] Scanning dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.032s] [ 89%] Building C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[9.094s] [ 92%] Building C object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[9.347s] [ 94%] Linking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.355s] [ 97%] Linking C shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.385s] [100%] Linking CXX shared library rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.394s] [100%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[9.493s] [100%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.546s] [100%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.571s] Invoked command in '/workspace/foxy_ws/build/builtin_interfaces' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/builtin_interfaces -- -j12 -l12
+[9.689s] Invoking command in '/workspace/foxy_ws/build/builtin_interfaces': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/builtin_interfaces
+[9.698s] -- Install configuration: ""
+[9.698s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[9.698s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces
+[9.698s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg
+[9.698s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/duration.h
+[9.699s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.699s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail
+[9.699s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__functions.h
+[9.699s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__functions.c
+[9.699s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__type_support.h
+[9.700s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__functions.h
+[9.700s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__type_support.h
+[9.700s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__struct.h
+[9.700s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__functions.c
+[9.700s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__struct.h
+[9.700s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/time.h
+[9.701s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/environment/library_path.sh
+[9.701s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/environment/library_path.dsv
+[9.701s] -- Installing: /workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[9.701s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_generator_c.so" to ""
+[9.702s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces
+[9.702s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg
+[9.702s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.702s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail
+[9.702s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[9.702s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[9.703s] -- Installing: /workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.703s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.703s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces
+[9.703s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg
+[9.703s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.704s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail
+[9.704s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/dds_fastrtps
+[9.704s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[9.704s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[9.705s] -- Installing: /workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.705s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.705s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces
+[9.706s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg
+[9.706s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.706s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail
+[9.706s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[9.706s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[9.706s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__type_support.c
+[9.707s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__type_support.c
+[9.707s] -- Installing: /workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[9.707s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.707s] -- Installing: /workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[9.707s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+[9.707s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces
+[9.707s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg
+[9.708s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.708s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/time.hpp
+[9.708s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/duration.hpp
+[9.708s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail
+[9.708s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__builder.hpp
+[9.708s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__traits.hpp
+[9.708s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__struct.hpp
+[9.709s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__traits.hpp
+[9.709s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__struct.hpp
+[9.709s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__builder.hpp
+[9.709s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__type_support.hpp
+[9.709s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__type_support.hpp
+[9.709s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces
+[9.709s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg
+[9.709s] -- Up-to-date: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail
+[9.710s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__type_support.cpp
+[9.710s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[9.710s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/time__type_support.cpp
+[9.710s] -- Installing: /workspace/foxy_ws/install/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[9.710s] -- Installing: /workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.710s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.710s] -- Installing: /workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[9.710s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.711s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/environment/pythonpath.sh
+[9.711s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/environment/pythonpath.dsv
+[9.711s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/__init__.py
+[9.738s] Compiling '/workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/__init__.py'...
+[9.745s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/msg
+[9.746s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/msg/_duration_s.c
+[9.746s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/msg/_time_s.c
+[9.746s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/msg/__init__.py
+[9.746s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/msg/_duration.py
+[9.746s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/msg/_time.py
+[9.746s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.746s] -- Set runtime path of "/workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.746s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.747s] -- Set runtime path of "/workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.747s] -- Installing: /workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.747s] -- Set runtime path of "/workspace/foxy_ws/install/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.747s] -- Installing: /workspace/foxy_ws/install/lib/libbuiltin_interfaces__python.so
+[9.747s] -- Set runtime path of "/workspace/foxy_ws/install/lib/libbuiltin_interfaces__python.so" to ""
+[9.747s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/msg/Duration.idl
+[9.747s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/msg/Time.idl
+[9.747s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/msg/Duration.msg
+[9.747s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/msg/Time.msg
+[9.747s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[9.747s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[9.748s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/environment/ament_prefix_path.sh
+[9.748s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[9.748s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/environment/path.sh
+[9.748s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/environment/path.dsv
+[9.748s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/local_setup.bash
+[9.748s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/local_setup.sh
+[9.748s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/local_setup.zsh
+[9.749s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/local_setup.dsv
+[9.749s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/package.dsv
+[9.749s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/builtin_interfaces
+[9.749s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cExport.cmake
+[9.749s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.749s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.749s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.749s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[9.750s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.750s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cppExport.cmake
+[9.750s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.750s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.750s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[9.750s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.750s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.751s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.751s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.751s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.751s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.751s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.752s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.752s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[9.752s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[9.752s] -- Installing: /workspace/foxy_ws/install/share/builtin_interfaces/package.xml
+[9.755s] Invoked command in '/workspace/foxy_ws/build/builtin_interfaces' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/builtin_interfaces

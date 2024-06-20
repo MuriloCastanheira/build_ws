@@ -1,0 +1,218 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/foxy_ws/build/foonathan_memory_vendor
+Scanning dependencies of target foo_mem-ext
+[ 12%] Creating directories for 'foo_mem-ext'
+[ 25%] Performing download step (git clone) for 'foo_mem-ext'
+Cloning into 'foo_mem-ext'...
+Note: switching to 'v0.7-1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 19ab075 Release 0.7-1
+[ 37%] No patch step for 'foo_mem-ext'
+[ 50%] No update step for 'foo_mem-ext'
+[ 62%] Performing configure step for 'foo_mem-ext'
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAVE_CXX_ATOMIC_NOFLAG
+-- Performing Test HAVE_CXX_ATOMIC_NOFLAG - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext-build
+[ 75%] Performing build step for 'foo_mem-ext'
+Scanning dependencies of target foonathan_memory_node_size_debugger
+[  4%] Building CXX object tool/CMakeFiles/foonathan_memory_node_size_debugger.dir/node_size_debugger.cpp.o
+[  8%] Linking CXX executable nodesize_dbg
+[  8%] Built target foonathan_memory_node_size_debugger
+[ 13%] Generating container_node_sizes_impl.hpp
+Scanning dependencies of target foonathan_memory
+[ 17%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/debug_helpers.cpp.o
+[ 21%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/align.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/free_list.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/free_list_array.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/assert.cpp.o
+[ 39%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/small_free_list.cpp.o
+[ 43%] Building CXX object src/CMakeFiles/foonathan_memory.dir/debugging.cpp.o
+[ 47%] Building CXX object src/CMakeFiles/foonathan_memory.dir/error.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/foonathan_memory.dir/heap_allocator.cpp.o
+[ 56%] Building CXX object src/CMakeFiles/foonathan_memory.dir/iteration_allocator.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/foonathan_memory.dir/memory_arena.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/foonathan_memory.dir/memory_pool.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/foonathan_memory.dir/memory_pool_collection.cpp.o
+[ 73%] Building CXX object src/CMakeFiles/foonathan_memory.dir/malloc_allocator.cpp.o
+[ 78%] Building CXX object src/CMakeFiles/foonathan_memory.dir/new_allocator.cpp.o
+[ 82%] Building CXX object src/CMakeFiles/foonathan_memory.dir/memory_stack.cpp.o
+[ 86%] Building CXX object src/CMakeFiles/foonathan_memory.dir/static_allocator.cpp.o
+[ 91%] Building CXX object src/CMakeFiles/foonathan_memory.dir/temporary_allocator.cpp.o
+[ 95%] Building CXX object src/CMakeFiles/foonathan_memory.dir/virtual_memory.cpp.o
+[100%] Linking CXX static library libfoonathan_memory-0.7.1.a
+[100%] Built target foonathan_memory
+[ 87%] Performing install step for 'foo_mem-ext'
+[  8%] Built target foonathan_memory_node_size_debugger
+[100%] Built target foonathan_memory
+Install the project...
+-- Install configuration: ""
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/share/foonathan_memory/LICENSE
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/share/foonathan_memory/README.md
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/lib/foonathan_memory/cmake/foonathan_memory-config.cmake
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/lib/foonathan_memory/cmake/foonathan_memory-config-noconfig.cmake
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/lib/libfoonathan_memory-0.7.1.a
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/config_impl.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/container_node_sizes_impl.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/aligned_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/allocator_storage.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/allocator_traits.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/config.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/container.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/debugging.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/default_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/deleter.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/error.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/fallback_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/malloc_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/heap_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/iteration_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/joint_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_arena.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_pool.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_pool_collection.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_pool_type.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_resource_adapter.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_stack.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/namespace_alias.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/new_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/segregator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/smart_ptr.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/static_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/std_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/temporary_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/threading.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/tracking.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/virtual_memory.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/container_node_sizes_impl.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/align.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/assert.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/container_node_sizes.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/debug_helpers.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/ebo_storage.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/free_list.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/free_list_array.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/ilog2.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/lowlevel_allocator.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/memory_stack.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/small_free_list.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/utility.hpp
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/lib/foonathan_memory/cmake/foonathan_memory-config-version.cmake
+-- Installing: /workspace/foxy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/bin/nodesize_dbg
+[100%] Completed 'foo_mem-ext'
+[100%] Built target foo_mem-ext
+-- Install configuration: ""
+-- Up-to-date: /workspace/foxy_ws/install
+-- Up-to-date: /workspace/foxy_ws/install/share
+-- Installing: /workspace/foxy_ws/install/share/foonathan_memory
+-- Installing: /workspace/foxy_ws/install/share/foonathan_memory/README.md
+-- Installing: /workspace/foxy_ws/install/share/foonathan_memory/LICENSE
+-- Up-to-date: /workspace/foxy_ws/install/include
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/container_node_sizes_impl.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/segregator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/container.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/heap_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/memory_arena.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/memory_pool_collection.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/memory_stack.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/allocator_traits.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/temporary_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/memory_pool_type.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/config_impl.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/deleter.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/virtual_memory.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/error.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/static_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/malloc_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/std_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/default_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/threading.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/smart_ptr.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/allocator_storage.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/namespace_alias.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/iteration_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/debugging.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/config.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/joint_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/assert.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/container_node_sizes_impl.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/ebo_storage.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/ilog2.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/container_node_sizes.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/small_free_list.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/free_list.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/memory_stack.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/align.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/utility.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/lowlevel_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/free_list_array.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/detail/debug_helpers.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/memory_pool.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/aligned_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/tracking.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/memory_resource_adapter.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/new_allocator.hpp
+-- Installing: /workspace/foxy_ws/install/include/foonathan_memory/foonathan/memory/fallback_allocator.hpp
+-- Up-to-date: /workspace/foxy_ws/install/lib
+-- Installing: /workspace/foxy_ws/install/lib/libfoonathan_memory-0.7.1.a
+-- Installing: /workspace/foxy_ws/install/lib/foonathan_memory
+-- Installing: /workspace/foxy_ws/install/lib/foonathan_memory/cmake
+-- Installing: /workspace/foxy_ws/install/lib/foonathan_memory/cmake/foonathan_memory-config.cmake
+-- Installing: /workspace/foxy_ws/install/lib/foonathan_memory/cmake/foonathan_memory-config-noconfig.cmake
+-- Installing: /workspace/foxy_ws/install/lib/foonathan_memory/cmake/foonathan_memory-config-version.cmake
+-- Up-to-date: /workspace/foxy_ws/install/bin
+-- Installing: /workspace/foxy_ws/install/bin/nodesize_dbg
+-- Installing: /workspace/foxy_ws/install/share/foonathan_memory_vendor/package.xml
+-- Installing: /workspace/foxy_ws/install/share/foonathan_memory_vendor/cmake/foonathan_memory_vendorConfig.cmake
+-- Installing: /workspace/foxy_ws/install/share/foonathan_memory_vendor/cmake/foonathan_memory_vendorConfig-version.cmake

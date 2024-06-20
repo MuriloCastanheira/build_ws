@@ -1,0 +1,8 @@
+/workspace/foxy_ws/build/rosidl_cmake/CMakeFiles/install/local.dir
+/workspace/foxy_ws/build/rosidl_cmake/CMakeFiles/install.dir
+/workspace/foxy_ws/build/rosidl_cmake/CMakeFiles/list_install_components.dir
+/workspace/foxy_ws/build/rosidl_cmake/CMakeFiles/rebuild_cache.dir
+/workspace/foxy_ws/build/rosidl_cmake/CMakeFiles/edit_cache.dir
+/workspace/foxy_ws/build/rosidl_cmake/CMakeFiles/test.dir
+/workspace/foxy_ws/build/rosidl_cmake/CMakeFiles/rosidl_cmake_uninstall.dir
+/workspace/foxy_ws/build/rosidl_cmake/CMakeFiles/uninstall.dir

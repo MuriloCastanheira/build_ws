@@ -1,0 +1,73 @@
+running egg_info
+creating ../../../build/ros2topic/ros2topic.egg-info
+writing ../../../build/ros2topic/ros2topic.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros2topic/ros2topic.egg-info/dependency_links.txt
+writing entry points to ../../../build/ros2topic/ros2topic.egg-info/entry_points.txt
+writing requirements to ../../../build/ros2topic/ros2topic.egg-info/requires.txt
+writing top-level names to ../../../build/ros2topic/ros2topic.egg-info/top_level.txt
+writing manifest file '../../../build/ros2topic/ros2topic.egg-info/SOURCES.txt'
+reading manifest file '../../../build/ros2topic/ros2topic.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ros2topic/ros2topic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/foxy_ws/build/ros2topic/build
+creating /workspace/foxy_ws/build/ros2topic/build/lib
+creating /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic
+copying ros2topic/__init__.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic
+creating /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/api
+copying ros2topic/api/__init__.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/api
+creating /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/bw.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/type.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/echo.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/list.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/hz.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/delay.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/__init__.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/pub.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/find.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+copying ros2topic/verb/info.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb
+creating /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/command
+copying ros2topic/command/topic.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/command
+copying ros2topic/command/__init__.py -> /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/command
+running install
+running install_lib
+creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic
+creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/api
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/api/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/api
+creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/bw.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/type.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/echo.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/list.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/hz.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/delay.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/pub.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/find.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/verb/info.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb
+creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/command
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/command/topic.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/command
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/command/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/command
+copying /workspace/foxy_ws/build/ros2topic/build/lib/ros2topic/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/api/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/bw.py to bw.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/type.py to type.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/echo.py to echo.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/list.py to list.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/hz.py to hz.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/delay.py to delay.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/pub.py to pub.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/find.py to find.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/verb/info.py to info.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/command/topic.py to topic.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/command/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /workspace/foxy_ws/install/share/ros2topic
+copying resource/ros2topic -> /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../build/ros2topic/ros2topic.egg-info to /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2topic-0.9.13-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/workspace/foxy_ws/build/ros2topic/install.log'

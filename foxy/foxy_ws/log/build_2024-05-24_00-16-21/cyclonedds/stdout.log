@@ -1,0 +1,420 @@
+-- The C compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Setting build type to 'RelWithDebInfo' as none was specified.
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Building with OpenSSL support
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Looking for clock_gettime in c
+-- Looking for clock_gettime in c - found
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/foxy_ws/build/cyclonedds
+Scanning dependencies of target ddsc
+[  0%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o
+[  1%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o
+[  1%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o
+[  3%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o
+[  3%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o
+[  3%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o
+[  4%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o
+[  4%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o
+[  5%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o
+[  5%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o
+[  6%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o
+[  7%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o
+[  7%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o
+[  7%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o
+[  8%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_default.c.o
+[  9%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o
+[ 10%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic.c.o
+[ 10%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic_default.c.o
+[ 11%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic_pserop.c.o
+[ 11%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic_plist.c.o
+[ 12%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o
+[ 12%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o
+[ 13%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o
+[ 14%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o
+[ 14%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o
+[ 15%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o
+[ 15%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o
+[ 16%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o
+[ 17%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o
+[ 17%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o
+[ 18%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o
+[ 18%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_cdrstream.c.o
+[ 18%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ownip.c.o
+[ 19%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o
+[ 20%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o
+[ 20%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bitset_inlines.c.o
+[ 21%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_addrset.c.o
+[ 21%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_config.c.o
+[ 22%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bswap.c.o
+[ 23%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_ddsi_discovery.c.o
+[ 24%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_debmon.c.o
+[ 24%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_entity.c.o
+[ 25%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_gc.c.o
+[ 25%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_init.c.o
+[ 26%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lat_estim.c.o
+[ 26%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_misc.c.o
+[ 27%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lease.c.o
+[ 28%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_pcap.c.o
+[ 28%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_qosmatch.c.o
+[ 29%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_radmin.c.o
+[ 29%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_receive.c.o
+[ 31%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_thread.c.o
+[ 30%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_sockwaitset.c.o
+[ 31%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_transmit.c.o
+[ 32%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_inverse_uint32_set.c.o
+[ 33%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xevent.c.o
+[ 33%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_whc.c.o
+[ 34%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xmsg.c.o
+[ 34%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_freelist.c.o
+[ 35%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/sysdeps.c.o
+[ 35%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o
+[ 36%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o
+[ 37%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o
+[ 37%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o
+[ 37%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o
+[ 38%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o
+[ 39%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o
+[ 39%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o
+[ 40%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o
+[ 41%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o
+[ 41%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o
+[ 42%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o
+[ 42%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o
+[ 42%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o
+[ 43%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o
+[ 44%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o
+[ 45%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o
+[ 45%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o
+[ 46%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o
+[ 46%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o
+[ 47%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o
+[ 48%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o
+[ 48%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o
+[ 48%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o
+[ 49%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o
+[ 50%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o
+[ 50%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o
+[ 51%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o
+[ 51%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o
+[ 52%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o
+[ 53%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o
+[ 54%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertopic_builtintopic.c.o
+[ 54%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o
+[ 55%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o
+[ 55%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o
+[ 55%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/shared_secret.c.o
+[ 56%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o
+[ 57%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o
+[ 58%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o
+[ 58%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o
+[ 59%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o
+[ 60%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o
+[ 60%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o
+[ 60%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o
+[ 61%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o
+[ 62%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o
+[ 62%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o
+[ 63%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o
+[ 63%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o
+[ 64%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o
+[ 65%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o
+[ 65%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o
+[ 65%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/thread_pool.c.o
+[ 66%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o
+[ 67%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o
+[ 67%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o
+[ 68%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o
+[ 68%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o
+[ 69%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o
+[ 70%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o
+[ 70%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o
+[ 71%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o
+[ 71%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o
+[ 72%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o
+[ 73%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o
+[ 74%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o
+[ 74%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o
+[ 74%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string/posix/strerror.c.o
+[ 75%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o
+[ 75%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o
+[ 76%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o
+[ 77%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o
+[ 77%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o
+[ 78%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o
+[ 79%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o
+[ 79%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o
+[ 80%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o
+[ 80%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o
+[ 81%] Linking C shared library ../../lib/libddsc.so
+[ 81%] Built target ddsc
+Scanning dependencies of target ddsls
+Scanning dependencies of target ddsconf
+Scanning dependencies of target pubsub
+[ 81%] Building C object src/tools/ddsls/CMakeFiles/ddsls.dir/ddsls.c.o
+Scanning dependencies of target dds_security_ac
+Scanning dependencies of target dds_security_auth
+Scanning dependencies of target dds_security_crypto
+[ 82%] Building C object src/tools/pubsub/CMakeFiles/pubsub.dir/pubsub.c.o
+[ 83%] Building C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/xsd.c.o
+[ 83%] Building C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/rnc.c.o
+[ 84%] Building C object src/tools/pubsub/CMakeFiles/pubsub.dir/testtype.c.o
+[ 84%] Building C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/ddsconf.c.o
+[ 84%] Building C object src/tools/pubsub/CMakeFiles/pubsub.dir/porting.c.o
+[ 84%] Building C object src/tools/pubsub/CMakeFiles/pubsub.dir/common.c.o
+[ 84%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o
+[ 85%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o
+[ 86%] Building C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o
+[ 87%] Building C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/md.c.o
+[ 88%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o
+[ 88%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o
+[ 89%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o
+[ 89%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o
+[ 90%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o
+[ 91%] Linking C executable ../../../bin/ddsls
+[ 91%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o
+[ 91%] Building C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o
+[ 91%] Built target ddsls
+[ 92%] Building C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o
+[ 93%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o
+[ 93%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o
+[ 94%] Linking C executable ../../../bin/ddsconf
+[ 94%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o
+[ 95%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o
+[ 96%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o
+[ 96%] Built target ddsconf
+Scanning dependencies of target schema
+[ 97%] Generating cyclonedds.rnc, cyclonedds.xsd, manual/options.md
+[ 97%] Built target schema
+[ 98%] Linking C shared library ../../../../lib/libdds_security_ac.so
+[ 98%] Linking C shared library ../../../../lib/libdds_security_auth.so
+[ 98%] Built target dds_security_ac
+[ 98%] Built target dds_security_auth
+[ 99%] Linking C shared library ../../../../lib/libdds_security_crypto.so
+[100%] Linking C executable ../../../bin/pubsub
+[100%] Built target dds_security_crypto
+[100%] Built target pubsub
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /workspace/foxy_ws/install/lib/cmake/CycloneDDS/CycloneDDSConfig.cmake
+-- Installing: /workspace/foxy_ws/install/lib/cmake/CycloneDDS/CycloneDDSVersion.cmake
+-- Installing: /workspace/foxy_ws/install/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake
+-- Installing: /workspace/foxy_ws/install/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake
+-- Up-to-date: /workspace/foxy_ws/install/include
+-- Installing: /workspace/foxy_ws/install/include/dds
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/countargs.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/static_assert.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/string.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/avl.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/filesystem
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/filesystem/windows.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/filesystem/posix.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/circlist.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/strtod.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/thread_pool.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/arch.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/fibheap.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/hopscotch.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/types
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/types/windows.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/types/vxworks.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/types/posix.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/netstat.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sync.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/environ.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/filesystem.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/bswap.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/xmlparser.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/log.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/heap.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sockets
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sockets/windows.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sockets/posix.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/random.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/dynlib.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/ifaddrs.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/io.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/threads
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/threads/windows.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/threads/posix.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/threads/freertos.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/endian.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/attributes.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/atomics.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/retcode.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/time
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/time/freertos.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/expand_vars.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/rusage.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sockets.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/threads.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/strtol.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/cdtors.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/mh3.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/types.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sync
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sync/solaris2.6.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sync/windows.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sync/posix.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/sync/freertos.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/process.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/md5.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/atomics
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/atomics/arm.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/atomics/gcc.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/atomics/sun.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/atomics/msvc.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/misc.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsrt/time.h
+-- Up-to-date: /workspace/foxy_ws/install/include
+-- Up-to-date: /workspace/foxy_ws/install/include/dds
+-- Installing: /workspace/foxy_ws/install/include/dds/version.h
+-- Up-to-date: /workspace/foxy_ws/install/include
+-- Up-to-date: /workspace/foxy_ws/install/include/dds
+-- Installing: /workspace/foxy_ws/install/include/dds/security
+-- Installing: /workspace/foxy_ws/install/include/dds/security/dds_security_api_err.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/dds_security_api_defs.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/dds_security_api_types.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/dds_security_api_access_control.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/dds_security_api.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/dds_security_api_cryptography.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/dds_security_api_authentication.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/core/
+-- Installing: /workspace/foxy_ws/install/include/dds/security/core//dds_security_timed_cb.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/core//dds_security_fsm.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/core//dds_security_serialize.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/core//dds_security_plugins.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/core//shared_secret.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/core//dds_security_utils.h
+-- Installing: /workspace/foxy_ws/install/include/dds/security/core//dds_security_types.h
+-- Installing: /workspace/foxy_ws/install/lib/libdds_security_ac.so
+-- Set runtime path of "/workspace/foxy_ws/install/lib/libdds_security_ac.so" to "$ORIGIN/../lib"
+-- Installing: /workspace/foxy_ws/install/lib/libdds_security_auth.so
+-- Set runtime path of "/workspace/foxy_ws/install/lib/libdds_security_auth.so" to "$ORIGIN/../lib"
+-- Installing: /workspace/foxy_ws/install/lib/libdds_security_crypto.so
+-- Set runtime path of "/workspace/foxy_ws/install/lib/libdds_security_crypto.so" to "$ORIGIN/../lib"
+-- Up-to-date: /workspace/foxy_ws/install/include
+-- Up-to-date: /workspace/foxy_ws/install/include/dds
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_bitset.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_lifespan.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_builtin_topic_if.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_threadmon.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_entity.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_raweth.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_misc.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_receive.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_mcgroup.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_sockwaitset.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_handshake.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_config.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_pcap.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_rhc.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_serdata_pserop.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_xqos.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_sertopic.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_security_omg.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_hbcontrol.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_init.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_tran.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_debmon.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_cdrstream.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_acknack.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_ddsi_discovery.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_security_msg.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_whc.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_statistics.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_iid.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_transmit.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_vendor.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_security_util.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_unused.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_protocol.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_time.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_bswap.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_freelist.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_serdata_plist.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_plist.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_lease.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_tkmap.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_gc.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_radmin.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_portmapping.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_security_exchange.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_log.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_rtps.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_xmsg.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_serdata.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_feature_check.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_tcp.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_addrset.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_xevent.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_deliver_locally.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_plist_generic.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/sysdeps.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_pmd.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_domaingv.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_entity_index.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_qosmatch.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_ssl.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_cfgelems.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_ipaddr.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_ownip.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_keyhash.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_lat_estim.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_guid.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_serdata_default.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_inverse_uint32_set.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_deadline.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_cfgunits.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/q_thread.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsi/ddsi_udp.h
+-- Up-to-date: /workspace/foxy_ws/install/include
+-- Up-to-date: /workspace/foxy_ws/install/include/dds
+-- Installing: /workspace/foxy_ws/install/include/dds/dds.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_public_impl.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_public_alloc.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_statistics.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_public_qosdefs.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_public_listener.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_internal_api.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_public_error.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_rhc.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_public_status.h
+-- Installing: /workspace/foxy_ws/install/include/dds/ddsc/dds_public_qos.h
+-- Installing: /workspace/foxy_ws/install/include/ddsc
+-- Installing: /workspace/foxy_ws/install/include/ddsc/dds.h
+-- Up-to-date: /workspace/foxy_ws/install/include
+-- Up-to-date: /workspace/foxy_ws/install/include/dds
+-- Installing: /workspace/foxy_ws/install/include/dds/export.h
+-- Installing: /workspace/foxy_ws/install/include/dds/features.h
+-- Installing: /workspace/foxy_ws/install/lib/libddsc.so.0.7.0
+-- Installing: /workspace/foxy_ws/install/lib/libddsc.so.0
+-- Set runtime path of "/workspace/foxy_ws/install/lib/libddsc.so.0.7.0" to "$ORIGIN/../lib"
+-- Installing: /workspace/foxy_ws/install/lib/libddsc.so
+-- Installing: /workspace/foxy_ws/install/bin/pubsub
+-- Set runtime path of "/workspace/foxy_ws/install/bin/pubsub" to "$ORIGIN/../lib"
+-- Installing: /workspace/foxy_ws/install/bin/ddsls
+-- Set runtime path of "/workspace/foxy_ws/install/bin/ddsls" to "$ORIGIN/../lib"

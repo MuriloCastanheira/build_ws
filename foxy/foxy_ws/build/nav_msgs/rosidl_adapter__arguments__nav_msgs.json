@@ -1,0 +1,13 @@
+{
+  "package_name": "nav_msgs",
+  "non_idl_tuples": [
+    "/workspace/foxy_ws/src/common_interfaces/nav_msgs:msg/GridCells.msg",
+    "/workspace/foxy_ws/src/common_interfaces/nav_msgs:msg/MapMetaData.msg",
+    "/workspace/foxy_ws/src/common_interfaces/nav_msgs:msg/OccupancyGrid.msg",
+    "/workspace/foxy_ws/src/common_interfaces/nav_msgs:msg/Odometry.msg",
+    "/workspace/foxy_ws/src/common_interfaces/nav_msgs:msg/Path.msg",
+    "/workspace/foxy_ws/src/common_interfaces/nav_msgs:srv/GetMap.srv",
+    "/workspace/foxy_ws/src/common_interfaces/nav_msgs:srv/GetPlan.srv",
+    "/workspace/foxy_ws/src/common_interfaces/nav_msgs:srv/SetMap.srv"
+  ]
+}

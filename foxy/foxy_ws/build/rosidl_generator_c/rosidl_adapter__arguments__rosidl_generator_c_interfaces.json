@@ -1,0 +1,16 @@
+{
+  "package_name": "rosidl_generator_c",
+  "non_idl_tuples": [
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/Arrays.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/BasicTypes.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/BoundedSequences.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/Constants.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/Defaults.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/Empty.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/MultiNested.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/Nested.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/Strings.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/UnboundedSequences.msg",
+    "/workspace/foxy_ws/install/share/test_interface_files:msg/WStrings.msg"
+  ]
+}

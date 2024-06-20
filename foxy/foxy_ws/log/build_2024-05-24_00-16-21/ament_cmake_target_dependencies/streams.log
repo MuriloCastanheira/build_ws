@@ -1,0 +1,32 @@
+[0.249s] Invoking command in '/workspace/foxy_ws/build/ament_cmake_target_dependencies': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/ament_cmake/ament_cmake_target_dependencies -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[0.405s] -- Found ament_cmake_core: 0.9.12 (/workspace/foxy_ws/install/share/ament_cmake_core/cmake)
+[0.468s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+[0.469s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.899s] -- Configuring done
+[0.899s] -- Generating done
+[0.899s] -- Build files have been written to: /workspace/foxy_ws/build/ament_cmake_target_dependencies
+[0.954s] Invoked command in '/workspace/foxy_ws/build/ament_cmake_target_dependencies' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/foxy_ws/src/ament_cmake/ament_cmake_target_dependencies -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
+[0.955s] Invoking command in '/workspace/foxy_ws/build/ament_cmake_target_dependencies': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/ament_cmake_target_dependencies -- -j12 -l12
+[1.222s] Invoked command in '/workspace/foxy_ws/build/ament_cmake_target_dependencies' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/foxy_ws/build/ament_cmake_target_dependencies -- -j12 -l12
+[1.761s] Invoking command in '/workspace/foxy_ws/build/ament_cmake_target_dependencies': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/ament_cmake_target_dependencies
+[1.840s] -- Install configuration: ""
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_target_dependencies
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_target_dependencies
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/environment/ament_prefix_path.sh
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/environment/ament_prefix_path.dsv
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/environment/path.sh
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/environment/path.dsv
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/local_setup.bash
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/local_setup.sh
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/local_setup.zsh
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/local_setup.dsv
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/package.dsv
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_index/resource_index/packages/ament_cmake_target_dependencies
+[1.841s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependencies-extras.cmake
+[1.842s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig.cmake
+[1.842s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig-version.cmake
+[1.842s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/package.xml
+[1.842s] -- Up-to-date: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/cmake
+[1.842s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake
+[1.842s] -- Installing: /workspace/foxy_ws/install/share/ament_cmake_target_dependencies/cmake/ament_get_recursive_properties.cmake
+[1.851s] Invoked command in '/workspace/foxy_ws/build/ament_cmake_target_dependencies' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PYTHONPATH=/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/foxy_ws/build/ament_cmake_target_dependencies

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from icrane_msgs/msg/BoundingBox2D.msg
+// generated code does not contain a copyright notice
+
+#include "icrane_msgs/msg/Pose2D.idl"
+#include "icrane_msgs/msg/Vector2D.idl"
+
+module icrane_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " 2D position and orientation of the bounding box center")
+    struct BoundingBox2D {
+      icrane_msgs::msg::Pose2D center;
+
+      @verbatim (language="comment", text=
+        " Total size of the bounding box, in pixels")
+      icrane_msgs::msg::Vector2D size;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from icrane_msgs/msg/OmniverseInfo.msg
+// generated code does not contain a copyright notice
+
+#include "icrane_msgs/msg/Modeling.idl"
+#include "icrane_msgs/msg/TrackedEntities.idl"
+#include "nav_msgs/msg/Path.idl"
+#include "sensor_msgs/msg/JointState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module icrane_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message with all the information that will be sent to Omniverse")
+    struct OmniverseInfo {
+      std_msgs::msg::Header header;
+
+      sequence<icrane_msgs::msg::TrackedEntities> people_info;
+
+      sequence<icrane_msgs::msg::TrackedEntities> boxes_info;
+
+      nav_msgs::msg::Path load_position;
+
+      sensor_msgs::msg::JointState joint_state;
+
+      icrane_msgs::msg::Modeling points;
+    };
+  };
+};

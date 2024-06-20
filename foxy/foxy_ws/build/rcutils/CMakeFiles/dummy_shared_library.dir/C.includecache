@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspace/foxy_ws/src/rcutils/test/dummy_shared_library/dummy_shared_library.c
+./dummy_shared_library.h
+/workspace/foxy_ws/src/rcutils/test/dummy_shared_library/dummy_shared_library.h
+
+/workspace/foxy_ws/src/rcutils/test/dummy_shared_library/dummy_shared_library.h
+stdio.h
+-
+

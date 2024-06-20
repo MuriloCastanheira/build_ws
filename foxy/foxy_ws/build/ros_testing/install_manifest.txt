@@ -1,0 +1,17 @@
+/workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/ros_testing
+/workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/ros_testing
+/workspace/foxy_ws/install/share/ros_testing/environment/ament_prefix_path.sh
+/workspace/foxy_ws/install/share/ros_testing/environment/ament_prefix_path.dsv
+/workspace/foxy_ws/install/share/ros_testing/environment/path.sh
+/workspace/foxy_ws/install/share/ros_testing/environment/path.dsv
+/workspace/foxy_ws/install/share/ros_testing/local_setup.bash
+/workspace/foxy_ws/install/share/ros_testing/local_setup.sh
+/workspace/foxy_ws/install/share/ros_testing/local_setup.zsh
+/workspace/foxy_ws/install/share/ros_testing/local_setup.dsv
+/workspace/foxy_ws/install/share/ros_testing/package.dsv
+/workspace/foxy_ws/install/share/ament_index/resource_index/packages/ros_testing
+/workspace/foxy_ws/install/share/ros_testing/cmake/ros_testing-extras.cmake
+/workspace/foxy_ws/install/share/ros_testing/cmake/ros_testingConfig.cmake
+/workspace/foxy_ws/install/share/ros_testing/cmake/ros_testingConfig-version.cmake
+/workspace/foxy_ws/install/share/ros_testing/package.xml
+/workspace/foxy_ws/install/share/ros_testing/cmake/add_ros_test.cmake

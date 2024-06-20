@@ -1,0 +1,53 @@
+<string>:1: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+<string>:1: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+CMake Warning at /workspace/foxy_ws/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+  Cannot generate a safe runtime search path for target
+  icrane_msgs__rosidl_typesupport_fastrtps_c__pyext because files in some
+  directories may conflict with libraries in implicit directories:
+
+    runtime library [libtinyxml2.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /workspace/foxy_ws/install/lib
+      /workspace/foxy_ws/install/share/std_msgs/cmake/../../../lib
+      /workspace/foxy_ws/install/share/builtin_interfaces/cmake/../../../lib
+      /workspace/foxy_ws/install/share/geometry_msgs/cmake/../../../lib
+      /workspace/foxy_ws/install/share/sensor_msgs/cmake/../../../lib
+      /workspace/foxy_ws/install/share/vision_msgs/cmake/../../../lib
+      /workspace/foxy_ws/install/share/nav_msgs/cmake/../../../lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /workspace/foxy_ws/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /workspace/foxy_ws/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:13 (rosidl_generate_interfaces)
+
+
+CMake Warning at /workspace/foxy_ws/install/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cpp_generate_interfaces.cmake:105 (add_library):
+  Cannot generate a safe runtime search path for target
+  icrane_msgs__rosidl_typesupport_fastrtps_cpp because files in some
+  directories may conflict with libraries in implicit directories:
+
+    runtime library [libtinyxml2.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /workspace/foxy_ws/install/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /workspace/foxy_ws/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /workspace/foxy_ws/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:13 (rosidl_generate_interfaces)
+
+
+CMake Warning at /workspace/foxy_ws/install/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake:94 (add_library):
+  Cannot generate a safe runtime search path for target
+  icrane_msgs__rosidl_typesupport_fastrtps_c because files in some
+  directories may conflict with libraries in implicit directories:
+
+    runtime library [libtinyxml2.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /workspace/foxy_ws/install/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /workspace/foxy_ws/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /workspace/foxy_ws/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:13 (rosidl_generate_interfaces)
+
+

@@ -1,0 +1,8 @@
+/workspace/foxy_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl
+/workspace/foxy_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl
+/workspace/foxy_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl
+/workspace/foxy_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl
+/workspace/foxy_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl
+/workspace/foxy_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl
+/workspace/foxy_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl
+/workspace/foxy_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl

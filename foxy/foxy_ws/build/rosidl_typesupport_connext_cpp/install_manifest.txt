@@ -1,0 +1,15 @@
+/workspace/foxy_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_connext_cpp
+/workspace/foxy_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_connext_cpp
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/environment/ament_prefix_path.sh
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/environment/ament_prefix_path.dsv
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/environment/path.sh
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/environment/path.dsv
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/local_setup.bash
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/local_setup.sh
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/local_setup.zsh
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/local_setup.dsv
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/package.dsv
+/workspace/foxy_ws/install/share/ament_index/resource_index/packages/rosidl_typesupport_connext_cpp
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/cmake/rosidl_typesupport_connext_cppConfig.cmake
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/cmake/rosidl_typesupport_connext_cppConfig-version.cmake
+/workspace/foxy_ws/install/share/rosidl_typesupport_connext_cpp/package.xml

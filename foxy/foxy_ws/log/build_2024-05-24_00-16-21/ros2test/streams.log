@@ -1,0 +1,38 @@
+[0.633s] Invoking command in '/workspace/foxy_ws/src/ros_testing/ros2test': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/ros2test/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2test build --build-base /workspace/foxy_ws/build/ros2test/build install --record /workspace/foxy_ws/build/ros2test/install.log --single-version-externally-managed install_data
+[0.794s] running egg_info
+[0.794s] creating ../../../build/ros2test/ros2test.egg-info
+[0.794s] writing ../../../build/ros2test/ros2test.egg-info/PKG-INFO
+[0.794s] writing dependency_links to ../../../build/ros2test/ros2test.egg-info/dependency_links.txt
+[0.795s] writing entry points to ../../../build/ros2test/ros2test.egg-info/entry_points.txt
+[0.795s] writing requirements to ../../../build/ros2test/ros2test.egg-info/requires.txt
+[0.795s] writing top-level names to ../../../build/ros2test/ros2test.egg-info/top_level.txt
+[0.795s] writing manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[0.796s] reading manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[0.797s] writing manifest file '../../../build/ros2test/ros2test.egg-info/SOURCES.txt'
+[0.797s] running build
+[0.797s] running build_py
+[0.797s] creating /workspace/foxy_ws/build/ros2test/build
+[0.797s] creating /workspace/foxy_ws/build/ros2test/build/lib
+[0.797s] creating /workspace/foxy_ws/build/ros2test/build/lib/ros2test
+[0.797s] copying ros2test/__init__.py -> /workspace/foxy_ws/build/ros2test/build/lib/ros2test
+[0.797s] creating /workspace/foxy_ws/build/ros2test/build/lib/ros2test/command
+[0.797s] copying ros2test/command/test.py -> /workspace/foxy_ws/build/ros2test/build/lib/ros2test/command
+[0.799s] copying ros2test/command/__init__.py -> /workspace/foxy_ws/build/ros2test/build/lib/ros2test/command
+[0.799s] running install
+[0.800s] running install_lib
+[0.800s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2test
+[0.800s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2test/command
+[0.800s] copying /workspace/foxy_ws/build/ros2test/build/lib/ros2test/command/test.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2test/command
+[0.801s] copying /workspace/foxy_ws/build/ros2test/build/lib/ros2test/command/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2test/command
+[0.801s] copying /workspace/foxy_ws/build/ros2test/build/lib/ros2test/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2test
+[0.801s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2test/command/test.py to test.cpython-310.pyc
+[0.801s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2test/command/__init__.py to __init__.cpython-310.pyc
+[0.802s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2test/__init__.py to __init__.cpython-310.pyc
+[0.802s] running install_data
+[0.802s] copying package.xml -> /workspace/foxy_ws/install/share/ros2test
+[0.802s] copying resource/ros2test -> /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+[0.802s] running install_egg_info
+[0.803s] Copying ../../../build/ros2test/ros2test.egg-info to /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2test-0.2.1-py3.10.egg-info
+[0.804s] running install_scripts
+[0.818s] writing list of installed files to '/workspace/foxy_ws/build/ros2test/install.log'
+[0.835s] Invoked command in '/workspace/foxy_ws/src/ros_testing/ros2test' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/ros2test/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2test build --build-base /workspace/foxy_ws/build/ros2test/build install --record /workspace/foxy_ws/build/ros2test/install.log --single-version-externally-managed install_data

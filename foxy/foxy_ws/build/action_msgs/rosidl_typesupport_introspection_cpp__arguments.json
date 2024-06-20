@@ -1,0 +1,33 @@
+{
+  "package_name": "action_msgs",
+  "output_dir": "/workspace/foxy_ws/build/action_msgs/rosidl_typesupport_introspection_cpp/action_msgs",
+  "template_dir": "/workspace/foxy_ws/install/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl",
+    "/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl",
+    "/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl",
+    "/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/workspace/foxy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/workspace/foxy_ws/install/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/workspace/foxy_ws/install/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/foxy_ws/install/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/workspace/foxy_ws/install/lib/python3.10/site-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/workspace/foxy_ws/install/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/workspace/foxy_ws/install/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/workspace/foxy_ws/install/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/workspace/foxy_ws/install/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/workspace/foxy_ws/install/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/workspace/foxy_ws/install/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalInfo.idl",
+    "/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalStatus.idl",
+    "/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalStatusArray.idl",
+    "/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs/srv/CancelGoal.idl",
+    "/workspace/foxy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/workspace/foxy_ws/install/share/builtin_interfaces/msg/Time.idl",
+    "/workspace/foxy_ws/install/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

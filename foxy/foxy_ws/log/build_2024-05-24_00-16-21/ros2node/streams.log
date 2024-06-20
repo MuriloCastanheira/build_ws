@@ -1,0 +1,54 @@
+[1.087s] Invoking command in '/workspace/foxy_ws/src/ros2cli/ros2node': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/ros2node/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2node build --build-base /workspace/foxy_ws/build/ros2node/build install --record /workspace/foxy_ws/build/ros2node/install.log --single-version-externally-managed install_data
+[1.258s] running egg_info
+[1.258s] creating ../../../build/ros2node/ros2node.egg-info
+[1.258s] writing ../../../build/ros2node/ros2node.egg-info/PKG-INFO
+[1.259s] writing dependency_links to ../../../build/ros2node/ros2node.egg-info/dependency_links.txt
+[1.259s] writing entry points to ../../../build/ros2node/ros2node.egg-info/entry_points.txt
+[1.259s] writing requirements to ../../../build/ros2node/ros2node.egg-info/requires.txt
+[1.259s] writing top-level names to ../../../build/ros2node/ros2node.egg-info/top_level.txt
+[1.259s] writing manifest file '../../../build/ros2node/ros2node.egg-info/SOURCES.txt'
+[1.260s] reading manifest file '../../../build/ros2node/ros2node.egg-info/SOURCES.txt'
+[1.261s] writing manifest file '../../../build/ros2node/ros2node.egg-info/SOURCES.txt'
+[1.261s] running build
+[1.261s] running build_py
+[1.262s] creating /workspace/foxy_ws/build/ros2node/build
+[1.262s] creating /workspace/foxy_ws/build/ros2node/build/lib
+[1.262s] creating /workspace/foxy_ws/build/ros2node/build/lib/ros2node
+[1.262s] copying ros2node/__init__.py -> /workspace/foxy_ws/build/ros2node/build/lib/ros2node
+[1.262s] creating /workspace/foxy_ws/build/ros2node/build/lib/ros2node/api
+[1.262s] copying ros2node/api/__init__.py -> /workspace/foxy_ws/build/ros2node/build/lib/ros2node/api
+[1.263s] creating /workspace/foxy_ws/build/ros2node/build/lib/ros2node/verb
+[1.263s] copying ros2node/verb/list.py -> /workspace/foxy_ws/build/ros2node/build/lib/ros2node/verb
+[1.263s] copying ros2node/verb/__init__.py -> /workspace/foxy_ws/build/ros2node/build/lib/ros2node/verb
+[1.263s] copying ros2node/verb/info.py -> /workspace/foxy_ws/build/ros2node/build/lib/ros2node/verb
+[1.264s] creating /workspace/foxy_ws/build/ros2node/build/lib/ros2node/command
+[1.264s] copying ros2node/command/__init__.py -> /workspace/foxy_ws/build/ros2node/build/lib/ros2node/command
+[1.264s] copying ros2node/command/node.py -> /workspace/foxy_ws/build/ros2node/build/lib/ros2node/command
+[1.264s] running install
+[1.265s] running install_lib
+[1.265s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node
+[1.265s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/api
+[1.265s] copying /workspace/foxy_ws/build/ros2node/build/lib/ros2node/api/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/api
+[1.265s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/verb
+[1.265s] copying /workspace/foxy_ws/build/ros2node/build/lib/ros2node/verb/list.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/verb
+[1.265s] copying /workspace/foxy_ws/build/ros2node/build/lib/ros2node/verb/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/verb
+[1.265s] copying /workspace/foxy_ws/build/ros2node/build/lib/ros2node/verb/info.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/verb
+[1.266s] creating /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/command
+[1.266s] copying /workspace/foxy_ws/build/ros2node/build/lib/ros2node/command/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/command
+[1.266s] copying /workspace/foxy_ws/build/ros2node/build/lib/ros2node/command/node.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/command
+[1.266s] copying /workspace/foxy_ws/build/ros2node/build/lib/ros2node/__init__.py -> /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node
+[1.266s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/api/__init__.py to __init__.cpython-310.pyc
+[1.266s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/verb/list.py to list.cpython-310.pyc
+[1.267s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/verb/__init__.py to __init__.cpython-310.pyc
+[1.267s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/verb/info.py to info.cpython-310.pyc
+[1.267s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/command/__init__.py to __init__.cpython-310.pyc
+[1.267s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/command/node.py to node.cpython-310.pyc
+[1.267s] byte-compiling /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node/__init__.py to __init__.cpython-310.pyc
+[1.267s] running install_data
+[1.267s] copying package.xml -> /workspace/foxy_ws/install/share/ros2node
+[1.268s] copying resource/ros2node -> /workspace/foxy_ws/install/share/ament_index/resource_index/packages
+[1.268s] running install_egg_info
+[1.268s] Copying ../../../build/ros2node/ros2node.egg-info to /workspace/foxy_ws/install/lib/python3.10/site-packages/ros2node-0.9.13-py3.10.egg-info
+[1.269s] running install_scripts
+[1.284s] writing list of installed files to '/workspace/foxy_ws/build/ros2node/install.log'
+[1.305s] Invoked command in '/workspace/foxy_ws/src/ros2cli/ros2node' returned '0': AMENT_PREFIX_PATH=/workspace/foxy_ws/install CMAKE_PREFIX_PATH=/workspace/foxy_ws/install LD_LIBRARY_PATH=/workspace/foxy_ws/install/lib PATH=/workspace/foxy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/foxy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/foxy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/foxy_ws/build/ros2node/prefix_override:/workspace/foxy_ws/install/lib/python3.10/site-packages:/workspace/foxy_ws/install/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2node build --build-base /workspace/foxy_ws/build/ros2node/build install --record /workspace/foxy_ws/build/ros2node/install.log --single-version-externally-managed install_data

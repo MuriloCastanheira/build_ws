@@ -1,0 +1,8 @@
+/workspace/foxy_ws/build/ament_cmake_uncrustify/CMakeFiles/install/local.dir
+/workspace/foxy_ws/build/ament_cmake_uncrustify/CMakeFiles/install.dir
+/workspace/foxy_ws/build/ament_cmake_uncrustify/CMakeFiles/list_install_components.dir
+/workspace/foxy_ws/build/ament_cmake_uncrustify/CMakeFiles/rebuild_cache.dir
+/workspace/foxy_ws/build/ament_cmake_uncrustify/CMakeFiles/edit_cache.dir
+/workspace/foxy_ws/build/ament_cmake_uncrustify/CMakeFiles/test.dir
+/workspace/foxy_ws/build/ament_cmake_uncrustify/CMakeFiles/ament_cmake_uncrustify_uninstall.dir
+/workspace/foxy_ws/build/ament_cmake_uncrustify/CMakeFiles/uninstall.dir
