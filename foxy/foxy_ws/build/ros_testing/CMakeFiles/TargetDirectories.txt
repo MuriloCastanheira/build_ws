@@ -1,7 +1,0 @@
-/workspace/foxy_ws/build/ros_testing/CMakeFiles/install/local.dir
-/workspace/foxy_ws/build/ros_testing/CMakeFiles/install.dir
-/workspace/foxy_ws/build/ros_testing/CMakeFiles/list_install_components.dir
-/workspace/foxy_ws/build/ros_testing/CMakeFiles/rebuild_cache.dir
-/workspace/foxy_ws/build/ros_testing/CMakeFiles/edit_cache.dir
-/workspace/foxy_ws/build/ros_testing/CMakeFiles/ros_testing_uninstall.dir
-/workspace/foxy_ws/build/ros_testing/CMakeFiles/uninstall.dir

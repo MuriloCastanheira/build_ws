@@ -1,8 +1,0 @@
-/workspace/foxy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl
-/workspace/foxy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl
-/workspace/foxy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl
-/workspace/foxy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl
-/workspace/foxy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl
-/workspace/foxy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl
-/workspace/foxy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl
-/workspace/foxy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl

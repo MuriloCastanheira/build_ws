@@ -1,7 +1,0 @@
-/workspace/foxy_ws/build/libyaml_vendor/libyaml_install/include/yaml.h
-/workspace/foxy_ws/build/libyaml_vendor/libyaml_install/include/config.h
-/workspace/foxy_ws/build/libyaml_vendor/libyaml_install/lib/libyaml.so
-/workspace/foxy_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfig.cmake
-/workspace/foxy_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets.cmake
-/workspace/foxy_ws/build/libyaml_vendor/libyaml_install/cmake/yamlTargets-noconfig.cmake
-/workspace/foxy_ws/build/libyaml_vendor/libyaml_install/cmake/yamlConfigVersion.cmake

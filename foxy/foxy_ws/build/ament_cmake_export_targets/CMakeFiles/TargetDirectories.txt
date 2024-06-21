@@ -1,7 +1,0 @@
-/workspace/foxy_ws/build/ament_cmake_export_targets/CMakeFiles/install/local.dir
-/workspace/foxy_ws/build/ament_cmake_export_targets/CMakeFiles/install.dir
-/workspace/foxy_ws/build/ament_cmake_export_targets/CMakeFiles/list_install_components.dir
-/workspace/foxy_ws/build/ament_cmake_export_targets/CMakeFiles/rebuild_cache.dir
-/workspace/foxy_ws/build/ament_cmake_export_targets/CMakeFiles/edit_cache.dir
-/workspace/foxy_ws/build/ament_cmake_export_targets/CMakeFiles/ament_cmake_export_targets_uninstall.dir
-/workspace/foxy_ws/build/ament_cmake_export_targets/CMakeFiles/uninstall.dir

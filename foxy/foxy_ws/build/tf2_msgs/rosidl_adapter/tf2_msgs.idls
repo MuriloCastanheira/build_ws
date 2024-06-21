@@ -1,4 +1,0 @@
-/workspace/foxy_ws/build/tf2_msgs/rosidl_adapter/tf2_msgs:msg/TF2Error.idl
-/workspace/foxy_ws/build/tf2_msgs/rosidl_adapter/tf2_msgs:msg/TFMessage.idl
-/workspace/foxy_ws/build/tf2_msgs/rosidl_adapter/tf2_msgs:srv/FrameGraph.idl
-/workspace/foxy_ws/build/tf2_msgs/rosidl_adapter/tf2_msgs:action/LookupTransform.idl

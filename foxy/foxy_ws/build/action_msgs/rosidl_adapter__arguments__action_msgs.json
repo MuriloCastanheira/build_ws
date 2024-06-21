@@ -1,9 +1,0 @@
-{
-  "package_name": "action_msgs",
-  "non_idl_tuples": [
-    "/workspace/foxy_ws/src/rcl_interfaces/action_msgs:msg/GoalInfo.msg",
-    "/workspace/foxy_ws/src/rcl_interfaces/action_msgs:msg/GoalStatus.msg",
-    "/workspace/foxy_ws/src/rcl_interfaces/action_msgs:msg/GoalStatusArray.msg",
-    "/workspace/foxy_ws/src/rcl_interfaces/action_msgs:srv/CancelGoal.srv"
-  ]
-}

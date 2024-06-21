@@ -1,8 +1,0 @@
-/workspace/foxy_ws/build/rosidl_default_generators/CMakeFiles/install/local.dir
-/workspace/foxy_ws/build/rosidl_default_generators/CMakeFiles/install.dir
-/workspace/foxy_ws/build/rosidl_default_generators/CMakeFiles/list_install_components.dir
-/workspace/foxy_ws/build/rosidl_default_generators/CMakeFiles/rebuild_cache.dir
-/workspace/foxy_ws/build/rosidl_default_generators/CMakeFiles/edit_cache.dir
-/workspace/foxy_ws/build/rosidl_default_generators/CMakeFiles/test.dir
-/workspace/foxy_ws/build/rosidl_default_generators/CMakeFiles/rosidl_default_generators_uninstall.dir
-/workspace/foxy_ws/build/rosidl_default_generators/CMakeFiles/uninstall.dir

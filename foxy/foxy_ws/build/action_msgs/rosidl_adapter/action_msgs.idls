@@ -1,4 +1,0 @@
-/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
-/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
-/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
-/workspace/foxy_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

@@ -1,3 +1,0 @@
-/workspace/foxy_ws/build/osrf_testing_tools_cpp/googletest-1.10.0.1-extracted/CMakeFiles/rebuild_cache.dir
-/workspace/foxy_ws/build/osrf_testing_tools_cpp/googletest-1.10.0.1-extracted/CMakeFiles/edit_cache.dir
-/workspace/foxy_ws/build/osrf_testing_tools_cpp/googletest-1.10.0.1-extracted/CMakeFiles/googletest.dir

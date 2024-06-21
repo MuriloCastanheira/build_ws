@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/test_msg_initialization.dir/test/test_msg_initialization.cpp.o  -o test_msg_initialization  -Wl,-rpath,/workspace/foxy_ws/install/lib gtest/libgtest_main.a gtest/libgtest.a /workspace/foxy_ws/install/lib/librosidl_runtime_c.so -pthread /workspace/foxy_ws/install/lib/librcutils.so -ldl 

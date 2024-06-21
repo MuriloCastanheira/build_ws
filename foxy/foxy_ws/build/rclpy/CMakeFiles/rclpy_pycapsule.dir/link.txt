@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC   -shared -Wl,-soname,_rclpy_pycapsule.cpython-310-x86_64-linux-gnu.so -o test_rclpy/_rclpy_pycapsule.cpython-310-x86_64-linux-gnu.so CMakeFiles/rclpy_pycapsule.dir/src/rclpy/_rclpy_pycapsule.c.o  /usr/lib/x86_64-linux-gnu/libpython3.10.so /usr/lib/x86_64-linux-gnu/libpython3.10.so 

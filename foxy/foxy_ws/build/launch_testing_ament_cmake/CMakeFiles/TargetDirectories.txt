@@ -1,8 +1,0 @@
-/workspace/foxy_ws/build/launch_testing_ament_cmake/CMakeFiles/install/local.dir
-/workspace/foxy_ws/build/launch_testing_ament_cmake/CMakeFiles/install.dir
-/workspace/foxy_ws/build/launch_testing_ament_cmake/CMakeFiles/list_install_components.dir
-/workspace/foxy_ws/build/launch_testing_ament_cmake/CMakeFiles/rebuild_cache.dir
-/workspace/foxy_ws/build/launch_testing_ament_cmake/CMakeFiles/edit_cache.dir
-/workspace/foxy_ws/build/launch_testing_ament_cmake/CMakeFiles/test.dir
-/workspace/foxy_ws/build/launch_testing_ament_cmake/CMakeFiles/launch_testing_ament_cmake_uninstall.dir
-/workspace/foxy_ws/build/launch_testing_ament_cmake/CMakeFiles/uninstall.dir

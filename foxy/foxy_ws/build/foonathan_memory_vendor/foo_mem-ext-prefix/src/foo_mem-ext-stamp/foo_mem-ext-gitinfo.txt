@@ -1,3 +1,0 @@
-repository='https://github.com/foonathan/memory.git'
-module=''
-tag='origin'

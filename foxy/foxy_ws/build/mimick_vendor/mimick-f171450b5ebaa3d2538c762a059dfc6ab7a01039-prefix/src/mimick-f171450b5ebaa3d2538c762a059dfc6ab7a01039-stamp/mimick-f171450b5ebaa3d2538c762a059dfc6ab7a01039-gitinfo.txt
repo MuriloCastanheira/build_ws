@@ -1,3 +1,0 @@
-repository='https://github.com/ros2/Mimick.git'
-module=''
-tag='origin'

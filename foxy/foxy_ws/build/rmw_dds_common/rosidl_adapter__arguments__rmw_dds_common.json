@@ -1,8 +1,0 @@
-{
-  "package_name": "rmw_dds_common",
-  "non_idl_tuples": [
-    "/workspace/foxy_ws/src/rmw_dds_common:msg/Gid.msg",
-    "/workspace/foxy_ws/src/rmw_dds_common:msg/NodeEntitiesInfo.msg",
-    "/workspace/foxy_ws/src/rmw_dds_common:msg/ParticipantEntitiesInfo.msg"
-  ]
-}

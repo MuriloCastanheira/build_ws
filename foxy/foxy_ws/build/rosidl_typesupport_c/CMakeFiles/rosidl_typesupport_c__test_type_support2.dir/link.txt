@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC   -shared -Wl,-soname,librosidl_typesupport_c__test_type_support2.so -o librosidl_typesupport_c__test_type_support2.so CMakeFiles/rosidl_typesupport_c__test_type_support2.dir/test/test_type_support.c.o  -Wl,-rpath,/workspace/foxy_ws/install/lib /workspace/foxy_ws/install/lib/librosidl_runtime_c.so /workspace/foxy_ws/install/lib/librcutils.so -ldl 
