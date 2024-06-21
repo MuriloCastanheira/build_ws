@@ -1,6 +1,0 @@
-Invoking command in '/workspace/foxy_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake /workspace/foxy_ws/src/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
-Invoked command in '/workspace/foxy_ws/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake /workspace/foxy_ws/src/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/workspace/foxy_ws/install
-Invoking command in '/workspace/foxy_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake --build /workspace/foxy_ws/build/osrf_testing_tools_cpp -- -j12 -l12
-Invoked command in '/workspace/foxy_ws/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake --build /workspace/foxy_ws/build/osrf_testing_tools_cpp -- -j12 -l12
-Invoking command in '/workspace/foxy_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake --install /workspace/foxy_ws/build/osrf_testing_tools_cpp
-Invoked command in '/workspace/foxy_ws/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake --install /workspace/foxy_ws/build/osrf_testing_tools_cpp
